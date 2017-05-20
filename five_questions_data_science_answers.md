@@ -74,5 +74,5 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 有些讀者可能會注意到二元分類、多元分類、異狀偵測和迴歸等四種演算法之間關係匪淺。它們確實都是**監督式學習**（supervised learning）下的演算法，也有許多相似之處，所以有些問題不只有一種問法，也能用上述多種演算法解決。它們的共通之處，在於建模時都用了一組包含回答的資料（這個過程稱作**訓練**，training），並被用來分類或預測一組不包含回答的資料（這個過程稱作**評分**，scoring）。
 
-除此之外，還有一些不同的資料科學問題，屬於**非監督和強化式學習**（unsupervised and reinforcement learning）演算法類別的處理範疇。
+除此之外，還有一些不同的資料科學問題，屬於**非監督和強化式學習**（unsupervised and reinforcement learning）類別的處理範疇。
 
