@@ -6,7 +6,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 ![](https://brohrer.github.io/images/magnifying_glass.png )
 
-雖然機器學習聽起來很讚，但現階段它其實只能用來解決五個問題：
+雖然機器學習聽起來很讚，但現階段它其實只能用來解決五種問題：
 
 1. **這是甲，還是乙？**
 2. **這有什麼奇怪的嗎？**
