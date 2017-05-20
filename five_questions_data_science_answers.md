@@ -82,3 +82,57 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 與資料組成相關的問題屬於非監督學習。判斷資料結構的方法有很多，其中一類是**聚類法**（clustering），包括資料群集（chunking）、分組（grouping）、聚束（bunching）、分段（segmentation）等等。這些方法的目的是將資料分成幾個直觀的群體。不同於監督式學習，聚類法所分析的資料不包含任何用來引導分群、說明分群意義和數量的數字或名字。如果說監督式學習是用來在星空中找出幾個特定的星球，聚類法則是用來圈出星空中的星座。由於聚類法可以用來將資料分成「幾叢」群體，分析人員可以更輕易地解讀和解釋資料。
 
+
+
+Clustering always relies on a definition of closeness or similarity, called a distance metric. The distance metric can be any measurable quantity, such as difference in IQ, number of shared genetic base pairs, or miles-as-the-crow-flies. Clustering questions all try to break data into more nearly uniform groups.
+
+
+
+Which shoppers have similar tastes in produce?
+
+Which viewers like the same kind of movies?
+
+Which printer models fail the same way?
+
+During which days of the week does this electrical substation have similar electrical power demands?
+
+What is a natural way to break these documents into five topic groups?
+
+Another family of unsupervised learning algorithms are called dimensionality reduction techniques. Dimensionality reduction is another way to simplify the data, to make it both easier to communicate, faster to compute with, and easier to store.
+
+At its core, dimensionality reduction is all about creating a shorthand for describing data points. A simple example is GPA. A college student’s academic strength is measured in dozens of classes by hundreds of exams and thousands of assignments. Each assignment says something about how well that student understands the course material, but a full listing of them would be way too much for any recruiter to digest. Luckily, you can create a shorthand just by averaging all the scores together. You can get away with this massive simplification because students who do very well on one assignment or in one class typically do well in others. By using GPA rather than the full portfolio, you do lose richness. For instance, you wouldn’t know it if the student is stronger in math than English, or if she scored better on take-home programming assignments than on in-class quizzes. But what you gain is simplicity, which makes it a lot easier to talk about and compare students’ strength.
+
+Dimensionality reduction-related questions are usually about factors that tend to vary together.
+
+Which groups of sensors in this jet engine tend to vary with \(and against\) each other?
+
+What leadership practices do successful CEOs have in common?
+
+What are the most common patterns in gasoline price changes across the US?
+
+What groups of words tend to occur together in this set of documents? \(What are the topics they cover?\)
+
+If your goal is to summarize, simplify, condense, or distill a collection of data, dimensionality reduction and clustering are your tools of choice.
+
+What Should I Do Now?
+
+A third extended family of ML algorithms focuses on taking actions. These are called reinforcement learning\(RL\) algorithms. They are little different than the supervised and unsupervised learning algorithms. A regression algorithm might predict that the high temperature will be 98 degrees tomorrow, but it doesn’t decide what to do about it. A RL algorithm goes the next step and chooses an action, such as pre-refrigerating the upper floors of the office building while the day is still cool.
+
+RL algorithms were originally inspired by how the brains of rats and humans respond to punishment and rewards. They choose actions, trying very hard to choose the action that will earn the greatest reward. You have to provide them with a set of possible actions, and they need to get feedback after each action on whether it was good, neutral, or a huge mistake.
+
+Typically RL algorithms are a good fit for automated systems that have to make a lot of small decisions without a human’s guidance. Elevators, heating, cooling, and lighting systems are excellent candidates. RL was originally developed to control robots, so anything that moves on its own, from inspection drones to vacuum cleaners, is fair game. Questions that RL answers are always about what action should be taken, although the action is usually taken by machine.
+
+Where should I place this ad on the webpage so that the viewer is most likely to click it?
+
+Should I adjust the temperature higher, lower, or leave it where it is?
+
+Should I vacuum the living room again or stay plugged in to my charging station?
+
+How many shares of this stock should I buy right now?
+
+Should I continue driving at the same speed, brake, or accelerate in response to that yellow light?
+
+RL usually requires more effort to get working than other algorithm types because it’s so tightly integrated with the rest of the system. The upside is that most RL algorithms can start working without any data. They gather data as they go, learning from trial and error.
+
+The first post in this series covered the basic ingredients for doing good data science. The next and final post will give lots of specific examples of sharp data science questions and the algorithm family best suited to each. Stay tuned.
+
