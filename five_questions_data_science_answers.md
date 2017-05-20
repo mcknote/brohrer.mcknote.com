@@ -1,4 +1,4 @@
-# 五種機器學習可以回答的問題
+# 五種可以用機器學習回答的問題
 
 **Five Questions Data Science Answers**
 
