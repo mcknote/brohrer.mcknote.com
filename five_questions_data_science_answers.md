@@ -4,6 +4,8 @@
 
 Translated from Brandon Rohrer's Blog by Jimmy Lin
 
+![](https://brohrer.github.io/images/magnifying_glass.png )
+
 雖然機器學習聽起來很讚，但現階段它其實只能用來解決五個問題：
 
 1. **這是甲，還是乙？**
@@ -79,8 +81,4 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 ## （資料）的組成為何？
 
 與資料組成相關的問題屬於非監督學習。判斷資料結構的方法有很多，其中一類是**聚類法**（clustering），包括資料群集（chunking）、分組（grouping）、聚束（bunching）、分段（segmentation）等等。這些方法的目的是將資料分成幾個直觀的群體。不同於監督式學習，聚類法所分析的資料不包含任何用來引導分群、說明分群意義和數量的數字或名字。如果說監督式學習是用來在星空中找出幾個特定的星球，聚類法則是用來圈出星空中的星座。由於聚類法可以用來將資料分成「幾叢」群體，分析人員可以更輕易地解讀和解釋資料。
-
-
-
-
 
