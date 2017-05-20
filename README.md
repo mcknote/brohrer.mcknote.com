@@ -4,3 +4,7 @@
 
 ![](/assets/McK & Note Cover.001.png)
 
+## 翻譯標準說明
+
+
+
