@@ -47,7 +47,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 ## 這有多少／這有幾個？
 
-當讀者解決的問題涉及數字而非分類時，這一類的演算法就稱為**迴歸**（分析，regression），例如：
+當讀者解決的問題涉及數字而非分類時，這一類的演算法就稱為**迴歸**（regression），例如：
 
 * 下週二的氣溫為何？
 * 我在葡萄牙的第四季度銷量會有多少？
