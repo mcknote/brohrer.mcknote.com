@@ -90,5 +90,5 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 * 這間變電所在每週的哪幾天有相似的電力需求？
 * 用什麼方法可以自然地將這些文件分成五類？
 
-
+非監督式學習下還有另一類演算法稱作**降維**（dimensionality reduction）。降維是另一種簡化資料的方法，它可以讓資料的溝通變得更容易、處理變得更快、而且存取變得更簡單。
 
