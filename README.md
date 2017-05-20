@@ -1,3 +1,6 @@
-# My Awesome Book
+# 資料科學・機器・人
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+**Data Science and Robots by Brandon Rohrer**
+
+![](/assets/McK & Note Cover.001.png)
+
