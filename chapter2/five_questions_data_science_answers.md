@@ -121,7 +121,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 作為〈使用機器學習〉系列的開端，這篇文章說明了善用資料科學的基本方法。下一篇和最後一篇文章會具體地談許多資料科學所處理的問題，以及這些問題所對應的演算法。歡迎繼續讀下去。
 
-Brandon Rohrer，於2015 年 12 月 31 日
+_Brandon Rohrer，於 2015 年 12 月 31 日_
 
 如果讀者覺得這篇文章很有用，我也推薦閱讀〈活用資料科學〉。雖然我在微軟工作，但這些只是我的個人意見。這篇文章最先發表於微軟的 [TechNet Machine Learning Blog](http://blogs.technet.com/b/machinelearning/archive/2015/08/27/what-types-of-questions-can-data-science-answer.aspx)。文章開頭的圖片屬於公眾領域。
 
