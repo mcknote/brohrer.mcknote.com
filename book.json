@@ -4,6 +4,9 @@
         "ga": {
             "token": "UA-75181285-2"
         },
-        "favicon": "images/favicon.ico"
+        "favicon": "images/favicon.ico",
+        "disqus": {
+            "shortName": "mckbrohrer"
+        }
     }
 }
