@@ -1,3 +1,8 @@
 {
-    "plugins": ["ga"]
+    "plugins": ["ga"],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-XXXX-Y"
+        }
+    }
 }
