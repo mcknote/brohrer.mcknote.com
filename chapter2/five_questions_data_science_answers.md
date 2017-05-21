@@ -123,5 +123,5 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 Brandon Rohrer，於2015 年 12 月 31 日
 
-如果讀者覺得這篇文章很有用，我也推薦閱讀〈活用資料科學〉。我在微軟工作，但這些只是我的個人意見。這篇文章最先發表於微軟的 [TechNet Machine Learning Blog](http://blogs.technet.com/b/machinelearning/archive/2015/08/27/what-types-of-questions-can-data-science-answer.aspx)。文章開頭的圖片屬於公眾領域。
+如果讀者覺得這篇文章很有用，我也推薦閱讀〈活用資料科學〉。雖然我在微軟工作，但這些只是我的個人意見。這篇文章最先發表於微軟的 [TechNet Machine Learning Blog](http://blogs.technet.com/b/machinelearning/archive/2015/08/27/what-types-of-questions-can-data-science-answer.aspx)。文章開頭的圖片屬於公眾領域。
 
