@@ -5,6 +5,6 @@
   * [線性迴歸 Linear Regression](how_machine_learning_works/how_linear_regression_works.md)
 * [使用機器學習](using_machine_learning/README.md)
   * [機器學習可以回答的問題有哪些？](using_machine_learning/five_questions_data_science_answers.md)
-* [利用資料](chapter3/using_data.md)
+* [利用資料](using_data/README.md)
   * [如何獲得有品質的資料？](chapter3/make_data_science_work_for_you.md)
 
