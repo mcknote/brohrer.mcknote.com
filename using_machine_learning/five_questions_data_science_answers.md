@@ -1,6 +1,6 @@
 # 五種可以用機器學習回答的問題
 
-**Five Questions Data Science Answers**
+[**Five Questions Data Science Answers**](https://brohrer.github.io/five_questions_data_science_answers.html)
 
 Translated from Brandon Rohrer's Blog by Jimmy Lin
 
