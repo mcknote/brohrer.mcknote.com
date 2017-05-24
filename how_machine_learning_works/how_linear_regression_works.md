@@ -38,8 +38,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 > 譯註：「找出符合資料規律的直線，就叫線性迴歸」的原文為 *Finding the curve that best fits your data is called regression, and when that curve is a straight line, it's called linear regression.* 雖然 Jimmy 以前學的說法是「只要因變量為自變量的**線性組合**，就可以稱作線性迴歸」，這代表就算線條不是直的，也可能是線性迴歸；但如果將包括多項式的迴歸細分作 [polynomial regression](https://en.wikipedia.org/wiki/Polynomial_regression)，以上說法當作 [simple linear regression](https://en.wikipedia.org/wiki/Simple_linear_regression) 也沒錯。
 
-
-
+有了線性模型以後，我終於可以回答前面的問題：「1.35 克拉的鑽石多少錢？」要回答這個問題，我只需要用看的，從縱軸上的 1.35 克拉對到模型上，再從模型對到縱軸上，就能知道價格大約是 8,000 美金。問題解決！
 
 
 
