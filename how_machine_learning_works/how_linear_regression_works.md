@@ -50,7 +50,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 ![](https://brohrer.github.io/images/linear_regression/linear_regression_9.png "1.35 克拉鑽石的價格範圍")
 
-現在我滿有自信地說我所尋找的鑽石，價格不會低於 5,800，但也不會超出 10,200。了解了這點以後，我就可以開始規劃要花多久、定期從薪水中存入一筆「奶奶的鑽戒修復基金」。
+現在我滿有自信地說我所尋找的鑽石，價格不會低於 5,800，但也不會超出 10,200。了解了這點以後，我就可以開始規劃要花多久，定期從薪水中存入一筆「奶奶的鑽戒修復基金」。
 
 
 
