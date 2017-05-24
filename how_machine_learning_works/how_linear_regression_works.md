@@ -23,7 +23,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 [![](https://brohrer.github.io/images/linear_regression/linear_regression_3.png "加上紀錄價格的縱軸")](https://youtu.be/fE0bnkNX77A?t=1m24s)
 
-於是上圖就有了座標系的兩軸。在一座像曼哈頓有著網格道路系統（gridded streets）的城市裡，讀者可以循著南北向和東西向道路找出任何交叉路口；同理，在一個座標系裡，讀者可以利用橫軸和縱軸上的位置鎖定任何點。所以我們可以先根據鑽石的大小，從紀錄克拉數的橫軸往上畫一條直線，再根據鑽石的價格，從紀錄價格的縱軸往右畫另一條直線。兩條直線的交點，就是第一個觀測值。
+於是上圖就有了座標系的兩軸。在一座像曼哈頓有著網格道路系統（gridded streets）的城市裡，讀者可以循著南北向和東西向道路找出任何交叉路口；同理，在一個座標系裡，讀者可以利用橫軸和縱軸上的位置鎖定任何點。所以我們可以先根據鑽石的重量，從紀錄克拉數的橫軸往上畫一條直線，再根據鑽石的價格，從紀錄價格的縱軸往右畫另一條直線。兩條直線的交點，就是第一個觀測值。
 
 [![](https://brohrer.github.io/images/linear_regression/linear_regression_4.png "利用橫軸跟縱軸鎖定資料點")](https://youtu.be/fE0bnkNX77A?t=1m39s)
 
@@ -45,7 +45,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 [![](https://brohrer.github.io/images/linear_regression/linear_regression_8.png "包含大約 95% 觀測值的價格範圍")](https://youtu.be/fE0bnkNX77A?t=6m00s)
 
-如此一來，我可以說我有（大約 95% 的）信心認為未來任何鑽石的價格和大小都會落在這個範圍內。為了瞭解這和我的鑽石有什麼關係，我又沿著 1.35 克拉的垂直線，從價格範圍的上下兩端多看了兩條水平線。
+如此一來，我可以說我有（大約 95% 的）信心認為未來任何鑽石的價格和重量都會落在這個範圍內。為了瞭解這和我的鑽石有什麼關係，我又沿著 1.35 克拉的垂直線，從價格範圍的上下兩端多看了兩條水平線。
 
 [![](https://brohrer.github.io/images/linear_regression/linear_regression_9.png "1.35 克拉鑽石的價格範圍")](https://youtu.be/fE0bnkNX77A?t=6m44s)
 
