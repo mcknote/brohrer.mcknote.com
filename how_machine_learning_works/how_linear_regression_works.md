@@ -12,6 +12,6 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 到了珠寶行以後，我發現店裡沒有 1.35 克拉的鑽石，也就沒有價格。但我沒有因此放棄，我拿起了紙跟筆，把店裡所有其他鑽石的尺寸跟價格都抄了下來。
 
-![](https://brohrer.github.io/images/linear_regression/linear_regression_1.png "test")
+![](https://brohrer.github.io/images/linear_regression/linear_regression_1.png "左邊是鑽石的克拉數，右邊是價格")
 
 我發現絕大部分的鑽石都在 2 克拉以下，所以我畫了一條水平線以紀錄克拉數。
