@@ -1,5 +1,5 @@
 {
-    "plugins": ["ga", "custom-favicon","disqus","youtube"],
+    "plugins": ["ga", "custom-favicon","disqus","youtube","image-captions"],
     "pluginsConfig": {
         "ga": {
             "token": "UA-75181285-2"
