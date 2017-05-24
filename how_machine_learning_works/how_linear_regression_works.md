@@ -19,4 +19,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 ![]
 (https://brohrer.github.io/images/linear_regression/linear_regression_2.png "紀錄鑽石克拉數的橫軸")
 
-接下來我畫了一條用於記錄價格的縱軸。
+接下來我畫了一條用來記錄價格的縱軸。
+
+![]
+(https://brohrer.github.io/images/linear_regression/linear_regression_3.png "加上紀錄價格的縱軸")
