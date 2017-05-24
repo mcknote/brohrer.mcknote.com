@@ -54,6 +54,8 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 在鑽石的例子裡，如果我搜集更多資訊，例如顏色、淨度、切割和內含物數量，此時資料的維度會從原本的兩個增加為六個，也就更難化為圖形。這時數學知識就能幫助我們在六個維度中「畫出」一條直線（[譯註二](#譯註)）。
 
+Brandon，於 2016 年 12 月 20 日
+
 ## 譯註
 
 1. 「找出符合資料規律的直線，就叫線性迴歸」的原文為 *Finding the curve that best fits your data is called regression, and when that curve is a straight line, it's called linear regression.* 雖然我以前學的說法是「只要因變量為自變量的**線性組合**，就可以稱作線性迴歸」，這代表就算線條不是直的，也可能是線性迴歸；但如果將包括多項式的迴歸細分作 [polynomial regression](https://en.wikipedia.org/wiki/Polynomial_regression)，將作者說法算作 [simple linear regression](https://en.wikipedia.org/wiki/Simple_linear_regression) 也沒錯。
