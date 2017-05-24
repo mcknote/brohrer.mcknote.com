@@ -12,11 +12,11 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 到了珠寶行以後，我發現店裡沒有 1.35 克拉的鑽石，也沒有價格。但我沒有因此放棄，我拿起了紙跟筆，把店裡所有其他鑽石的尺寸跟價格都抄了下來。
 
-![](https://brohrer.github.io/images/linear_regression/linear_regression_1.png "左邊是鑽石的克拉數，右邊是價格")
+[![](https://brohrer.github.io/images/linear_regression/linear_regression_1.png "左邊是鑽石的克拉數，右邊是價格")](https://youtu.be/fE0bnkNX77A)
 
 我發現絕大部分的鑽石都在 2 克拉以下，所以我畫了一條橫軸以紀錄鑽石的大小。
 
-![](https://brohrer.github.io/images/linear_regression/linear_regression_2.png "紀錄鑽石克拉數的橫軸")
+[![](https://brohrer.github.io/images/linear_regression/linear_regression_2.png "紀錄鑽石克拉數的橫軸")](https://youtu.be/fE0bnkNX77A?t=1m10s)
 
 接下來我畫了一條用來記錄價格的縱軸。
 
