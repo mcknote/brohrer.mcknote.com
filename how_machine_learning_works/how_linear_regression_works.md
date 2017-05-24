@@ -34,6 +34,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 ![](https://brohrer.github.io/images/linear_regression/linear_regression_6.png "將貫穿資料點的直線畫出來")
 
+將這條直線畫出來是很關鍵的一步。雖然這條線在我們看來很明顯，但這是因為我們早就具備了媲美超級電腦、擅長辨認特徵的神經運算能力。在畫這條線的時候，我們將原本的資料提煉成了更簡單的形式，就像將一張照片轉為漫畫一樣。雖然在這一步，我確實捨棄了一些資訊，但我也能利用這個簡化模型回答前面的問題。找出符合資料規律的直線，就叫線性迴歸。
 
 
 
