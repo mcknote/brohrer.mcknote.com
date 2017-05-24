@@ -50,11 +50,14 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 現在我滿有自信地說我所尋找的鑽石，價格不會低於 5,800，但也不會超出 10,200。了解了這點以後，我就可以開始規劃要花多久，定期從薪水中存入一筆「奶奶的鑽戒修復基金」。
 
+藉著這個例子，我希望說明線性迴歸至少在觀念上是個很簡單的方法。任何人都可以用一支筆、一張餐巾紙和雙眼完成線性迴歸分析，而不一定要使用電腦或數學知識。雖然實務上具備數學知識還是很有用的。
+
+在鑽石的例子裡，如果我搜集更多資訊，例如顏色、淨度、切割和內含物數量，此時資料的維度會從原本的兩個增加為六個，也就更難化為圖形。這時數學知識就能幫助我們在六個維度中「畫出」一條直線（譯註二）。
 
 ## 譯註
 
-1. 「找出符合資料規律的直線，就叫線性迴歸」的原文為 *Finding the curve that best fits your data is called regression, and when that curve is a straight line, it's called linear regression.* 雖然 Jimmy 以前學的說法是「只要因變量為自變量的**線性組合**，就可以稱作線性迴歸」，這代表就算線條不是直的，也可能是線性迴歸；但如果將包括多項式的迴歸細分作 [polynomial regression](https://en.wikipedia.org/wiki/Polynomial_regression)，將作者說法算作 [simple linear regression](https://en.wikipedia.org/wiki/Simple_linear_regression) 也沒錯。
+1. 「找出符合資料規律的直線，就叫線性迴歸」的原文為 *Finding the curve that best fits your data is called regression, and when that curve is a straight line, it's called linear regression.* 雖然我以前學的說法是「只要因變量為自變量的**線性組合**，就可以稱作線性迴歸」，這代表就算線條不是直的，也可能是線性迴歸；但如果將包括多項式的迴歸細分作 [polynomial regression](https://en.wikipedia.org/wiki/Polynomial_regression)，將作者說法算作 [simple linear regression](https://en.wikipedia.org/wiki/Simple_linear_regression) 也沒錯。
 
-
+2. 根據我的經驗，這邊的數學知識應該以**線性代數**（linear algebra）為主，所使用的工具為矩陣（matrix）運算。
 
 
