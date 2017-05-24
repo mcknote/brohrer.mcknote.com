@@ -58,6 +58,6 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 1. 「找出符合資料規律的直線，就叫線性迴歸」的原文為 *Finding the curve that best fits your data is called regression, and when that curve is a straight line, it's called linear regression.* 雖然我以前學的說法是「只要因變量為自變量的**線性組合**，就可以稱作線性迴歸」，這代表就算線條不是直的，也可能是線性迴歸；但如果將包括多項式的迴歸細分作 [polynomial regression](https://en.wikipedia.org/wiki/Polynomial_regression)，將作者說法算作 [simple linear regression](https://en.wikipedia.org/wiki/Simple_linear_regression) 也沒錯。
 
-2. 根據我的經驗，這邊的數學知識應該以**線性代數**（linear algebra）為主，所使用的工具為矩陣（matrix）運算。
+2. 這邊的數學知識應該以**線性代數**（linear algebra）為主，所使用的工具為矩陣（matrix）運算。
 
 
