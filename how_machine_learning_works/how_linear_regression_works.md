@@ -41,7 +41,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 [![](https://brohrer.github.io/images/linear_regression/linear_regression_7.png "輕鬆看出 1.35 克拉的鑽石賣 8,000 元")](https://youtu.be/fE0bnkNX77A?t=5m24s)
 
-為了讓這個估計值更為實用，我注意到大部分的觀測值並不直接落在迴歸模型上，這代表我要買的 1.35 克拉鑽石也不會剛好是 8,000 元。所以一個很明顯的問題是「實際價格會多接近 8,000 元？」為了瞭解這點，我在直線的兩側畫了涵蓋大部分（差不多 95%）觀測值的範圍。
+為了讓這個估計值更貼近現實，我注意到大部分的觀測值並不直接落在迴歸模型上，這代表我要買的 1.35 克拉鑽石也不會剛好是 8,000 元。所以一個很明顯的問題是「實際價格會多接近 8,000 元？」為了瞭解這點，我在直線的兩側畫了涵蓋大部分（差不多 95%）觀測值的範圍。
 
 [![](https://brohrer.github.io/images/linear_regression/linear_regression_8.png "包含大約 95% 觀測值的價格範圍")](https://youtu.be/fE0bnkNX77A?t=6m00s)
 
