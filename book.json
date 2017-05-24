@@ -7,6 +7,10 @@
         "favicon": "images/favicon.ico",
         "disqus": {
             "shortName": "mckbrohrer"
-        }
+        },
+        "image-captions": {
+          "caption": "圖說：_CAPTION_"
+      }
+        
     }
 }
