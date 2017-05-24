@@ -21,3 +21,16 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 接下來我畫了一條用來記錄價格的縱軸。
 
 ![](https://brohrer.github.io/images/linear_regression/linear_regression_3.png "加上紀錄價格的縱軸")
+
+於是上圖就有了座標系的兩軸。在一座像曼哈頓有著網格道路系統（gridded streets）的城市裡，讀者可以循著南北向和東西向道路找出任何交叉路口；同理，在一個座標系裡，讀者可以利用橫軸和縱軸上的位置鎖定任何點。所以我們可以先根據鑽石的大小，從紀錄克拉數的橫軸往上畫一條直線，再根據鑽石的價格，從紀錄價格的縱軸往右畫另一條直線。兩條直線的交點，就是第一個觀測值。
+
+![](https://brohrer.github.io/images/linear_regression/linear_regression_4.png "利用橫軸跟縱軸鎖定資料點")
+
+用同樣的方法，我們可以把所有鑽石畫在這個座標系上。
+
+![](https://brohrer.github.io/images/linear_regression/linear_regression_5.png "把所有鑽石畫在這個座標系上")
+
+於是一開始的表格變成了一張圖。到目前為止，我沒有增加或捨棄任何資訊，我只是換了另一種表達方式，也就是圖片。從圖片裡我們可以看出一個明顯的形狀，好像有條很寬的直線往右上方延伸。所以我的下一步是在這個範圍內將這條直線畫出來。當這條直線穿過資料時，在它的上下兩側有差不多一樣數量的資料點。
+
+
+
