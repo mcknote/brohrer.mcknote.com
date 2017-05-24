@@ -34,9 +34,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 ![](https://brohrer.github.io/images/linear_regression/linear_regression_6.png "將貫穿資料點的直線畫出來")
 
-將這條直線畫出來是很關鍵的一步。雖然這條線在我們看來很明顯，但這是因為我們早就具備了媲美超級電腦、擅長辨認特徵的神經運算能力。在畫這條線的時候，我們將原本的資料提煉成了更簡單的形式，就像將一張照片轉為漫畫一樣。雖然在這一步，我確實捨棄了一些資訊，但我也能利用這個簡化模型回答前面的問題。找出符合資料規律的直線，就叫線性迴歸。
-
-> 譯註：「找出符合資料規律的直線，就叫線性迴歸」的原文為 *Finding the curve that best fits your data is called regression, and when that curve is a straight line, it's called linear regression.* 雖然 Jimmy 以前學的說法是「只要因變量為自變量的**線性組合**，就可以稱作線性迴歸」，這代表就算線條不是直的，也可能是線性迴歸；但如果將包括多項式的迴歸細分作 [polynomial regression](https://en.wikipedia.org/wiki/Polynomial_regression)，以上說法當作 [simple linear regression](https://en.wikipedia.org/wiki/Simple_linear_regression) 也沒錯。
+將這條直線畫出來是很關鍵的一步。雖然這條線在我們看來很明顯，但這是因為我們早就具備了媲美超級電腦、擅長辨認特徵的神經運算能力。在畫這條線的時候，我們將原本的資料提煉成了更簡單的形式，就像將一張照片轉為漫畫一樣。雖然在這一步，我確實捨棄了一些資訊，但我也能利用這個簡化模型回答前面的問題。找出符合資料規律的直線，就叫線性迴歸（譯註一）。
 
 有了線性模型以後，我終於可以回答前面的問題：「1.35 克拉的鑽石多少錢？」要回答這個問題，我只需要用看的，從縱軸上的 1.35 克拉對到模型上，再從模型對到縱軸上，就能知道價格大約是 8,000 元。問題解決！
 
@@ -52,6 +50,10 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 現在我滿有自信地說我所尋找的鑽石，價格不會低於 5,800，但也不會超出 10,200。了解了這點以後，我就可以開始規劃要花多久，定期從薪水中存入一筆「奶奶的鑽戒修復基金」。
 
+
+## 譯註
+
+1. 「找出符合資料規律的直線，就叫線性迴歸」的原文為 *Finding the curve that best fits your data is called regression, and when that curve is a straight line, it's called linear regression.* 雖然 Jimmy 以前學的說法是「只要因變量為自變量的**線性組合**，就可以稱作線性迴歸」，這代表就算線條不是直的，也可能是線性迴歸；但如果將包括多項式的迴歸細分作 [polynomial regression](https://en.wikipedia.org/wiki/Polynomial_regression)，將作者說法算作 [simple linear regression](https://en.wikipedia.org/wiki/Simple_linear_regression) 也沒錯。
 
 
 
