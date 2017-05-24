@@ -15,7 +15,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 [![](https://brohrer.github.io/images/linear_regression/linear_regression_1.png "左邊是鑽石的克拉數，右邊是價格")](https://youtu.be/fE0bnkNX77A)
 
-我發現絕大部分的鑽石都在 2 克拉以下，所以我畫了一條橫軸以紀錄鑽石的大小。
+我發現絕大部分的鑽石都在 2 克拉以下，所以我畫了一條橫軸以紀錄鑽石的重量。
 
 [![](https://brohrer.github.io/images/linear_regression/linear_regression_2.png "紀錄鑽石克拉數的橫軸")](https://youtu.be/fE0bnkNX77A?t=1m10s)
 
