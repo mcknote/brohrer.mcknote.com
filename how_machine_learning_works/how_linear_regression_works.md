@@ -4,7 +4,7 @@
 
 Translated from Brandon Rohrer's Blog by Jimmy Lin
 
-{% youtube src="https://www.youtube.com/watch?v=fE0bnkNX77A" %}{% endyoutube %}
+{%youtube%}fE0bnkNX77A{%endyoutube%}
 
 **線性迴歸**（linear regression）是在資料點中找出規律、畫出一條直線的專業說法，以下我將透過選購鑽石的例子說明其運作原理。
 
