@@ -32,5 +32,11 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 於是一開始的表格變成了一張圖。到目前為止，我沒有增加或捨棄任何資訊，我只是換了另一種表達方式，也就是圖片。從圖片裡我們可以看出一個明顯的形狀，好像有條很寬的直線往右上方延伸。所以我的下一步是在這個範圍內將這條直線畫出來。當這條直線穿過資料時，在它的上下兩側有差不多一樣數量的資料點。
 
+![](https://brohrer.github.io/images/linear_regression/linear_regression_6.png "將貫穿資料點的直線畫出來")
+
+
+
+
+
 
 
