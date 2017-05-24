@@ -38,7 +38,15 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 > 譯註：「找出符合資料規律的直線，就叫線性迴歸」的原文為 *Finding the curve that best fits your data is called regression, and when that curve is a straight line, it's called linear regression.* 雖然 Jimmy 以前學的說法是「只要因變量為自變量的**線性組合**，就可以稱作線性迴歸」，這代表就算線條不是直的，也可能是線性迴歸；但如果將包括多項式的迴歸細分作 [polynomial regression](https://en.wikipedia.org/wiki/Polynomial_regression)，以上說法當作 [simple linear regression](https://en.wikipedia.org/wiki/Simple_linear_regression) 也沒錯。
 
-有了線性模型以後，我終於可以回答前面的問題：「1.35 克拉的鑽石多少錢？」要回答這個問題，我只需要用看的，從縱軸上的 1.35 克拉對到模型上，再從模型對到縱軸上，就能知道價格大約是 8,000 美金。問題解決！
+有了線性模型以後，我終於可以回答前面的問題：「1.35 克拉的鑽石多少錢？」要回答這個問題，我只需要用看的，從縱軸上的 1.35 克拉對到模型上，再從模型對到縱軸上，就能知道價格大約是 8,000 元。問題解決！
+
+![](https://brohrer.github.io/images/linear_regression/linear_regression_7.png "輕鬆看出 1.35 克拉的鑽石賣 8,000 元")
+
+為了讓這個估計值更為實用，我注意到大部分的觀測值並不直接落在迴歸模型上，這代表我要買的 1.35 克拉鑽石也不會剛好是 8,000 元。所以一個很明顯的問題是「實際價格會多接近 8,000 元？」為了瞭解這點，我在直線的兩側畫了涵蓋大部分（差不多 95%）觀測值的範圍。
+
+![](https://brohrer.github.io/images/linear_regression/linear_regression_8.png "包含大約 95% 觀測值的價格範圍")
+
+如此一來，我可以說我有（大約 95% 的）信心認為未來任何鑽石的價格和大小都會落在這個範圍內。為了瞭解這和我的鑽石有什麼關係，我又沿著 1.35 克拉的垂直線，從價格範圍的上下兩端多看了兩條水平線。
 
 
 
