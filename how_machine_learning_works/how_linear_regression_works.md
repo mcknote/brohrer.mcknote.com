@@ -48,5 +48,11 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 如此一來，我可以說我有（大約 95% 的）信心認為未來任何鑽石的價格和大小都會落在這個範圍內。為了瞭解這和我的鑽石有什麼關係，我又沿著 1.35 克拉的垂直線，從價格範圍的上下兩端多看了兩條水平線。
 
+![](https://brohrer.github.io/images/linear_regression/linear_regression_9.png "1.35 克拉鑽石的價格範圍")
+
+現在我滿有自信地說我所尋找的鑽石，價格不會低於 5,800，但也不會超出 10,200。了解了這點以後，我就可以開始規劃要花多久定期從薪水中存入一筆「奶奶的鑽戒修復基金」。
+
+
+
 
 
