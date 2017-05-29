@@ -60,3 +60,4 @@ CNNs 會根據各個局部比較兩張圖片，每個由 CNN 比對的局部被�
 
 [![](http://brohrer.github.io/images/cnn8.png "池化的運作方式")](https://youtu.be/FmpDIaiMIeA?t=8m20s)
 
+另一個 CNNs 所使用的強大工具是**池化**（pooling）。池化是一個將原本的大圖壓縮並保留重要資訊的方法，它背後的運作原理只需要小二的數學程度就能弄懂。
