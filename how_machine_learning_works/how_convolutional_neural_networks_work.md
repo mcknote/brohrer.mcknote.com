@@ -67,3 +67,21 @@ CNNs 會根據各個局部比較兩張圖片，每個由 CNN 比對的局部被�
 [![](http://brohrer.github.io/images/cnn9.png "池化後的結果")](https://youtu.be/FmpDIaiMIeA?t=11m31s)
 
 所以，池化層的功用是將一張或一些圖片池化成更小的圖片。最終我們會得到一樣數量、但包含更少像素的圖片。這也有助於改善剛才提到的耗費運算問題。事先將一張八百萬像素的圖片簡化成兩百萬像素，可以讓後續工作變得更輕鬆。
+
+## 線性整流單元
+
+[![](http://brohrer.github.io/images/cnn10.png "線性整流單元將負數化為 0")](https://youtu.be/FmpDIaiMIeA?t=11m46s)
+
+另一個細微但重要的步驟是線性整流單元（Rectified Linear Unit，ReLU），它的數學原理也很簡單——將圖片上的所有負數轉為 0。這個技巧可以避免 CNNs 的運算結果趨近 0 或無限大，它就像 CNNs 的車軸潤滑劑一樣——沒有什麼很酷的技術，但沒有它 CNNs 也跑不了多遠。
+
+[![](http://brohrer.github.io/images/cnn11.png "線性整流後的結果")](https://youtu.be/FmpDIaiMIeA?t=12m37s)
+
+線性整流後的結果和原圖會有相同數量的像素，只不過所有的負值都會被換成零。
+
+
+
+
+
+
+
+
