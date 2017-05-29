@@ -33,6 +33,6 @@ CNN 最棒的地方在於它很好理解，至少在一步一步說明原理的�
 
 CNNs 會根據各個局部比較兩張圖片，每個由 CNN 比對的局部被稱為一個特徵（feature）。比起比較整張圖片，藉由在相似的位置上比對大略特徵，CNNs 能更好地分辨兩張圖片是否相同。
 
-[![](http://brohrer.github.io/images/cnn4.png "局部比對特徵")](https://youtu.be/FmpDIaiMIeA?t=4m20s)
+[![](http://brohrer.github.io/images/cnn4.png "一張圖片裡的每個特徵")](https://youtu.be/FmpDIaiMIeA?t=4m20s)
 
 一張圖片裡的每個特徵都像一張更小的圖片——一個更小的二維矩陣。
