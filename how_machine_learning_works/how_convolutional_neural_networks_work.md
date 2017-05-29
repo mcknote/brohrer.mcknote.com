@@ -39,5 +39,7 @@ CNNs 會根據各個局部比較兩張圖片，每個由 CNN 比對的局部被�
 
 ## 卷積
 
+[![](http://brohrer.github.io/images/cnn5.png)](https://youtu.be/FmpDIaiMIeA?t=4m55s)
+
 每當 CNN 分辨一張新圖片時，在不知道上述特徵在哪的情況下，CNN 會比對圖片中的任何地方。為了計算整張圖片裡有多少相符的特徵，我們在這裡創造了一套篩選機制。這套機制背後的數學原理被稱為**卷積**（convolution），也就是 CNN 的名稱由來。
 
