@@ -11,7 +11,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 * [日文版](http://postd.cc/how-do-convolutional-neural-networks-work/)
 * [波斯文版](https://elham-khanche.github.io/blog/HowCNNsWork/)（由 [Elham Khanchebemehr](https://www.linkedin.com/in/elham-khanchebemehr-b679547b/) 翻譯）
     * 以及 [Mohammad KHalooei](https://www.linkedin.com/in/khalooei/) 所製作的[波斯文簡報](http://www.slideshare.net/khalooei/ss-70486910)
-* Nvidia GPU 上的 MATLAB 和 Caffe 實作由 [Alexander Hanuschkin](http://www.optophysiology.uni-freiburg.de/labmembers/hanuschkin) 完成
+* Nvidia GPU 上的 `MATLAB` 和 `Caffe` 實作由 [Alexander Hanuschkin](http://www.optophysiology.uni-freiburg.de/labmembers/hanuschkin) 完成
 
 每當讀者聽到深度學習又有什麼重大突破時，這些進展十有八九都和**卷積神經網路**（Convolutional Neural Networks，CNN）有關。CNN 又稱為 CNNs 或 ConvNets，它是目前深度神經網路（deep neural network）領域的發展主力，在圖片分類上甚至可以做到比人類還精準的程度。如果要說有任何方法能實現深度學習的狂想，CNN 絕對是首選。
 
