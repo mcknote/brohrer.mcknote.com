@@ -19,7 +19,7 @@ CNN 最棒的地方在於它很好理解，至少在一步一步說明原理的�
 
 ## 圈圈叉叉
 
-[![](http://brohrer.github.io/images/cnn1.png "圈圈叉叉")](https://youtu.be/FmpDIaiMIeA?t=1m43s)
+[![](http://brohrer.github.io/images/cnn1.png "CNN 和圈圈叉叉")](https://youtu.be/FmpDIaiMIeA?t=1m43s)
 
 為了說明 CNN，我們可以從一個非常簡單的例子開始：辨識圖片上的符號是圈還叉。這個例子一方面已經能很好說明 CNN 的運作原理，另一方面也夠簡單，以免拘泥於不必要的細節。在這裡 CNN 最重要的工作，就是每當我們給它一張圖，它就得回報上面的符號是圈還是叉。對它來說結果永遠是兩者之一。
 
