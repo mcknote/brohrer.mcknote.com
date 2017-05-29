@@ -35,4 +35,4 @@ CNNs 會根據各個局部比較兩張圖片，每個由 CNN 比對的局部被�
 
 [![](http://brohrer.github.io/images/cnn4.png "一張圖片裡的每個特徵")](https://youtu.be/FmpDIaiMIeA?t=4m20s)
 
-一張圖片裡的每個特徵都像一張更小的圖片——一個更小的二維矩陣。
+一張圖片裡的每個特徵都像一張更小的圖片，也就是更小的二維矩陣。
