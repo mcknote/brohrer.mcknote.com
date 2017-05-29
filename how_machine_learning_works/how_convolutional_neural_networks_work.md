@@ -12,5 +12,5 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 * [波斯文版](https://elham-khanche.github.io/blog/HowCNNsWork/)（由 Elham Khanchebemehr 翻譯）
 
 
-        related presentation by Mohammad KHalooei 
+related presentation by Mohammad KHalooei 
 MATLAB and Caffe implementations for NVIDIA GPUs by Alexander Hanuschkin
