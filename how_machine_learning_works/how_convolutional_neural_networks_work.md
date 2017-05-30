@@ -72,7 +72,7 @@ CNNs 會根據各個局部比較兩張圖片，每個由 CNN 比對的局部被�
 
 [![](http://brohrer.github.io/images/cnn10.png "線性整流單元將負數化為 0")](https://youtu.be/FmpDIaiMIeA?t=11m46s)
 
-另一個細微但重要的步驟是線性整流單元（Rectified Linear Unit，ReLU），它的數學原理也很簡單——將圖片上的所有負數轉為 0。這個技巧可以避免 CNNs 的運算結果趨近 0 或無限大，它就像 CNNs 的車軸潤滑劑一樣——沒有什麼很酷的技術，但沒有它 CNNs 也跑不了多遠。
+另一個細微但重要的步驟是**線性整流單元**（Rectified Linear Unit，ReLU），它的數學原理也很簡單——將圖片上的所有負數轉為 0。這個技巧可以避免 CNNs 的運算結果趨近 0 或無限大，它就像 CNNs 的車軸潤滑劑一樣——沒有什麼很酷的技術，但沒有它 CNNs 也跑不了多遠。
 
 [![](http://brohrer.github.io/images/cnn11.png "線性整流後的結果")](https://youtu.be/FmpDIaiMIeA?t=12m37s)
 
