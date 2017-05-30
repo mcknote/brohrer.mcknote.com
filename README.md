@@ -10,7 +10,7 @@ disqus: false
 
 
 
-[資料科學・機器・人](https://brohrer.mcknote.com/)是部落格 [Data Science and Robots](https://brohrer.github.io/blog.html) 的中文翻譯站。
+[資料科學・機器・人](https://brohrer.mcknote.com/)是部落格 [Data Science and Robots](https://brohrer.github.io/blog.html) 的中文翻譯站。英文原站由資料科學家 [Brandon Rohrer](https://www.linkedin.com/in/brohrer/) 所支援。
 
 ## 翻譯標準說明
 
