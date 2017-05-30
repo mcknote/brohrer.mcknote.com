@@ -8,7 +8,7 @@ disqus: false
 
 ![](/assets/McK & Note Cover.001.png)
 
-歡迎光臨《資料
+《[資料科學・機器・人](https://brohrer.mcknote.com/)》是部落格 [Data Science and Robots](https://brohrer.github.io/blog.html) 的中文翻譯站。Data Science and Robots 是資料科學家 [Brandon Rohrer](https://www.linkedin.com/in/brohrer/) 的部落格，
 
 ## 翻譯標準說明
 
