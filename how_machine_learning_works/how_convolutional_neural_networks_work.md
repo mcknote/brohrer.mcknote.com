@@ -144,11 +144,11 @@ CNNs 會根據各個局部比較兩張圖片，每個由 CNN 比對的局部被�
 
 如果有讀者想邊做邊學，以下是一些熱門的深度學習工具。歡迎嘗試並和我們分享使用經驗！
 
-- Caffe
-- CNTK
-- Deeplearning4j
-- TensorFlow
-- Theano
-- Torch
-- Many others
+- [Caffe](http://caffe.berkeleyvision.org/)
+- [CNTK](https://github.com/Microsoft/CNTK)
+- [Deeplearning4j](https://en.wikipedia.org/wiki/Deeplearning4j)
+- [TensorFlow](http://www.tensorflow.org/)
+- [Theano](https://en.wikipedia.org/wiki/Theano_(software))
+- [Torch](https://en.wikipedia.org/wiki/Torch_(machine_learning))
+- [Many others](http://deeplearning.net/software_links/)
 
