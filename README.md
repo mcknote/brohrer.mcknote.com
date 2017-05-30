@@ -8,6 +8,8 @@ disqus: false
 
 ![](/assets/McK & Note Cover.001.png)
 
+歡迎光臨《資料
+
 ## 翻譯標準說明
 
 
