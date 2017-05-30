@@ -84,7 +84,7 @@ CNNs 會根據各個局部比較兩張圖片，每個由 CNN 比對的局部被�
 
 讀者可能已經發現每一層運算的輸入（二維矩陣）和輸出（二維矩陣）都差不多，這代表我們可以像堆樂高積木一樣，將每一層堆在一起。所以原圖在被篩選、整流、池化之後會變成一組更小、包含特徵資訊的圖片。這些圖片還可以再被篩選、壓縮，特徵會隨著每次處理變得更複雜，圖片也會變得更小。最後比較低階的處理層會包含一些簡單的特徵，例如稜角或亮點；更高階的處理層就會包含一些比較複雜的特徵，像是形狀或圖案。這些高階的特徵通常已經可以辨識，比方說在人臉辨識的 CNN 中，我們可以在最高階的處理層內看出完整的人臉。
 
-[![](https://brohrer.github.io/images/cnn18.png)](http://web.eecs.umich.edu/~honglak/icml09-ConvolutionalDeepBeliefNetworks.pdf)
+[![](https://brohrer.github.io/images/cnn18.png "不同層所能辨認出的特徵")](http://web.eecs.umich.edu/~honglak/icml09-ConvolutionalDeepBeliefNetworks.pdf)
 
 
 
