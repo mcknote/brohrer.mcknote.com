@@ -87,4 +87,18 @@ CNNs 會根據各個局部比較兩張圖片，每個由 CNN 比對的局部被�
 [![](https://brohrer.github.io/images/cnn18.png "不同層所能辨認出的特徵")](http://web.eecs.umich.edu/~honglak/icml09-ConvolutionalDeepBeliefNetworks.pdf)
 
 
+## 全連接層
+
+[![](https://brohrer.github.io/images/cnn13.png "在全連結層內進行的投票")](https://youtu.be/FmpDIaiMIeA?t=14m03s)
+
+最後，CNNs 還有一項秘密武器——**全連結層**（fully connected layers）會集合高層中篩選後的圖片，並把它們包含的資訊轉化為票數。在我們的例子裡，我們只需要判別兩個類別，也就是圈和叉。全連結層基本上就是傳統神經網路架構中的**主要建構單元**（primary building block）。
+
+
+
+
+
+
+
+
+
 
