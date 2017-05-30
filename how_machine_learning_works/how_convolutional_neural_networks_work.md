@@ -152,3 +152,6 @@ CNNs 會根據各個局部比較兩張圖片，每個由 CNN 比對的局部被�
 - [Torch](https://en.wikipedia.org/wiki/Torch_(machine_learning))
 - [Many others](http://deeplearning.net/software_links/)
 
+希望讀者們喜歡這趟卷積神經網路的入門之旅。歡迎和我討論！
+
+Brandon，於 2016 年 8 月 18 日
