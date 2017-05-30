@@ -140,4 +140,4 @@ CNNs 會根據各個局部比較兩張圖片，每個由 CNN 比對的局部被�
 
 ## 延伸學習
 
-
+讀者如果想深入了解圈叉辨識的細節，可以參考 [Dr. Alexander Hanuschkin](http://www.optophysiology.uni-freiburg.de/labmembers/hanuschkin) [在 Nvidia GPU 上利用 MATLAB 和 Caffe 完成的 CNN 實作](http://www.optophysiology.uni-freiburg.de/Research/research_DL/CNNsWithMatlabAndCaffe)。如果想學習更多關於深度學習的知識，歡迎參考我的〈解密深度學習〉文章。我也非常推薦 Justin Johnson 和 Andrej Karpathy 的 [Stanford CS 231 課堂筆記](http://cs231n.github.io/convolutional-networks/)。本文深受這份筆記，以及 [Christopher Olah](http://colah.github.io/archive.html) 的啟發。Christopher 是一位擅長解釋神經網路的作家。
