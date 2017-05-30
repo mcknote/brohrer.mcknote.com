@@ -13,7 +13,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
     * 以及 [Mohammad KHalooei](https://www.linkedin.com/in/khalooei/) 所製作的[波斯文簡報](http://www.slideshare.net/khalooei/ss-70486910)
 * [Nvidia GPU 上的 `MATLAB` 和 `Caffe` 實作](http://www.optophysiology.uni-freiburg.de/Research/research_DL/CNNsWithMatlabAndCaffe)由 [Alexander Hanuschkin](http://www.optophysiology.uni-freiburg.de/labmembers/hanuschkin) 完成
 
-每當讀者聽到深度學習又有什麼重大突破時，這些進展十有八九都和**卷積神經網路**（Convolutional Neural Networks，CNN）有關。CNN 又稱為 CNNs 或 ConvNets，它是目前深度神經網路（deep neural network）領域的發展主力，在圖片分類上甚至可以做到比人類還精準的程度。如果要說有任何方法能實現深度學習的狂想，CNN 絕對是首選。
+每當深度學習又有什麼重大突破時，這些進展十有八九都和**卷積神經網路**（Convolutional Neural Networks，CNN）有關。CNN 又被稱為 CNNs 或 ConvNets，它是目前**深度神經網路**（deep neural network）領域的發展主力，在圖片分類上甚至可以做到比人類還精準的程度。如果要說有任何方法能實現深度學習的狂想，CNN 絕對是首選。
 
 CNN 最棒的地方在於它很好理解，至少在一步一步說明原理的情況下。所以我將為各位說明 CNN，也歡迎參考上方比圖片更詳細的影片。如果中間有什麼不懂的地方，只要點擊圖片，就能跳到影片中對應的說明。
 
@@ -21,7 +21,7 @@ CNN 最棒的地方在於它很好理解，至少在一步一步說明原理的�
 
 [![](http://brohrer.github.io/images/cnn1.png "CNN 和圈圈叉叉")](https://youtu.be/FmpDIaiMIeA?t=1m43s)
 
-為了說明 CNN，我們可以從一個非常簡單的例子開始：辨識圖片上的符號是圈還叉。這個例子一方面已經能很好說明 CNN 的運作原理，另一方面也夠簡單，以免拘泥於不必要的細節。在這裡 CNN 最重要的工作，就是每當我們給它一張圖，它就得回報上面的符號是圈還是叉。對它來說結果永遠是兩者之一。
+為了說明 CNN，我們可以從一個非常簡單的例子開始：辨識圖片上的符號是圈還叉。這個例子一方面已經能很好說明 CNN 的運作原理，另一方面也夠簡單，以免我們拘泥於不必要的細節。在這裡 CNN 最重要的工作，就是每當我們給它一張圖，它就會回報上面的符號是圈還是叉。對它來說結果永遠是圈或叉。
 
 [![](http://brohrer.github.io/images/cnn2.png "直接比對的問題")](https://youtu.be/FmpDIaiMIeA?t=3m05s)
 
