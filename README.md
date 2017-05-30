@@ -8,7 +8,7 @@ disqus: false
 
 ![](/assets/McK & Note Cover.001.png)
 
-
+## 關於本站
 
 [資料科學・機器・人](https://brohrer.mcknote.com/)是部落格 [Data Science and Robots](https://brohrer.github.io/blog.html) 的中文站。英文原站由資料科學家 [Brandon Rohrer](https://www.linkedin.com/in/brohrer/) 所支援，中文網站由 [Jimmy Lin](https://www.linkedin.com/in/imjmln/) 發起翻譯，並由許多朋友們協助校正和推廣。
 
