@@ -18,6 +18,8 @@ disqus: false
 
 Jimmy，於 2017 年 5 月 25 日
 
+
+
 ![](/assets/Brandon.png)
 
 ## 翻譯標準說明
