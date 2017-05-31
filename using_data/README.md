@@ -12,7 +12,7 @@
 | How to clean data |  | 0% |
 | How to handle missing values |  | 0% |
 | How feature engineering works |  | 0% |
-| How to get good quality data | 如何獲得高品質的資料？ | 100% |
+| How to get good quality data | 如何獲得高品質的資料？ | 99% |
 | Why visualize data |  | 0% |
 
 
