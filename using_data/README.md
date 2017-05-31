@@ -2,7 +2,7 @@
 
 ## 文章列表和翻譯進度
 
-| 英文標題 | 中文標題 | 翻譯進度 |
+| 英文標題 | 中文標題 | 進度 |
 | :--- | :--- | :--- |
 | How data science works |  | 0% |
 | Data science for beginners |  | 0% |
