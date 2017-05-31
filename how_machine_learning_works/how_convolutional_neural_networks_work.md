@@ -140,7 +140,7 @@ CNNs 會比較兩張圖片裡的各個局部，這些局部被稱為**特徵**�
 
 ## 延伸學習
 
-讀者如果想深入了解圈叉辨識的細節，可以參考 [Dr. Alexander Hanuschkin](http://www.optophysiology.uni-freiburg.de/labmembers/hanuschkin)在 Nvidia GPU 上利用 [MATLAB 和 Caffe 完成的 CNN 實作](http://www.optophysiology.uni-freiburg.de/Research/research_DL/CNNsWithMatlabAndCaffe)。如果想學習更多關於深度學習的知識，歡迎參考我的〈解密深度學習〉文章。我也非常推薦 Justin Johnson 和 Andrej Karpathy 的 [Stanford CS 231 課堂筆記](http://cs231n.github.io/convolutional-networks/)。本文深受這份筆記，以及 [Christopher Olah](http://colah.github.io/archive.html) 的啟發。Christopher 是一位擅長解釋神經網路的作家。
+讀者如果想深入了解圈叉辨識的細節，可以參考 [Dr. Alexander Hanuschkin](http://www.optophysiology.uni-freiburg.de/labmembers/hanuschkin)在 Nvidia GPU 上利用 [MATLAB 和 Caffe 完成的 CNN 實作](http://www.optophysiology.uni-freiburg.de/Research/research_DL/CNNsWithMatlabAndCaffe)。如果想學習更多關於深度學習的知識，歡迎參考我的〈[解密深度學習](https://brohrer.github.io/deep_learning_demystified.html)〉文章（未翻譯）。我也非常推薦 Justin Johnson 和 Andrej Karpathy 的 [Stanford CS 231 課堂筆記](http://cs231n.github.io/convolutional-networks/)。本文深受這份筆記，以及 [Christopher Olah](http://colah.github.io/archive.html) 的啟發。Christopher 是一位擅長解釋神經網路的作家。
 
 如果有讀者想邊做邊學，以下是一些熱門的深度學習工具。歡迎嘗試並和我們分享使用經驗！
 
