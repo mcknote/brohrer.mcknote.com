@@ -1,4 +1,4 @@
-# 機器學習如何運作 
+# 機器學習如何運作
 
 **How machine learning works**
 
@@ -11,6 +11,13 @@
 | How backpropagation works |  | 0% |
 | How deep learning works |  | 0% |
 | How convolutional neural networks work | 卷積神經網路 Convolutional Neural Networks | 99% |
+
+## 翻譯進度說明
+
+* 「99%」：翻譯完成、已校稿、已在發表後根據一些意見修改
+* 「95%」：翻譯完成、已校稿
+* 「90%」：翻譯完成
+* 「0%」：未開始
 
 
 
