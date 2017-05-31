@@ -2,8 +2,6 @@
 
 原文類別：**How machine learning works**
 
-
-
 ## 文章列表和翻譯進度
 
 | 原文標題 | 中文標題 | 狀態 |
