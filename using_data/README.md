@@ -1,4 +1,4 @@
-# 利用資料 
+# 利用資料
 
 **Using data**
 
@@ -14,7 +14,7 @@
 | How to clean data |  | 0% |
 | How to handle missing values |  | 0% |
 | How feature engineering works |  | 0% |
-| How to get good quality data | 如何獲得高品質的資料？ | 99% |
+| How to get good quality data | 如何獲得高品質的資料 | 99% |
 | Why visualize data |  | 0% |
 
 
