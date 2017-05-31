@@ -126,11 +126,11 @@ CNNs 會比較兩張圖片裡的各個局部，這些局部被稱為**特徵**�
 
 ## 圖形處理之外
 
-[![](https://brohrer.github.io/images/cnn16.png)](https://youtu.be/FmpDIaiMIeA?t=21m26s)
+[![](https://brohrer.github.io/images/cnn16.png "聲音訊號的「圖片」")](https://youtu.be/FmpDIaiMIeA?t=21m26s)
 
 我們的圈和叉例子和圖像辨識有關，不過 CNN 也能處理其他型態的資料，技巧是將任何資料轉成類似圖片的形式。例如，我們可以將音訊根據時間細分，再將每一小段的聲音分成低音、中音、高音或其他更高的頻率。如此一來，我們就可以把這些資訊組成一個二維矩陣，其中各行代表不同時間、各列代表不同頻率。在這張假圖片裡，越相近的「像素」，彼此之間的關聯性越高。CNN 很擅長處理這樣的資料，研究者們也發揮創意，將**自然語言處理**（natural language processing）中的文字資料、和新藥研發過程中的化學資料都轉成 CNN 可以處理的形式。
 
-[![](https://brohrer.github.io/images/cnn17.png)](https://youtu.be/FmpDIaiMIeA?t=23m36s)
+[![](https://brohrer.github.io/images/cnn17.png "不適用 CNN 的顧客資料")](https://youtu.be/FmpDIaiMIeA?t=23m36s)
 
 不過當每一列代表一位顧客、每一行分別代表這位顧客的姓名、信箱、購買和瀏覽紀錄等不同資訊時，這種顧客資料並非 CNN 可以處理的形式。因為在這個例子裡，行和列的位置並不重要，也就是說在不影響資訊的情況下，它們可以被任意排列。相較之下，一張圖片裡像素的行列位置如果被調換，通常會喪失原本的意義。
 
