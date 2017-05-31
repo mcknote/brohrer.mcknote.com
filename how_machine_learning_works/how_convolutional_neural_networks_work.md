@@ -149,7 +149,7 @@ CNNs 會比較兩張圖片裡的各個局部，這些局部被稱為**特徵**�
 - [Deeplearning4j](https://en.wikipedia.org/wiki/Deeplearning4j)
 - [TensorFlow](http://www.tensorflow.org/)
 - [Theano](<https://en.wikipedia.org/wiki/Theano_(software)>)
-- [Torch](https://en.wikipedia.org/wiki/Torch_(machine_learning))
+- [Torch](<https://en.wikipedia.org/wiki/Torch_(machine_learning)>)
 - [Many others](http://deeplearning.net/software_links/)
 
 我希望讀者們喜歡這趟卷積神經網路的入門之旅。歡迎和我討論！
