@@ -9,9 +9,9 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 **線性迴歸**（linear regression）是在資料點中找出規律、畫出一條直線的專業說法，以下我將透過選購鑽石的例子說明其運作原理。
 
-我的奶奶曾經留給我一只戒指。這個戒指上有個 1.35 克拉大小的鑲台（setting），可惜上面沒有安任何鑽石。我想修復這只戒指，所以我找了一間珠寶行詢價，以了解我需要準備多少錢。
+故事是這樣的：我的奶奶曾經留給我一只戒指。這個戒指上有個 1.35 克拉大小的鑲台（setting），可惜上面沒有安任何鑽石。某天，我萌生了修復這只戒指的念頭，所以我找了一間珠寶行詢價，以了解我需要準備多少錢。
 
-到了珠寶行以後，我發現店裡沒有 1.35 克拉的鑽石，也沒有價格。但我沒有因此放棄，我拿起了紙跟筆，把店裡所有其他鑽石的尺寸跟價格都抄了下來。
+到了珠寶行以後，我發現店裡既沒有 1.35 克拉的鑽石，也沒有價格。但我沒有因此打退堂鼓。我拿起了紙跟筆，把店裡所有其他鑽石的尺寸跟價格都抄了下來。
 
 [![](https://brohrer.github.io/images/linear_regression/linear_regression_1.png "左邊是鑽石的克拉數，右邊是價格")](https://youtu.be/fE0bnkNX77A)
 
@@ -23,7 +23,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 [![](https://brohrer.github.io/images/linear_regression/linear_regression_3.png "加上紀錄價格的縱軸")](https://youtu.be/fE0bnkNX77A?t=1m24s)
 
-於是上圖就有了座標系的兩軸。在一座像曼哈頓有著網格道路系統（gridded streets）的城市裡，讀者可以循著南北向和東西向道路找出任何交叉路口；同理，在一個座標系裡，讀者可以利用橫軸和縱軸上的位置鎖定任何點。所以我們可以先根據鑽石的重量，從紀錄克拉數的橫軸往上畫一條直線，再根據鑽石的價格，從紀錄價格的縱軸往右畫另一條直線。兩條直線的交點，就是第一個觀測值。
+於是上圖就有了座標系的兩軸。在一座像曼哈頓有著網格道路系統（gridded streets）的城市裡，讀者可以循著南北向、東西向道路找出任何交叉路口；同理，在一個座標系裡，讀者可以利用橫軸和縱軸上的位置鎖定任何點。所以我們可以先根據鑽石的重量，從紀錄克拉數的橫軸往上畫一條直線，再根據鑽石的價格，從紀錄價格的縱軸往右畫另一條直線。兩條直線的交點，就是第一個鑽石的資料。
 
 [![](https://brohrer.github.io/images/linear_regression/linear_regression_4.png "利用橫軸跟縱軸鎖定資料點")](https://youtu.be/fE0bnkNX77A?t=1m39s)
 
@@ -31,7 +31,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 [![](https://brohrer.github.io/images/linear_regression/linear_regression_5.png "把所有鑽石畫在這個座標系上")](https://youtu.be/fE0bnkNX77A?t=2m08s)
 
-於是一開始的表格變成了一張圖。到目前為止，我沒有增加或捨棄任何資訊，我只是換了另一種表達方式，也就是圖片。從圖片裡我們可以看出一個明顯的形狀，好像有條很寬的直線往右上方延伸。所以我的下一步是在這個範圍內將這條直線畫出來。當這條直線穿過資料時，在它的上下兩側有差不多一樣數量的資料點。
+於是一開始的表格變成了一張散點圖。到目前為止，我沒有增加或捨棄任何資訊，我只是換了另一種表達方式，也就是散點圖。從圖片裡我們可以看出一個明顯的形狀，好像有條很寬的直線往右上方延伸。所以我的下一步是在這個範圍內將這條直線畫出來。當這條直線穿過資料時，在它的上下兩側會分佈著差不多數量的資料點。
 
 [![](https://brohrer.github.io/images/linear_regression/linear_regression_6.png "將貫穿資料點的直線畫出來")](https://youtu.be/fE0bnkNX77A?t=3m25s)
 
