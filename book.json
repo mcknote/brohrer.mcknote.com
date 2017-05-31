@@ -1,5 +1,5 @@
 {
-    "plugins": ["ga", "custom-favicon","disqus","youtubex","image-captions"],
+    "plugins": ["ga", "custom-favicon","disqus","youtubex","image-captions","sitemap"],
     "pluginsConfig": {
         "ga": {
             "token": "UA-75181285-2"
@@ -10,7 +10,11 @@
         },
         "image-captions": {
           "caption": "圖說：_CAPTION_"
-      }
+        },
+        
+        "sitemap": {
+            "hostname": "https://brohrer.mcknote.com/"
+        }
         
     }
 }
