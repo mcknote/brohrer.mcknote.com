@@ -4,7 +4,7 @@
 
 ## 文章列表和翻譯進度
 
-| 英文標題 | 中文標題 | 狀態 |
+| 英文標題 | 中文標題 | 翻譯進度 |
 | :--- | :--- | :--- |
 | How linear regression works | 線性迴歸 Linear Regression | 100% |
 | How neural networks work |  | 0% |
