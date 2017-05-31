@@ -1,6 +1,4 @@
-# 機器學習如何運作
-
-原文類別：**How machine learning works**
+# 機器學習如何運作 **How machine learning works**
 
 ## 文章列表和翻譯進度
 
