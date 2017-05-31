@@ -18,7 +18,7 @@ disqus: false
 
 Jimmy，於 2017 年 5 月 25 日
 
-[![](/assets/Brandon.png "資料科學・機器・人")](https://www.facebook.com/DataScienceAndRobots/photos/a.289818584721644.1073741828.286053858431450/428807957489372/?type=3)
+[![](/assets/Brandon.png)](https://www.facebook.com/DataScienceAndRobots/photos/a.289818584721644.1073741828.286053858431450/428807957489372/?type=3)
 
 ## 翻譯標準說明
 
