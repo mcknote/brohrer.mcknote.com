@@ -6,7 +6,7 @@
 
 | 英文標題 | 中文標題 | 翻譯進度 |
 | :--- | :--- | :--- |
-| What questions can machine learning answer | 機器學習 |  |
+| What questions can machine learning answer | 機器學習可以回答的問題有哪些？ | 100% |
 
 
 
