@@ -31,6 +31,14 @@ From then on I learned a lot through translating and sought to pass on the conte
 Jimmy  
 May 25, 2017
 
+## About The Site Name
+
+資料科學・機器・人 literally means "Data Science. Machine. Human", in which 機器 and 人 combined mean "Robots". In Chinese "Robots" is often translated as 機器人, but the meaning of it sometimes limits to humanoid, as the verbatim meaning "Machine Human" suggests. 
+
+But we all know Data Science is more than making 機器人. And from my experience, I believe that Data Science involves not only the coolest science or technology, but also the philosophy of reasoning and design. 
+
+So I did a little trick, splitting "Robots" into "Machine" and "Human", and allowed the site name to convery a broader message. 資料科學・機器・人, "Data Science. Machine. Human".
+
 ## 翻譯標準說明
 
 以下是我翻譯的考量和細節，我試著保持這些原則的一致性，並將它們公開，以便讀者們維護翻譯品質。
