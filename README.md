@@ -26,7 +26,7 @@ Jimmy，於 2017 年 5 月 25 日
 
 As an experienced data scientist, Brandon has shared numerous amazing thoughts and experience in his blog, which are very helpful for both rookies and veterans. After reading every material on it, I asked Brandon whether I was allowed to translate the articles as a contribution to the data science community. In a day, Brandon replied "of course" and offered me a great amount of help, and in a week, 資料科學・機器・人 went online with three posts.
 
-From then on I learned a lot through translating and sought to pass on the content to more Chinese readers. But please bear with the translation quality, as I am not a full-time translator but a passionate rookie data scientist (from Cal Poly!). If you have any suggestions, please feel free to reply through Disqus, annotate on Gitbook or send me a pull request.
+From then on I learned a lot through translating and sought to pass on the content to more Chinese readers. But please bear with the translation quality, as I am more a passionate rookie data scientist (from Cal Poly!) than a full-time translator. If you have any suggestions, please feel free to reply through Disqus, annotate on Gitbook or send me a pull request.
 
 Jimmy  
 May 25, 2017
