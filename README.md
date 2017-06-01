@@ -24,11 +24,11 @@ Jimmy，於 2017 年 5 月 25 日
 
 資料科學・機器・人 is the Chinese site of Data Science and Robots. The original blog was written by Brandon Rohrer, and the translation project was started by Jimmy Lin and maintained by friends and readers.
 
-As an experienced data scientist, Brandon has shared a lot of amazing thoughts and experiences in his blog, which is very helpful for both rookies and veterans. After reading every materials on it, I asked Brandon whether I was allowed to translate the articles as a contribution to the data science community. In a day, Brandon replied of course and offered me a great amount of help, and in a week, 資料科學・機器・人 went online with three posts.
+As an experienced data scientist, Brandon has shared a lot of amazing thoughts and experiences in his blog, which is very helpful for both rookies and veterans. After reading every materials on it, I asked Brandon whether I was allowed to translate the articles as a contribution to the data science community. In a day, Brandon replied "of course" and offered me a great amount of help, and in a week, 資料科學・機器・人 went online with three posts.
 
 From then on I learned a lot through translating and sought to pass on the content to Chinese readers. But please bear the quality, as I am not a full-time translator but a passionate rookie data scientist. If you see anything to improve, please feel free to reply through Disqus, annotate on Github or send me a pull request.
 
-Jimmy
+Jimmy  
 May 25, 2017
 
 ## 翻譯標準說明
