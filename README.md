@@ -22,7 +22,7 @@ Jimmy，於 2017 年 5 月 25 日
 
 ## About This Site
 
-資料科學・機器・人 is a Chinese site of Data Science and Robots. The original blog was written by Brandon Rohrer, and the translation project was started by Jimmy Lin and maintained by many friends and readers.
+**資料科學・機器・人 is a Chinese site of Data Science and Robots.** The original blog was written by Brandon Rohrer, and the translation project was started by Jimmy Lin and maintained by many friends and readers.
 
 As an experienced data scientist, Brandon has shared numerous amazing thoughts and experience in his blog, which are very helpful for both rookies and veterans. After reading every material on it, I asked Brandon whether I was allowed to translate the articles as a contribution to the data science community. In a day, Brandon replied "of course" and offered me a great amount of help, and in a week, 資料科學・機器・人 went online with three posts.
 
@@ -33,7 +33,7 @@ May 25, 2017
 
 ## About The Site Name
 
-資料科學・機器・人 literally means "Data Science. Machine. Human", in which 機器 and 人 combined mean "Robots". In Chinese "Robots" is often translated as 機器人, but the meaning of it sometimes limits to humanoid, as the verbatim meaning "Machine Human" suggests. 
+**資料科學・機器・人 literally means "Data Science. Machine. Human"**, in which 機器 and 人 combined mean "Robots". In Chinese "Robots" is often translated as 機器人, but the meaning of it sometimes limits to humanoid, as the verbatim meaning "Machine Human" suggests. 
 
 But we all know Data Science is more than making 機器人. And from my experience, I believe that Data Science involves not only the coolest science or technology, but also the philosophy of reasoning and design. 
 
