@@ -1,6 +1,6 @@
 #反向傳播的運作原理
 
-原文連結：How backpropagation works
+原文標題：How backpropagation works
 
 Translated from Brandon Rohrer's Blog by Jimmy Lin
 
