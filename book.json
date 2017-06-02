@@ -1,5 +1,5 @@
 {
-    "plugins": ["ga", "custom-favicon", "disqus", "youtubex", "image-captions", "sitemap","scripts"],
+    "plugins": ["ga", "custom-favicon", "disqus", "youtubex", "image-captions", "sitemap","addcssjs"],
     "pluginsConfig": {
         "ga": {
             "token": "UA-75181285-2"
@@ -14,10 +14,8 @@
         "sitemap": {
             "hostname": "https://brohrer.mcknote.com/"
         },
-        "scripts": {
-            "files": [
-                "./js/chinese_convert.js"
-            ]
-        }
+        "addcssjs": {
+            "js": ["js/chinese_convert.js"]
+        },
     }
 }
