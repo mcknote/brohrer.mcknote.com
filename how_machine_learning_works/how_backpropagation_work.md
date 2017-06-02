@@ -6,21 +6,8 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 {% raw %}
 
-<script src="../js/chinese_convert.js"></script>
+<script language='javascript' src='../js/zh.js'></script>
 
-<script>
-
-var defaultEncoding = 1;
-var translateDelay = 0;
-var cookieDomain = "https://brohrer.mcknote.com";
-var msgToTraditionalChinese = "轉換爲繁體";
-var msgToSimplifiedChinese = "转换为简体";
-var translateButtonId = "translateLink";
-translateInitilization();
-
-</script>
-
-<a id="translateLink"></a>
 
 {% endraw %}
 
