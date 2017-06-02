@@ -6,7 +6,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 {%youtube%}Q9Z20HCPnww{%endyoutube%}
 
-> 請注意，本文內容以未翻譯的影片為主。
+> 請注意，本文內容主要為未翻譯的影片和投影片。
 
 很多關於**深度學習**（Deep Learning）的解釋都很艱深，如果讀者不具備一定的數學或電腦科學知識，可能很難理解，或是乾脆把它當作魔法看待。所以我將在不用任何數學、電腦科學術語的情況下解釋深度神經網路。這是我在 Boston Open Data Science Conference 的演講。
 
