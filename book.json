@@ -5,8 +5,7 @@
                 "youtubex", 
                 "image-captions", 
                 "sitemap",
-                "addcssjs",
-                "page-toc-button"],
+                "addcssjs"],
                 
     "pluginsConfig": {
         "ga": {
