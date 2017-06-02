@@ -1,7 +1,18 @@
 #反向傳播的運作原理
 
 原文標題：**How backpropagation works** 
-{% raw %}<a id="translateLink"></a>{% endraw %}
+{% raw %}
+<script>
+var defaultEncoding = 1; // 預設語言：1-繁體中文 | 2-简体中文
+var translateDelay = 0;
+var cookieDomain = "http://www.arefly.com";	// 修改爲你的部落格地址
+var msgToTraditionalChinese = "轉換爲繁體";	// 簡轉繁時所顯示的文字
+var msgToSimplifiedChinese = "转换为简体"; 	// 繁转简时所显示的文字
+var translateButtonId = "translateLink";	// 「轉換」<A>鏈接標籤ID
+translateInitilization();
+</script>
+<a id="translateLink"></a>
+{% endraw %}
 
 Translated from Brandon Rohrer's Blog by Jimmy Lin
 
