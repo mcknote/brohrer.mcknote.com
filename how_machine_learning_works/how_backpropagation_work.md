@@ -8,6 +8,10 @@
 
 </script>
 
+<script language='javascript' src='zh.js'>
+
+</script>
+
 <script>
 
 translateInitilization()
