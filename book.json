@@ -16,6 +16,6 @@
         },
         "addcssjs": {
             "js": ["js/chinese_convert.js"]
-        },
+        }
     }
 }
