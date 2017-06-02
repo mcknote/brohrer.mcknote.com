@@ -3,15 +3,6 @@
 原文標題：**How backpropagation works**
 
 {% raw %}
-<script>
-var defaultEncoding = 1;
-var translateDelay = 0;
-var cookieDomain = "https://brohrer.mcknote.com";
-var msgToTraditionalChinese = "點此轉換爲繁體";
-var msgToSimplifiedChinese = "点此转换为简体";
-var translateButtonId = "translateLink";
-translateInitilization();
-</script>
 <a id="translateLink"></a>
 {% endraw %}
 
