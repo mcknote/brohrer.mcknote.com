@@ -8,7 +8,7 @@
 | :--- | :--- | :--- |
 | How linear regression works | 線性迴歸 Linear Regression | 95% |
 | How neural networks work | 神經網路 Neural Networks | Video |
-| How backpropagation works |  | Video |
+| How backpropagation works | 反向傳播 Backpropagation | Video |
 | How deep learning works | 深度學習 Deep Learning | Video |
 | How convolutional neural networks work | 卷積神經網路 Convolutional Neural Networks | 95% |
 
