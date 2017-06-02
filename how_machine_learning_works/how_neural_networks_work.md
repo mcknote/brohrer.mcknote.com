@@ -1,6 +1,6 @@
 #神經網路的運作原理
 
-原文連結：[How neural networks work](https://brohrer.github.io/how_neural_networks_work.html)
+原文連結：[**How neural networks work**](https://brohrer.github.io/how_neural_networks_work.html)
 
 Translated from Brandon Rohrer's Blog by Jimmy Lin
 
