@@ -1,6 +1,7 @@
 #反向傳播的運作原理
 
-原文標題：**How backpropagation works** 
+原文標題：**How backpropagation works**
+
 {% raw %}
 <script>
 var defaultEncoding = 1;
