@@ -3,6 +3,7 @@
 原文標題：**How backpropagation works**
 
 {% raw %}
+<script src="../js/chinese_convert.js"></script>
 <a id="translateLink"></a>
 {% endraw %}
 
