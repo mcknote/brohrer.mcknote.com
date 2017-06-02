@@ -3,11 +3,11 @@
 原文標題：**How backpropagation works** 
 {% raw %}
 <script>
-var defaultEncoding = 1; // 預設語言：1-繁體中文 | 2-简体中文
+var defaultEncoding = 1;
 var translateDelay = 0;
-var cookieDomain = "https://brohrer.mcknote.com";	// 修改爲你的部落格地址
-var msgToTraditionalChinese = "轉換爲繁體";	// 簡轉繁時所顯示的文字
-var msgToSimplifiedChinese = "转换为简体"; 	// 繁转简时所显示的文字
+var cookieDomain = "https://brohrer.mcknote.com";
+var msgToTraditionalChinese = "點此轉換爲繁體";
+var msgToSimplifiedChinese = "点此转换为简体"; 	// 繁转简时所显示的文字
 var translateButtonId = "translateLink";	// 「轉換」<A>鏈接標籤ID
 translateInitilization();
 </script>
