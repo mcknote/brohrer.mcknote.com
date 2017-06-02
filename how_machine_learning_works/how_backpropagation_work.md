@@ -12,6 +12,8 @@
 
 </script>
 
+<a href="javascript:zh_tran('s');" class="zh_click" id="zh_click_s">简体</a>
+
 <script>
 
 translateInitilization()
