@@ -8,7 +8,17 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 <script src="../js/chinese_convert.js"></script>
 
-<a href="javascript:zh_tran('t');" class="zh_click" id="zh_click_t">繁體</a>、<a href="javascript:zh_tran('s');" class="zh_click" id="zh_click_s">简体</a>
+<script>
+
+var defaultEncoding = 1; // 默认语言：1-繁体中文 | 2-简体中文
+var translateDelay = 0;
+var cookieDomain = "http://www.arefly.com";	// 修改为你的部落格地址
+var msgToTraditionalChinese = "點此轉換為繁體";	// 简转繁时所显示的文字
+var msgToSimplifiedChinese = "点此转换为简体"; 	// 繁转简时所显示的文字
+var translateButtonId = "translateLink";	// “转换”<A>链接标签ID
+translateInitilization();
+
+</script>
 
 {% endraw %}
 
