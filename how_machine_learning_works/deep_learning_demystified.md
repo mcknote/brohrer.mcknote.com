@@ -13,4 +13,6 @@ Most explanations of deep learning are tough to understand if you aren't fluent 
 * [PDF 投影片（5MB）](https://github.com/brohrer/public-hosting/raw/master/deep_learning_demystified.pdf)
 * [PPT 投影片（11MB）](https://github.com/brohrer/public-hosting/raw/master/deep_learning_demystified.pptx)
 
-KDnuggets 在 2016 年 7 月 20 日轉推了這場演講，這也成為該週
+[KDnuggets](http://www.kdnuggets.com/) 在 2016 年 7 月 20 日[轉推了這場演講](https://twitter.com/kdnuggets/status/755875002310856704/photo/1)，這也成為該週（20 到 26 日）[最多分享、轉推、點閱，以及第二多互動的推文](http://www.kdnuggets.com/2016/07/top-tweets-jul20-26.html)。
+
+Bradon，於 2016 年 5 月 22 日
