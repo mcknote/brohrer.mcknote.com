@@ -10,7 +10,7 @@
 | How neural networks work |  | 0% |
 | How backpropagation works |  | 0% |
 | How deep learning works | 深度學習 Deep Learning | 90% |
-| How convolutional neural networks work | 卷積神經網路 Convolutional Neural Networks | 90% |
+| How convolutional neural networks work | 卷積神經網路 Convolutional Neural Networks | 95% |
 
 ## 翻譯進度說明
 
