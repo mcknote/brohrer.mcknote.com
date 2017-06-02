@@ -4,6 +4,8 @@
 
 {% raw %}
 <script src="../js/chinese_convert.js"></script>
+<script>translateInitilization()
+</script>
 <a id="translateLink"></a>
 {% endraw %}
 
