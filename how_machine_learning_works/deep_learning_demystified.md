@@ -2,7 +2,7 @@
 
 原文連結：[Deep Learning Demystified](https://brohrer.github.io/deep_learning_demystified.html)
 
-
+{%youtube%}Q9Z20HCPnww{%endyoutube%}
 
 
 
