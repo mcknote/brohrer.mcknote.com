@@ -3,7 +3,7 @@
 原文標題：**How backpropagation works**
 
 {% raw %}
-<p style="font-size: 140%; text-align: center; color: blue;"><a id="translateLink"></a></p>
+<a id="translateLink"></a>
 {% endraw %}
 
 Translated from Brandon Rohrer's Blog by Jimmy Lin
