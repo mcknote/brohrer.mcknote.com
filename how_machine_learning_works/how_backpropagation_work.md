@@ -4,7 +4,10 @@
 
 {% raw %}
 
-<script src="../js/chinese_convert.js"></script>
+<script src="../js/chinese_convert.js">
+
+</script>
+
 <script>
 
 translateInitilization()
