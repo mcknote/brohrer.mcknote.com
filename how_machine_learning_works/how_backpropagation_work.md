@@ -4,7 +4,6 @@
 
 {% raw %}
 <p style="font-size: 140%; text-align: center; color: blue;"><a id="translateLink"></a></p>
-<script src="../js/chinese_convert.js"></script>
 {% endraw %}
 
 Translated from Brandon Rohrer's Blog by Jimmy Lin
