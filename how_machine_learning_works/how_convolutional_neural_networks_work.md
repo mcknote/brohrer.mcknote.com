@@ -150,6 +150,6 @@ CNNs 會比較兩張圖片裡的各個局部，這些局部被稱為**特徵**�
 - [Torch](https://en.wikipedia.org/wiki/Torch_%28machine_learning%29)
 - [Many others](http://deeplearning.net/software_links/)
 
-我希望讀者們喜歡這趟卷積神經網路的入門之旅。歡迎隨時找我討論！
+希望讀者們喜歡這趟卷積神經網路的入門之旅。歡迎隨時找我討論！
 
 Brandon，於 2016 年 8 月 18 日
