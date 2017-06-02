@@ -8,11 +8,12 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 > 請注意，本文內容主要為未翻譯的影片和投影片。
 
-很多關於**深度學習**（Deep Learning）的解釋都很艱深，如果讀者不具備一定的數學或電腦科學知識，可能很難理解，或是乾脆把它當作魔法看待。所以我將在不用任何數學、電腦科學術語的情況下解釋深度神經網路。這是我在 Boston Open Data Science Conference 的演講。
+Far from being incomprehensible, the principles behind neural networks are surprisingly simple. Here's a gentle walk through how to use deep learning to categorize images from a very simple camera.
 
-* [PDF 投影片（5MB）](https://github.com/brohrer/public-hosting/raw/master/deep_learning_demystified.pdf)
-* [PPT 投影片（11MB）](https://github.com/brohrer/public-hosting/raw/master/deep_learning_demystified.pptx)
+很多讀者可能會感到驚訝，**神經網路**（Neural Networks）的運作原理其實非常簡單，而且絕非無法理解。我將為各位簡單說明如何利用**深度學習**（Deep Learning）和一台簡易相機辨認圖片。
 
-[KDnuggets](http://www.kdnuggets.com/) 在 2016 年 7 月 20 日[轉推了這場演講](https://twitter.com/kdnuggets/status/755875002310856704/photo/1)，這也成為該週（20 到 26 日）[最多分享、轉推、點閱，以及第二多互動的推文](http://www.kdnuggets.com/2016/07/top-tweets-jul20-26.html)。
+You have responded with overwhelmingly positive comments to my two previous videos on convolutional neural networks and deep learning. You have also made two requests: find a better example and explain backpropagation. This video does both.
+
+這篇文章是為了回應讀者對我前兩篇文章（[卷積神經網路](../how_machine_learning_works/how_convolutional_neural_networks_work.md)和[深度學習](../how_machine_learning_works/deep_learning_demystified.md)）的熱烈迴響，以及你們的兩點建議：換一個更簡單的例子，和詳細解釋**反向傳播**（Backpropagation）。
 
 Bradon，於 2016 年 5 月 22 日
