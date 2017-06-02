@@ -2,28 +2,6 @@
 
 原文標題：**How backpropagation works**
 
-{% raw %}
-
-<script src="../js/chinese_convert.js">
-
-</script>
-
-<script language='javascript' src='zh.js'>
-
-</script>
-
-<a href="javascript:zh_tran('s');" class="zh_click" id="zh_click_s">简体</a>
-
-<script>
-
-translateInitilization()
-
-</script>
-
-<a id="translateLink"></a>
-
-{% endraw %}
-
 Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 {%youtube%}ILsA4nyG7I0?t=12m39s{%endyoutube%}
