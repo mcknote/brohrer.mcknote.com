@@ -8,6 +8,9 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 > 請注意，本文內容主要為未翻譯的影片和投影片。
 
+* [Google 簡報上的投影片](https://docs.google.com/presentation/d/1AAEFCgC0Ja7QEl3-wmuvIizbvaE-aQRksc7-W8LR2GY/edit?usp=sharing)
+* [本文完成時存取的 PDF 版投影片](../assets/How neural networks work.pdf)
+
 Far from being incomprehensible, the principles behind neural networks are surprisingly simple. Here's a gentle walk through how to use deep learning to categorize images from a very simple camera.
 
 很多讀者可能會感到驚訝，**神經網路**（Neural Networks）的運作原理其實非常簡單，而且絕非無法理解。我將為各位簡單說明如何利用**深度學習**（Deep Learning）和一台簡易相機辨認圖片。
