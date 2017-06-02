@@ -14,9 +14,7 @@ translateInitilization()
 
 </script>
 
-<a id="translateLink">
-
-</a>
+<a id="translateLink"></a>
 
 {% endraw %}
 
