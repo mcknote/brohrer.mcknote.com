@@ -9,7 +9,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 > 請注意，本文內容主要為未翻譯的影片和投影片。
 
 * [Google 簡報上的投影片](https://docs.google.com/presentation/d/1AAEFCgC0Ja7QEl3-wmuvIizbvaE-aQRksc7-W8LR2GY/edit?usp=sharing)
-* [本文完成時存取的 PDF 版投影片](../slides/How neural networks work.pdf)（381 KB）
+* [PDF 版投影片](../slides/How neural networks work.pdf)（381 KB），於本文完成時存取
 
 Far from being incomprehensible, the principles behind neural networks are surprisingly simple. Here's a gentle walk through how to use deep learning to categorize images from a very simple camera.
 
