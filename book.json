@@ -13,6 +13,11 @@
         },
         "sitemap": {
             "hostname": "https://brohrer.mcknote.com/"
-        } 
+        },
+        "scripts": {
+            "files": [
+                "./js/chinese_convert.js"
+            ]
+        }
     }
 }
