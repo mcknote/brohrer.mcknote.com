@@ -3,9 +3,11 @@
 原文標題：**How backpropagation works**
 
 {% raw %}
+
 <script src="../js/chinese_convert.js"></script>
 <script>translateInitilization()</script>
 <a id="translateLink"></a>
+
 {% endraw %}
 
 Translated from Brandon Rohrer's Blog by Jimmy Lin
