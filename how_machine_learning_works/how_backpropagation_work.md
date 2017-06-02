@@ -8,7 +8,7 @@ var translateDelay = 0;
 var cookieDomain = "https://brohrer.mcknote.com";
 var msgToTraditionalChinese = "點此轉換爲繁體";
 var msgToSimplifiedChinese = "点此转换为简体"; 	// 繁转简时所显示的文字
-var translateButtonId = "translateLink";	// 「轉換」<A>鏈接標籤ID
+var translateButtonId = "translateLink";
 translateInitilization();
 </script>
 <a id="translateLink"></a>
