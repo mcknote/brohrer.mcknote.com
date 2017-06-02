@@ -1,6 +1,7 @@
 #反向傳播的運作原理
 
-原文標題：**How backpropagation works** {% raw %}<a id="translateLink"></a>{% endraw %}
+原文標題：**How backpropagation works** 
+{% raw %}<a id="translateLink"></a>{% endraw %}
 
 Translated from Brandon Rohrer's Blog by Jimmy Lin
 
