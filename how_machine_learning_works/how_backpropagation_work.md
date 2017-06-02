@@ -18,11 +18,12 @@ var msgToSimplifiedChinese = "转换为简体";
 var translateButtonId = "translateLink";
 translateInitilization();
 
-<p style="font-size: 140%; text-align: center; color: blue;"><a id="translateLink"></a></p>
-
 </script>
 
 
+
+
+<p style="font-size: 140%; text-align: center; color: blue;"><a id="translateLink"></a></p>
 
 {% endraw %}
 
