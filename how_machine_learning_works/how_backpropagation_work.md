@@ -2,8 +2,6 @@
 
 原文標題：**How backpropagation works**
 
-Translated from Brandon Rohrer's Blog by Jimmy Lin
-
 {% raw %}
 
 <script src="../js/chinese_convert.js"></script>
@@ -23,6 +21,8 @@ translateInitilization();
 {% endraw %}
 
 顯示語言：<a id="translateLink"></a>
+
+Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 {%youtube%}ILsA4nyG7I0?t=12m39s{%endyoutube%}
 
