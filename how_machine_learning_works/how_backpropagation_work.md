@@ -10,12 +10,12 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 <script>
 
-var defaultEncoding = 1; // 默认语言：1-繁体中文 | 2-简体中文
+var defaultEncoding = 1;
 var translateDelay = 0;
-var cookieDomain = "http://www.arefly.com";	// 修改为你的部落格地址
-var msgToTraditionalChinese = "點此轉換為繁體";	// 简转繁时所显示的文字
-var msgToSimplifiedChinese = "点此转换为简体"; 	// 繁转简时所显示的文字
-var translateButtonId = "translateLink";	// “转换”<A>链接标签ID
+var cookieDomain = "https:/brohrer.mcknote.com";
+var msgToTraditionalChinese = "點此轉換為繁體";
+var msgToSimplifiedChinese = "点此转换为简体";
+var translateButtonId = "translateLink";
 translateInitilization();
 
 </script>
