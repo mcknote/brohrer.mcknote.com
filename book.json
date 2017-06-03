@@ -5,7 +5,8 @@
                 "youtubex", 
                 "image-captions", 
                 "sitemap",
-                "addcssjs"],
+                "addcssjs",
+                "fanjian"],
                 
     "pluginsConfig": {
         "ga": {
