@@ -19,7 +19,10 @@ var translateButtonId = "translateLink";
 translateInitilization();
 
 </script>
+
 {% endraw %}
+
+顯示語言：<a id="translateLink"></a>
 
 {%youtube%}ILsA4nyG7I0?t=12m39s{%endyoutube%}
 
