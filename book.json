@@ -4,6 +4,7 @@
                 "youtubex", 
                 "image-captions", 
                 "sitemap",
+                "disqus",
                 "fanjian"],
                 
     "pluginsConfig": {
