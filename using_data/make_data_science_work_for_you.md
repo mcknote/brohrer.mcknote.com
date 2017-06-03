@@ -1,6 +1,6 @@
 # 有效利用資料科學
 
-原文連結：[**Make Data Science Work for You**](https://brohrer.github.io/make_data_science_work_for_you.html)
+原文：[**Make Data Science Work for You**](https://brohrer.github.io/make_data_science_work_for_you.html)
 
 Translated from Brandon Rohrer's Blog by Jimmy Lin
 
