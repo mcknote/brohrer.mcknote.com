@@ -19,7 +19,6 @@ var translateButtonId = "translateLink";
 translateInitilization();
 
 </script>
-
 {% endraw %}
 
 {%youtube%}ILsA4nyG7I0?t=12m39s{%endyoutube%}
