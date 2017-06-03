@@ -2,24 +2,6 @@
 
 原文標題：**How backpropagation works**
 
-{% raw %}
-
-<script src="../js/chinese_convert.js"></script>
-
-<script>
-
-var defaultEncoding = 1;
-var translateDelay = 0;
-var cookieDomain = "https:/brohrer.mcknote.com";
-var msgToTraditionalChinese = "點此轉換為繁體";
-var msgToSimplifiedChinese = "点此转换为简体";
-var translateButtonId = "translateLink";
-translateInitilization();
-
-</script>
-
-{% endraw %}
-
 Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 {%youtube%}ILsA4nyG7I0?t=12m39s{%endyoutube%}
