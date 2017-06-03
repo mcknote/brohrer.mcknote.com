@@ -1,7 +1,6 @@
 {
     "plugins": ["ga", 
                 "custom-favicon", 
-                "disqus", 
                 "youtubex", 
                 "image-captions", 
                 "sitemap",
