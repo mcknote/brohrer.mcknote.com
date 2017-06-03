@@ -15,6 +15,6 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 這支影片是為了回應讀者對我前兩篇文章（[卷積神經網路](../how_machine_learning_works/how_convolutional_neural_networks_work.md)和[深度學習](../how_machine_learning_works/deep_learning_demystified.md)）的熱烈迴響，以及你們的兩點建議：換一個更簡單的例子，和詳細解釋**反向傳播**（Backpropagation）。
 
-希望你們喜歡！
+希望你們會喜歡！
 
 Bradon，於 2017 年 3 月 2 日
