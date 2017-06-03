@@ -20,8 +20,6 @@ translateInitilization();
 
 {% endraw %}
 
-顯示語言：<a id="translateLink"></a>
-
 Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 {%youtube%}ILsA4nyG7I0?t=12m39s{%endyoutube%}
