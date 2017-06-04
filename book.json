@@ -6,7 +6,8 @@
                 "sitemap",
                 "disqus",
                 "fanjian",
-                "rss"],
+                "rss",
+                "katex"],
                 
     "pluginsConfig": {
         "ga": {
