@@ -1,7 +1,7 @@
 # Summary
 
 * [Data Science and Robots](README.md)
-* [簡繁中文轉換說明](switching_between_simplified_and_traditional_mandarin.md)
+* [中文簡繁轉換說明](switching_between_simplified_and_traditional_mandarin.md)
 * [機器學習如何運作](how_machine_learning_works/README.md)
   * [線性迴歸 Linear Regression](how_machine_learning_works/how_linear_regression_works.md)
   * [卷積神經網路 Convolutional Neural Networks](how_machine_learning_works/how_convolutional_neural_networks_work.md)

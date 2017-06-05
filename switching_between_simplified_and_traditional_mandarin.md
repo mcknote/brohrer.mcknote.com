@@ -1,4 +1,4 @@
-# 簡繁轉換說明
+# 中文簡繁轉換說明
 
 **Switching between Simplified and Traditional Mandarin**
 
