@@ -22,6 +22,13 @@
         },
         "sitemap": {
             "hostname": "https://brohrer.mcknote.com/"
+        },
+        "i18n": {
+            "all": [
+                "simplified", "traditional"
+            ],
+            "TraditionalUrl": "../",
+            "SimplifiedUrl": "../zh-CN"
         }
     }
 }
