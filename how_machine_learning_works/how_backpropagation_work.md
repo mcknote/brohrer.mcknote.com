@@ -1,4 +1,4 @@
-#反向傳播的運作原理
+# 反向傳播的運作原理
 
 原文：**How backpropagation works**
 
