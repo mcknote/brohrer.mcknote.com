@@ -6,8 +6,7 @@
                 "sitemap",
                 "disqus",
                 "fanjian",
-                "katex",
-                "i18n"],
+                "katex"],
                 
     "pluginsConfig": {
         "ga": {
