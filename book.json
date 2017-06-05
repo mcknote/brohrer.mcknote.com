@@ -5,8 +5,7 @@
                 "image-captions", 
                 "sitemap",
                 "disqus",
-                "fanjian",
-                "rss",
+                "fanjian"
                 "katex"],
                 
     "pluginsConfig": {
@@ -22,10 +21,6 @@
         },
         "sitemap": {
             "hostname": "https://brohrer.mcknote.com/"
-        },
-        "rss": {
-            "title": "資料科學・機器・人",
-            "site_url": "https://brohrer.mcknote.com/"
         }
     }
 }
