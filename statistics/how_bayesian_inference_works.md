@@ -24,11 +24,11 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 但現在考慮另一個狀況：如果這個人排在男性洗手間的隊伍當中呢？多了這項資訊，讀者或許會認為這個人是男的。我們可以不經思索地根據不同的常識和知識調整判斷，而貝葉斯推斷正是將這點化為數學，幫助我們做出更精準的評估。
 
-[![](http://brohrer.github.io/images/bayesian_11.png)](https://youtu.be/5NMxiOGL39M?t=2m35s)
+[![](http://brohrer.github.io/images/bayesian_11.png "整間電影院裡的男女、長短髮人口")](https://youtu.be/5NMxiOGL39M?t=2m35s)
 
 為了將前面的例子用數學表達，我們可以先假設電影院裡的人有一半是女的，有一半是男的。也就是說 100 個人裡面，有 50 名男性和 50 名女性。在這 50 名女性裡，有一半的人有長髮（25 人），另一半有短髮（25 人）；在 50 名男性當中，48 個人有短髮，兩個人有長髮。因為在 27 位長髮觀眾裡，有 25 位是女性和兩位男性，所以前面第一個猜測很安全。
 
-[![](http://brohrer.github.io/images/bayesian_12.png)](https://youtu.be/5NMxiOGL39M?t=2m49s)
+[![](http://brohrer.github.io/images/bayesian_12.png "男性洗手間隊伍裡的男女、長短髮人口")](https://youtu.be/5NMxiOGL39M?t=2m49s)
 
 但如果我們換一個場景：在男性洗手間隊伍的 100 個人裡面，有 98 位男性和兩位陪伴中的女性。這裡的女性雖然也有一半是長髮、一半是短髮，但人數減為一位長髮女性和一位短髮女性。男性觀眾中長髮和短髮的比例也不變，不過因為總人數變成了 98 人，現在隊伍裡有 94 位短髮男性，和四位長髮男性。由於現在長髮觀眾中有一名女性和四名男性，保守的猜測變成了男性。從這個例子，我們可以很容易地理解貝葉斯推斷的原理。根據不同的先決條件——也就是這名觀眾是否站在男性洗手間的隊伍裡，我們可以做出更準確的評估。
 
@@ -36,11 +36,11 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 ## 機率
 
-[![](http://brohrer.github.io/images/bayesian_13.png)](https://youtu.be/5NMxiOGL39M?t=2m55s)
+[![](http://brohrer.github.io/images/bayesian_13.png "整間電影院裡，觀眾為男或女、長或短髮的機率")](https://youtu.be/5NMxiOGL39M?t=2m55s)
 
 某事件發生的機率，就是將「該事件的數量」除以「所有可能發生的事件數量」。在我們的例子裡，某位觀眾是女性的機率是 50 名女性除以 100 位觀眾，即 0.5 或 50%。觀眾是男性的機率也是 50%。
 
-[![](http://brohrer.github.io/images/bayesian_14.png)](https://youtu.be/5NMxiOGL39M?t=3m7s)
+[![](http://brohrer.github.io/images/bayesian_14.png "男性洗手間隊伍裡，觀眾為男或女、長或短髮的機率")](https://youtu.be/5NMxiOGL39M?t=3m7s)
 
 在男性洗手間的隊伍裡，觀眾是女性的機率為 0.02，男性的機率為 0.98。
 
