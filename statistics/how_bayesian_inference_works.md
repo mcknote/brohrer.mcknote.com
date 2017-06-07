@@ -216,7 +216,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 > 「我敢說這是妳練習得不夠，」王后說，「我像妳這樣大的時候，每天練上半小時呢。嘿！有時候，我吃早飯前就能相信六件不可能的事哩！」
 
-> ——路易斯．卡羅《愛麗絲夢遊仙境》
+> ——路易斯．卡羅（Lewis Carroll）《愛麗絲夢遊仙境》
 
 修正：感謝發現錯字和錯誤的讀者們！Justin Fortier 和 Irina Max，我欠你們一杯飲料。
 
