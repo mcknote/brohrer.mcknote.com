@@ -8,7 +8,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 * [Google 簡報上的投影片](https://docs.google.com/presentation/d/1325yenZP_VdHoVj-tU0AnbQUxFwb8Fl1VdyAAUxEzfg/edit?usp=sharing)
 
-<center>![](http://brohrer.github.io/images/top-kdnuggets-blog-2016-nov-gold.png)</center>
+<div style="text-align:center"><img src ="http://brohrer.github.io/images/top-kdnuggets-blog-2016-nov-gold.png" /></div>
 
 **貝葉斯推斷**（Bayesian Inference）是一套可以用來精進預測的方法，在資料不是很多、又想盡量發揮預測能力時特別有用。
 
