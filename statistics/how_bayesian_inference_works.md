@@ -46,11 +46,11 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 ## 條件機率
 
-[![](http://brohrer.github.io/images/bayesian_15.png)](https://youtu.be/5NMxiOGL39M?t=3m16s)
+[![](http://brohrer.github.io/images/bayesian_15.png "兩個場景的女性中，長短髮的出現機率")](https://youtu.be/5NMxiOGL39M?t=3m16s)
 
 條件機率所能回答的問題是「如果這名觀眾是女性，那她有長頭髮的機率為何？」條件機率的計算方式和一般機率相同，只不過條件機率只會涉及符合條件的少部分樣本。在我們的例子裡，女性觀眾中有長髮的條件機率 $$ P(long \space hair | woman) $$ 即「長髮女性人數」除以「女性總人數」，也就是 0.5。不管我們是計算電影院裡的觀眾，還是男性廁所隊伍裡的觀眾，都會得到相同的條件機率。
 
-[![](http://brohrer.github.io/images/bayesian_17.png)](https://youtu.be/5NMxiOGL39M?t=4m9s)
+[![](http://brohrer.github.io/images/bayesian_17.png "兩個場景的男性中，長短髮的出現機率")](https://youtu.be/5NMxiOGL39M?t=4m9s)
 
 運用相同的方法，男性觀眾中有有長髮的條件機率 $$ P(long \space hair | man) $$ 為 0.04，不管是隊伍裡還是隊伍外的男性。
 
