@@ -2,7 +2,7 @@
 
 **Switching between Simplified and Traditional Mandarin**
 
-![](/assets/Screen Shot 2017-06-04 at 00.38.59.png)
+![](../assets/Screen Shot 2017-06-04 at 00.38.59.png)
 
 数据科学・机器・人上的许多文章都由繁体中文所写成。为了方便不同地区的读者，在每篇文章最上方的导览列里，都有名为「**繁简**」的切换按钮，可以轻易切换文章的显示语言。
 
