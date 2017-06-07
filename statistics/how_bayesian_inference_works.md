@@ -80,4 +80,10 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 
 
+幸好湯瑪士．貝葉斯早就發現了一個可以為我們解答的神奇工具。
+
+  
+
+
+[![](/shard/s238/res/e26be09f-e0f6-483b-95fe-c6c26376a2da)](https://youtu.be/5NMxiOGL39M?t=6m48s)
 
