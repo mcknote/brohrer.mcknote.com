@@ -176,46 +176,43 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 現在我們用阿怖所有可能的體重來計算得到這三組測量值的概似機率。例如，如果阿怖的體重是一千磅，那我們得到這三組測量值的機率應該是微乎其微。但如果阿怖的體重介於 14 到 16 磅之間，這三組測量值出現的機率就很高。我們可以利用不同的體重，重複計算得到特定測量值的機率，即 $$ P(m | w) $$。由於我們假設事前機率為均勻分布，這也是事後機率 $$ P(w | m) $$ 的估計值。
 
-這麼做所得到的答案，會和前面利用平均值、標準差和標準誤差所算出的答案非常相似。實際上，兩個答案確實完全一模一樣，因為利用均勻分佈的事前機率，就會得到傳統統計方法下的估計值。機率分佈曲線中的最高點，即平均值 15.2 磅，也被稱為阿怖體重的最大似然估計值（maximum likelihood estimate，MLE）。
+這麼做所得到的答案，會和前面利用平均值、標準差和標準誤差所算出的答案非常相似。實際上，兩個答案確實完全一模一樣，因為利用均勻分佈的事前機率，就會得到傳統統計方法下的估計值。機率分佈曲線中的最高點，即平均值 15.2 磅，也被稱為阿怖體重的**最大似然估計值**（maximum likelihood estimate，MLE）。
 
-Although we used Bayes’ Theorem, we’re still no closer to a useful estimate. To get this, we will need to make our prior non-uniform. A prior distribution represents our beliefs about something before we take any measurements. A uniform prior shows that we believe every possible outcome is equally likely. This is rarely the case. We often know something about the quantity we are measuring. Ages are always greater than zero. Temperatures are always greater than -276 Celsius. Adult heights are rarely greater than 8 feet. And sometimes we have additional domain knowledge that some values are more likely to occur in others.
+雖然我們利用了貝氏定理，但我們還沒得到真正有用的估計值。為了達成這個目的，我們需要一個非均勻分布的事前機率。事前機率代表在測量前我們對某件事物的信念，而一個均勻分布的事前機率，則代表我們認為任何結果發生的機率都一樣。但這種情況其實不常見，因為我們通常對於測量的事物本身都有一定的認識。比方說，年齡永遠只會大於零、氣溫永遠比攝氏 -276 度還高、成人的身高很少超過八英尺（約 244 公分）。我們通常能運用一些相關的領域知識（domain knowledge）得知哪些情況發生的機率比較高。
 
 [![](http://brohrer.github.io/images/bayesian_84.png)](https://youtu.be/5NMxiOGL39M?t=19m15s)
 
-In Reign’s case I do have additional information. I know that the last time I came to the vet she weighed in at 14.2 pounds. I also know that she doesn't feel noticeably heavier or lighter to me, although my arm is not a very sensitive scale. Because of this, I believe that she's about 14.2 pounds but might be a pound or two higher or lower. To represent this, I use a normal distribution with a peak at 14.2 pounds and with a standard deviation of a half pound.
+所以在阿怖的例子裡，我確實有一些相關資訊。我知道上次我們來看獸醫的時候，阿怖的體重是 14.2 磅。而且我最近並沒有感覺阿怖變得特別重或輕，儘管我的手臂不如體重計靈敏。因此，我相信阿怖的體重應該在 14.2 磅附近，有可能變輕或變重一兩磅。為了呈現這個信念，我建構了一個平均為 14.2 磅、標準差為 0.5 磅的正態分佈。
 
 [![](http://brohrer.github.io/images/Bayesian_nonuniform_prior.gif "Bayesian nonuniform prior")](https://youtu.be/5NMxiOGL39M?t=20m29s)
 
-With a prior in place, we can repeat the process of calculating our posterior. To do this, we consider the possibility that Reign’s weight is a certain value, say 17 pounds. Then we multiply the likelihood that she is actually 17 pounds \(according to our prior\) by the conditional probability of getting the measurements we did if she was 17 pounds. Then we repeat this for every other possible weight. The effect of the prior is to squash is down some probabilities and amplify others. In our case, it puts more weight on measurements in the 13-15 pound range, and much less weight on measurements outside it. This is in contrast to the uniform prior. It gave a decent possibility that Reign’s actual weight was 17 pounds. With the non-uniform prior, 17 pounds falls toward the tail of the distribution. Multiplying by that possibility drives the likelihood of a 17 pound weight down very low.
+有了這個事前機率後，我們可以重複以上事後機率的計算步驟。為了計算事後機率，我們先計算阿怖體重為一個特定值（例如 17 磅）的機率，再將「（根據事前機率，）阿怖的體重確實是 17 磅的機率」和「在阿怖體重是 17 磅的情況下，得到這些測量值的條件機率」相乘。接著我們可以利用這個方法測試各種可能的體重，這時事前機率所扮演的角色，是壓低或放大某些體重發生的機率。在我們的例子裡，事前機率會為 13 到 15 磅的估計值賦予更多權重，並削弱這個範圍外的權重。這正是採用正態分佈和均勻分布之間的差異。在均勻分布的事前機率下，即使是 17 磅的估計值都還有不錯的發生機率；但在正態分佈的事前機率下，它的發生機率已經處於分佈的尾端了。乘上事前機率會使 17 磅發生的機率變得非常低。
 
 [![](http://brohrer.github.io/images/bayesian_93.png)](https://youtu.be/5NMxiOGL39M?t=21m55s)
 
-By calculating the probability of each possible weight for Reign, we generate a new posterior. The peak of the posterior distribution is also known as the maximum a posteriori estimate or MAP, in our case 14.1 pounds. This is noticeably different than what we calculated before with a uniform prior. It's also a much narrower peak, which allows us to make a more confident estimate. Now we can see that Reign’s weight hasn’t changed much and her portion size can stay where it is.
+在計算完每個體重的發生機率以後，我們就有了一個新的事後機率分佈。這個分佈曲線的最高點被稱為**最大後驗機率**（maximum a posteriori estimate，MAP），在這個例子裡為 14.1 磅。這和我們之前利用均勻事前機率所算出的最高點（15.2 磅）差很多。新的高峰也更陡峭，這代表我們可以對這個估計值抱持更高的信心。現在我們可以看出阿怖的體重並沒有什麼變化，她的食物量也不需要增減。
 
-By incorporating what we already knew about what we were measuring, we were able to make a more accurate estimate with more confidence than we would have been able to otherwise. It allowed us to make good use of a very small data set. Our prior assigned a very low probability to our 17.5 pound measurement. This is almost the same as rejecting the measurement as an outlier. But instead of doing outlier detection based on intuition and common sense, Bayes’ Theorem allows us to do it in with math.
+藉由融合我們對測量目標已知的資訊，我們可以做出更精準、更有信心的估計，也能幫助我們善用少量資料。當我們所採取的事前分佈，對 17.5 磅的測量值賦予很低的發生機率時，這幾乎等同於將 17.5 磅當作異常值拒絕。不過我們並不需要憑直覺或知識判斷異常值；貝氏定理可以幫助我們運用數學，解決這個問題。
 
-As a side note, we assumed that the P\(m\) term was uniform, but if we happened to know that our scale was biased in some way, we could have reflected that in our P\(m\). If the scale only reported even numbers or returned a reading of “2.0” ten percent of the time, or generated random measurements every third try, we could have crafted P\(m\) to reflect this and it would have improved the accuracy of our posterior.
+直得留意的是，在阿怖的例子裡，我們直接假設得到某測量值的機率 $$ P(m) $$ 為均勻分布。但如果我們得知體重計有一定的偏差，也可以將這項資訊融入 $$ P(m) $$ 當中。如果這個體重計只會顯示偶數、有 10% 的機率會顯示 2.0 磅、或是每用三次就會跳出隨機的測量值，我們也可以藉由修改 $$ P(m) $$ 反映這些現象、精進事後機率。
 
-#### Avoiding Bayesian traps
+## 避免貝氏陷阱
 
-Weighing Reign showed the benefits of Bayesian inference, but there are also pitfalls. We improved our estimate by making some assumptions about the answer, but the whole purpose of measuring something is to learn about it. If we assume that we already know the answer then we may be censoring the data. Mark Twain put the danger of strong priors succinctly. “It ain't what you don't know that gets you into trouble. It's what you know for sure that just ain't so.”
+雖然在阿怖的例子裡，我們學到了使用貝氏推斷的好處，但同時也該留意潛在的陷阱。我們雖然能藉由對答案作出假設，以提升估計的精確程度，但測量、估計某事物的目的，終究在於更加了解該事物。如果我們認為自己已經知道答案，那這麼做可能反倒是在修正資料。馬克．吐溫（Mark Twain）對此有很精闢的見解：「讓我們陷入困境的不是無知，而是信以為真的謬誤。」
 
-If we were to start with a strong prior assumption that Reign’s weight is between 13 and 15 pounds, then we would never be able to detect if her weight had actually fallen to 12.5. Our prior would assign zero probability to that outcome, and every measurement we got below 13 pounds would be disregarded, no matter how many times we measured.
+如果我們一開始就武斷地認為阿怖的體重應該介於 13 到 15 磅，那我們可能永遠都不會發現，她的體重其實已經掉到 12.5 磅了。因為不管我們測量多少次，我們所採用的事前分佈都會對 12.5 磅賦予 0% 發生機率，也會忽略所有低於 13 磅的測量值。
 
-Luckily, there is a way to hedge our bets and avoid blindly eliminating possibilities. That is to assign at least a small probability to every outcome. That way, if by some quirk of physics Reign actually did weigh 1,000 pounds, the measurements that we gathered would be able to reflect that in the posterior. This is one reason that normal distributions are commonly used as priors. They concentrate most of our belief around a small range of outcomes, but have very long tails that never become entirely zero no matter how far they stretch.
+幸好有一個方法可以幫助我們規避這個風險：只要至少給每個結果分配一點機率，我們就可以避免盲目地消去任何可能性。如此一來，就算世事難料，阿怖長成了一千磅，我們所得到的測量值也還是能反映在事後機率上。這就是為什麼正態分佈很常被用作事前機率的模型，它一方面可以集中我們對小範圍結果的信念，一方面具有即使無限延伸，機率也永不歸零的長尾。
 
 [![](http://brohrer.github.io/images/bayesian_97.png)](https://youtu.be/5NMxiOGL39M?t=23m10s)
 
-In this, the Red Queen provides a good role model:
+在這段對話中，紅心皇后就是一個很好的典範：
 
-> Alice laughed: "There's no use trying," she said; "one can't believe impossible things."
->  
-> "I daresay you haven't had much practice," said the Queen. "When I was younger, I always did it for half an hour a day. Why, sometimes I've believed as many as six impossible things before breakfast."
->  
-> - Lewis Carroll \(Alice’s Adventures in Wonderland\)
+> 愛麗絲笑了，說：「試也沒用，一個人不能相信不可能的事。」
+> 「我敢說這是妳練習得不夠，」王后說，「我像妳這樣大的時候，每天練上半小時呢。嘿！有時候，我吃早飯前就能相信六件不可能的事哩！」
+> ——引自路易斯．卡羅，《愛麗絲夢遊仙境》；中文翻譯引自黃盛《飛越愛麗絲：邏輯、語言和哲學》。
 
-Corrections: Thank you to those who have spotted typos and errors! I owe each of you a beverage of your choice: Justin Fortier and Irina Max.
+修正：感謝發現錯字和錯誤的讀者們！Justin Fortier 和 Irina Max，我欠你們一杯飲料。
 
-[Brandon](http://brohrer.github.io/index.html)  
-November 2, 2016
+Brandon，於 2016 年 11 月 2 日
 
