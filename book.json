@@ -3,7 +3,7 @@
                 "custom-favicon", 
                 "youtubex", 
                 "image-captions", 
-                "sitemap",
+                "sitemap-general",
                 "disqus",
                 "katex",
                 "language-picker"],
@@ -19,8 +19,8 @@
         "image-captions": {
           "caption": "圖說：_CAPTION_"
         },
-        "sitemap": {
-            "hostname": "https://brohrer.mcknote.com/"
+        "sitemap-general": {
+            "prefix": "https://brohrer.mcknote.com/zh-Hant/"
         },
         "language-picker": {
             "grid-columns": 2
