@@ -4,5 +4,7 @@
 
 Translated from Brandon Rohrer's Blog by Jimmy Lin
 
+* [Google 簡報上的投影片](https://docs.google.com/presentation/d/1325yenZP_VdHoVj-tU0AnbQUxFwb8Fl1VdyAAUxEzfg/edit?usp=sharing)
+* 
 
 
