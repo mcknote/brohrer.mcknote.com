@@ -170,7 +170,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 算式中的**概似機率**（likelihood）$$ P(m | w) $$ 代表在某個既定體重下，我們得到這些測量結果的機率。這也被稱作資料的概似機率（the likelihood of the data）。
 
-**事後機率**（posterior probability）則代表在某測量值出現的情況下，阿佈實際體重為 $$w$$ 的機率。這也是我們最關心的部分。
+**事後機率**（posterior probability）$$ P(w | m) $$ 則代表在某測量值出現的情況下，阿佈實際體重為 $$w$$ 的機率。這也是我們最關心的部分。
 
 最後，**資料機率**（probability of data）$$ P(m) $$ 代表我們得到某測量值的機率。在這個例子裡，我們就假設這是一個常數，即體重計本身沒有誤差。
 
