@@ -218,9 +218,10 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 > ——路易斯．卡羅《愛麗絲夢遊仙境》
 
-> ——中文翻譯引自黃盛《飛越愛麗絲：邏輯、語言和哲學》
-
 修正：感謝發現錯字和錯誤的讀者們！Justin Fortier 和 Irina Max，我欠你們一杯飲料。
 
 Brandon，於 2016 年 11 月 2 日
 
+## 譯註
+
+《愛麗絲夢遊仙境》節錄的中文翻譯引自黃盛《飛越愛麗絲：邏輯、語言和哲學》。
