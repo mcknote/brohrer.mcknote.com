@@ -6,7 +6,8 @@
                 "sitemap",
                 "disqus",
                 "fanjian",
-                "katex"],
+                "katex",
+                "i18n"],
                 
     "pluginsConfig": {
         "ga": {
@@ -24,10 +25,10 @@
         },
         "i18n": {
             "all": [
-                "simplified", "traditional"
+                "english", "chinese"
             ],
-            "TraditionalUrl": "../",
-            "SimplifiedUrl": "../zh-CN"
+            "ChineseUrl": "../zh-CN",
+            "EnglishUrl": "../en-US"
         }
     }
 }
