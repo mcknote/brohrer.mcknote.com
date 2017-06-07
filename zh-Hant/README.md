@@ -6,7 +6,7 @@ disqus: false
 
 _**Data Science and Robots**_** by Brandon Rohrer**
 
-![](/assets/McK & Note Cover.001.png)
+![](../assets/McK & Note Cover.001.png)
 
 ## 關於本站
 
@@ -18,7 +18,7 @@ _**Data Science and Robots**_** by Brandon Rohrer**
 
 Jimmy，於 2017 年 5 月 25 日
 
-[![](/assets/Brandon.png)](https://www.facebook.com/DataScienceAndRobots/photos/a.289818584721644.1073741828.286053858431450/428807957489372/?type=3)
+[![](../assets/Brandon.png)](https://www.facebook.com/DataScienceAndRobots/photos/a.289818584721644.1073741828.286053858431450/428807957489372/?type=3)
 
 ## About This Site
 
