@@ -8,6 +8,8 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 * [Google 簡報上的投影片](https://docs.google.com/presentation/d/1325yenZP_VdHoVj-tU0AnbQUxFwb8Fl1VdyAAUxEzfg/edit?usp=sharing)
 
+![](http://brohrer.github.io/images/top-kdnuggets-blog-2016-nov-gold.png)
+
 **貝葉斯推斷**（Bayesian Inference）是一套可以用來精進預測的方法，在資料不是很多、又想盡量發揮預測能力時特別有用。
 
 雖然有些人會抱著敬畏的心情看待貝葉斯推斷，但它其實一點也不神奇或神秘，而且撇開背後的數學運算，理解其原理完全沒有問題。簡單來說，貝葉斯推斷可以幫助你根據資料，整合相關資訊，並下更強的結論。
