@@ -14,4 +14,5 @@
   * [如何獲得高品質的資料](using_data/make_data_science_work_for_you.md)
 * [統計學](statistics/README.md)
   * [貝葉斯推斷和各類機率 Bayesian Inference](statistics/how_bayesian_inference_works.md)
+* [moved](article_moved.md)
 
