@@ -14,9 +14,9 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 * [Nvidia GPU 上的 `MATLAB` 和 `Caffe` 實作](http://www.optophysiology.uni-freiburg.de/Research/research_DL/CNNsWithMatlabAndCaffe)由 [Alexander Hanuschkin](http://www.optophysiology.uni-freiburg.de/labmembers/hanuschkin) 完成
 
 
-[<div style="text-align:center"><img src="http://brohrer.github.io/images/top-kdnuggets-blogger-2016-sep-gold.jpg" /></div>](http://www.kdnuggets.com/2016/09/top-news-week-0829-0904.html)
+[<div style="text-align:center"><img src="http://brohrer.github.io/images/top-kdnuggets-blogger-2016-sep-gold.jpg" height="120" /></div>](http://www.kdnuggets.com/2016/09/top-news-week-0829-0904.html)
 
-[<div style="text-align:center"><img src="http://brohrer.github.io/images/mybridge_sept_award.png" height="150" /></div>](https://medium.mybridge.co/machine-learning-top-10-in-september-6838169e9ee7#.nq7k47zce)
+[<div style="text-align:center"><img src="http://brohrer.github.io/images/mybridge_sept_award.png" height="120" /></div>](https://medium.mybridge.co/machine-learning-top-10-in-september-6838169e9ee7#.nq7k47zce)
 
 每當深度學習又有什麼重大突破時，這些進展十有八九都和**卷積神經網路**（Convolutional Neural Networks，CNN）有關。CNN 又被稱為 CNNs 或 ConvNets，它是目前**深度神經網路**（deep neural network）領域的發展主力，在圖片辨別上甚至可以做到比人類還精準的程度。如果要說有任何方法能不負大家對深度學習的期望，CNN 絕對是首選。
 
