@@ -12,4 +12,6 @@
   * [機器學習可以回答的問題有哪些](using_machine_learning/five_questions_data_science_answers.md)
 * [利用資料](using_data/README.md)
   * [如何獲得高品質的資料](using_data/make_data_science_work_for_you.md)
+* [統計學](statistics/README.md)
+  * [條件機率和貝葉斯推斷](statistics/how_bayesian_inference_works.md)
 
