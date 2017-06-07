@@ -6,8 +6,7 @@
                 "sitemap",
                 "disqus",
                 "fanjian",
-                "katex",
-                "i18n"],
+                "katex"],
                 
     "pluginsConfig": {
         "ga": {
@@ -22,13 +21,6 @@
         },
         "sitemap": {
             "hostname": "https://brohrer.mcknote.com/"
-        },
-        "i18n": {
-            "all": [
-                "english", "chinese"
-            ],
-            "ChineseUrl": "../zh-CN",
-            "EnglishUrl": "../en-US"
         }
     }
 }
