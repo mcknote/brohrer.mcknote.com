@@ -14,5 +14,5 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 ## 電影院裡的貝葉斯推斷
 
-![](http://brohrer.github.io/images/bayesian_5.png)
+[![](http://brohrer.github.io/images/bayesian_5.png)](https://youtu.be/5NMxiOGL39M?t=48s)
 
