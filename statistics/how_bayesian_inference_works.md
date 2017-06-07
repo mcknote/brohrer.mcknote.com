@@ -78,9 +78,77 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 介紹完四個重要的觀念以後，終於可以來談我們關心的問題了。我們想要了解「如果我們知道某人有長頭髮，這個人是女性（或男性）的機率為何？」這也是條件機率 $$ P(man | long \space hair) $$ 的解，但我們現在只知道順序相反的情況 $$ P(long \space hair | man) $$，即「如果我們知道某人是男性，這個人有長頭髮的機率為何？」因為條件機率的順序不可任意調換，我們還沒辦法回答這個問題。
 
-
-
 幸好湯瑪士．貝葉斯早就發現了一個可以為我們解答的神奇工具。
 
 [![](http://brohrer.github.io/images/bayesian_30.png)](https://youtu.be/5NMxiOGL39M?t=6m48s)
+
+
+
+根據聯合機率的計算方法，我們可以將前面兩個條件機率寫成「男性且長髮」$$  P\(man with long hair\) $$ 和「長髮且男性」$$ P\(long hair and man\) $$ 的計算式。由於聯合機率的順序是可以互換的，兩者完全相同。
+
+[![](http://brohrer.github.io/images/bayesian_32.png)](https://youtu.be/5NMxiOGL39M?t=7m31s)
+
+With a little bit of algebra, we can solve for the thing we care about, P\(man \| long hair\).
+
+[![](http://brohrer.github.io/images/bayesian_33.png)](https://youtu.be/5NMxiOGL39M?t=7m47s)
+
+Expressed in terms of A and B, instead of “man” and “long hair” we get Bayes’ Theorem.
+
+[![](http://brohrer.github.io/images/bayesian_35.png)](https://youtu.be/5NMxiOGL39M?t=8m6s)
+
+Finally we are ready to go back and solve our movie ticket dilemma. We have Bayes’ Theorem applied to our problem.
+
+[![](http://brohrer.github.io/images/bayesian_36.png)](https://youtu.be/5NMxiOGL39M?t=8m13s)
+
+First we need to expand our marginal probability, P\(long hair\).
+
+[![](http://brohrer.github.io/images/bayesian_37.png)](https://youtu.be/5NMxiOGL39M?t=8m28s)
+
+Then we can plug in our numbers and calculate the probability that someone is a man, given that they have long hair. For moviegoers in the men’s restroom line, P\(man \| long hair\) is .8. This confirms our intuition that the ticket dropper is probably a man. Bayes’ Theorem has captured our intuition about the situation. Most importantly, it has incorporated our pre-existing knowledge that there are far more men than women in the men’s restroom line. Using this prior knowledge, it updated our beliefs about the situation.
+
+#### Probability distributions {#distribution}
+
+Examples like the theater dilemma are good for explaining where Bayesian inference comes from and showing the mechanics in action. However, in data science applications it most often used to interpret data. By pulling in prior knowledge about what we are measuring, we can draw stronger conclusions with small data sets. I’ll show how this works in detail, but first please bear with me for one more side track. We need to get clear about what we mean by “probability distributions.”
+
+You can think of probability as a pot of coffee that has exactly enough left to fill one cup. If there’s only one cup to fill there’s no problem, but if you have more than one you have to decide how to distribute the coffee between the cups. You can split it however you like, as long as you pour out all the coffee into one cup or the other. At the movie theater, one mug might represent women and the other, men.
+
+[![](http://brohrer.github.io/images/bayesian_44.png)](https://youtu.be/5NMxiOGL39M?t=9m43s)
+
+Or we could use four mugs to represent the distribution of all combinations of gender and hair length. In both cases, the total amount of coffee adds up to one cup.
+
+[![](http://brohrer.github.io/images/bayesian_45.png)](https://youtu.be/5NMxiOGL39M?t=10m18s)
+
+Usually, we set these mugs side by side and look at the amount of coffee in each as a histogram. It can be helpful to think of coffee as our belief, and its distribution shows how strongly we believe something to be the case.
+
+[![](http://brohrer.github.io/images/bayesian_50.png)](https://youtu.be/5NMxiOGL39M?t=10m53s)
+
+If I flip a coin and hide the result from you, then your belief will be evenly split between heads and tails.
+
+[![](http://brohrer.github.io/images/bayesian_51.png)](https://youtu.be/5NMxiOGL39M?t=11m5s)
+
+If I roll a die and hide the result from you, then your belief about the number on top will be evenly split between each of the six sides.
+
+[![](http://brohrer.github.io/images/bayesian_52.png)](https://youtu.be/5NMxiOGL39M?t=11m25s)
+
+If I buy a powerball ticket, your belief that it is a winner will probably be very close to zero. The coin flip, the die roll, the powerball outcome - these are each an example of measuring and collecting data.
+
+[![](http://brohrer.github.io/images/bayesian_53.png)](https://youtu.be/5NMxiOGL39M?t=11m28s)
+
+Not surprisingly, you can also hold beliefs about other collected data. Consider the height of adults in the US. If I tell you I have met and measured someone, then your beliefs about their height might look like the picture above. This shows a belief that this person is probably between 150 and 200 cm, and most likely between 180 and 190 cm.
+
+[![](http://brohrer.github.io/images/bayesian_54.png)](https://youtu.be/5NMxiOGL39M?t=12m11s)
+
+Distributions can be broken up into finer and finer bins. You can think of it as spreading less coffee across more cups to get a finer-grained set of beliefs.
+
+[![](http://brohrer.github.io/images/bayesian_58.png)](https://youtu.be/5NMxiOGL39M?t=12m20s)
+
+Eventually the number of imaginary cups you need gets so large that the analogy breaks down. At that point the distribution is continuous. The math to work with it changes a bit, but the underlying idea is still useful. It is shows how your belief is allocated.
+
+Thanks for your patience. Now with probability distributions described, we can use Bayes’ Theorem to interpret data. To illustrate this, we’ll weigh my dog.
+
+[![](http://brohrer.github.io/images/bayesian_62.png)](https://youtu.be/5NMxiOGL39M?t=13m3s)
+
+#### Bayesian inference at the veterinarian
+
+
 
