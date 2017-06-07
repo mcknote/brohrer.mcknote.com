@@ -1,25 +1,25 @@
-# 統計學
+# 统计学
 
 **Statistics**
 
-## 文章列表和翻譯進度
+## 文章列表和翻译进度
 
-| 英文標題 | 中文標題 | 進度 |
+| 英文标题 | 中文标题 | 进度 |
 | :--- | :--- | :--- |
-| How conditional probabilities work | 貝葉斯推斷和各類機率 Bayesian Inference | 90% |
-| How joint probabilities work | 貝葉斯推斷和各類機率 Bayesian Inference | 90% |
-| How marginal probabilities work | 貝葉斯推斷和各類機率 Bayesian Inference | 90% |
-| How probability distributions work | 貝葉斯推斷和各類機率 Bayesian Inference | 90% |
-| How Bayesian inference works | 貝葉斯推斷和各類機率 Bayesian Inference | 90% |
+| How conditional probabilities work | 贝叶斯推断和各类机率 Bayesian Inference | 90% |
+| How joint probabilities work | 贝叶斯推断和各类机率 Bayesian Inference | 90% |
+| How marginal probabilities work | 贝叶斯推断和各类机率 Bayesian Inference | 90% |
+| How probability distributions work | 贝叶斯推断和各类机率 Bayesian Inference | 90% |
+| How Bayesian inference works | 贝叶斯推断和各类机率 Bayesian Inference | 90% |
 
-## 翻譯進度說明
+## 翻译进度说明
 
-* 「99%」：翻譯完成、已校稿、發表後已根據一些意見進行修改
-* 「95%」：翻譯完成、已校稿
-* 「90%」：翻譯完成
-* 「10% - 80%」：翻譯中、未公開
-* 「0%」：尚未開始翻譯
-* 「Video」：文章內容以未翻譯的影片為主
+* 「99%」：翻译完成、已校稿、发表后已根据一些意见进行修改
+* 「95%」：翻译完成、已校稿
+* 「90%」：翻译完成
+* 「10% - 80%」：翻译中、未公开
+* 「0%」：尚未开始翻译
+* 「Video」：文章内容以未翻译的影片为主
 
 
 
