@@ -1,4 +1,4 @@
-* [ ] # 統計學
+# 統計學
 
 **Statistics**
 
@@ -6,11 +6,11 @@
 
 | 英文標題 | 中文標題 | 進度 |
 | :--- | :--- | :--- |
-| How conditional probabilities work |  | 90% |
-| How joint probabilities work |  | 90% |
-| How marginal probabilities work |  | 90% |
-| How probability distributions work |  | 90% |
-| How Bayesian inference works |  | 90% |
+| How conditional probabilities work | 貝葉斯推斷和各類機率 | 90% |
+| How joint probabilities work | 貝葉斯推斷和各類機率 | 90% |
+| How marginal probabilities work | 貝葉斯推斷和各類機率 | 90% |
+| How probability distributions work | 貝葉斯推斷和各類機率 | 90% |
+| How Bayesian inference works | 貝葉斯推斷和各類機率 | 90% |
 
 ## 翻譯進度說明
 
