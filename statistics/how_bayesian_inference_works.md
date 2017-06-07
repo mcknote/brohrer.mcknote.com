@@ -36,21 +36,21 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 ## 機率
 
-[![](http://brohrer.github.io/images/bayesian_13.png "整間電影院裡，觀眾為男或女、長或短髮的機率")](https://youtu.be/5NMxiOGL39M?t=2m55s)
+[![](http://brohrer.github.io/images/bayesian_13.png "在整間電影院裡，遇到男或女、長或短髮觀眾的機率")](https://youtu.be/5NMxiOGL39M?t=2m55s)
 
 某事件發生的機率，就是將「該事件的數量」除以「所有可能發生的事件數量」。在我們的例子裡，某位觀眾是女性的機率是 50 名女性除以 100 位觀眾，即 0.5 或 50%。觀眾是男性的機率也是 50%。
 
-[![](http://brohrer.github.io/images/bayesian_14.png "男性洗手間隊伍裡，觀眾為男或女、長或短髮的機率")](https://youtu.be/5NMxiOGL39M?t=3m7s)
+[![](http://brohrer.github.io/images/bayesian_14.png "在男性洗手間隊伍裡，遇到男或女、長或短髮觀眾的機率")](https://youtu.be/5NMxiOGL39M?t=3m7s)
 
 在男性洗手間的隊伍裡，觀眾是女性的機率為 0.02，男性的機率為 0.98。
 
 ## 條件機率
 
-[![](http://brohrer.github.io/images/bayesian_15.png "兩個場景的女性中，長短髮的出現機率")](https://youtu.be/5NMxiOGL39M?t=3m16s)
+[![](http://brohrer.github.io/images/bayesian_15.png "在任何場景的女性中，遇到長或短髮觀眾的機率")](https://youtu.be/5NMxiOGL39M?t=3m16s)
 
 條件機率所能回答的問題是「如果這名觀眾是女性，那她有長頭髮的機率為何？」條件機率的計算方式和一般機率相同，只不過條件機率只會涉及符合條件的少部分樣本。在我們的例子裡，女性觀眾中有長髮的條件機率 $$ P(long \space hair | woman) $$ 即「長髮女性人數」除以「女性總人數」，也就是 0.5。不管我們是計算電影院裡的觀眾，還是男性廁所隊伍裡的觀眾，都會得到相同的條件機率。
 
-[![](http://brohrer.github.io/images/bayesian_17.png "兩個場景的男性中，長短髮的出現機率")](https://youtu.be/5NMxiOGL39M?t=4m9s)
+[![](http://brohrer.github.io/images/bayesian_17.png "在任何場景的男性中，遇到長或短髮觀眾的機率")](https://youtu.be/5NMxiOGL39M?t=4m9s)
 
 運用相同的方法，男性觀眾中有有長髮的條件機率 $$ P(long \space hair | man) $$ 為 0.04，不管是隊伍裡還是隊伍外的男性。
 
@@ -60,11 +60,11 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 ## 聯合機率
 
-[![](http://brohrer.github.io/images/bayesian_19.png)](https://youtu.be/5NMxiOGL39M?t=5m2s)
+[![](http://brohrer.github.io/images/bayesian_19.png "在整間電影院裡，遇到短髮女性的機率")](https://youtu.be/5NMxiOGL39M?t=5m2s)
 
 聯合機率適合用來回答這類問題：「這位觀眾是一名短髮女性的機率為何？」回答這個問題的過程分為兩個步驟。首先，我們會先找出觀眾是女性的機率 $$ P(woman) $$；接著，我們再找出在女性觀眾中短髮的條件機率 $$ P(short \space hair | woman) $$。將兩個機率相乘，就可以得到前面問題所求的聯合機率，即 $$ P(woman \space with \space short \space hair) = P(woman) * P(short \space hair | woman) $$。利用這個方法，我們可以重算一次之前的結論——電影院裡，某位觀眾為長髮女性的機率 $$ P(woman \space with \space long \space hair) $$ 為 0.25，但男性洗手間的隊伍裡，某位觀眾為長髮女性的機率 $$ P(woman \space with \space long \space hair) $$ 為 0.01。兩者之所以不同，是因為觀眾為女性的機率 $$ P(woman) $$ 在兩個情況下不同。
 
-[![](http://brohrer.github.io/images/bayesian_23.png)](https://youtu.be/5NMxiOGL39M?t=5m37s)
+[![](http://brohrer.github.io/images/bayesian_23.png "在男性洗手間隊伍裡，遇到長或短髮男性的機率")](https://youtu.be/5NMxiOGL39M?t=5m37s)
 
 同理，我們也可以算出電影院裡，某位觀眾為長髮男性的聯合機率 $$ P(man \space with \space long \space hair) $$ 為 0.02，但在男性洗手間隊伍裡的聯合機率則為 0.04。
 
@@ -74,7 +74,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 ## 邊際機率
 
-[![](http://brohrer.github.io/images/bayesian_26.png)](https://youtu.be/5NMxiOGL39M?t=6m16s)
+[![](http://brohrer.github.io/images/bayesian_26.png "在男性洗手間隊伍裡，遇到長髮觀眾的機率")](https://youtu.be/5NMxiOGL39M?t=6m16s)
 
 最後，我們需要了解的是邊際機率，它可以用來回答這類問題：「某位觀眾有長髮的機率為何？」要回答這個問題，我們需要將所有符合這個條件的事件發生機率加總——即長髮男性和長髮女性的聯合機率。將這兩個聯合機率相加以後，我們可以得出在電影院裡的觀眾是長頭髮的機率 $$ P(long \space hair) $$ 為 0.27，但在男性洗手間的隊伍裡這個機率只有 0.05。
 
@@ -162,7 +162,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 這時貝氏定理就派上用場了。貝氏定理很適合用來充分利用少量資料。在實際應用之前，我們可以先來回顧一下貝氏定理的算式和每個部分。
 
-[![](http://brohrer.github.io/images/Bayes_Theorem.gif "貝氏定理")](https://youtu.be/5NMxiOGL39M?t=15m21s)
+[![](http://brohrer.github.io/images/Bayes_Theorem.gif "貝氏定理中的四個部分")](https://youtu.be/5NMxiOGL39M?t=15m21s)
 
 我們先將算式中的 A 和 B 換成體重（w，weight）和測量結果（m，measurement），以便說明如何使用貝氏定理。圖片中的四個部分分別代表不同的處理步驟。
 
@@ -184,15 +184,15 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 雖然我們利用了貝氏定理，但我們還沒得到真正有用的估計值。為了達成這個目的，我們需要一個非均勻分布的事前機率。事前機率代表在測量前我們對某件事物的信念，而一個均勻分布的事前機率，則代表我們認為任何結果發生的機率都一樣。但這種情況其實不常見，因為我們通常對於測量的事物本身都有一定的認識。比方說，年齡永遠只會大於零、氣溫永遠比攝氏 -276 度還高、成人的身高很少超過八英尺（約 244 公分）。我們通常能運用一些相關的領域知識（domain knowledge）得知哪些情況發生的機率比較高。
 
-[![](http://brohrer.github.io/images/bayesian_84.png)](https://youtu.be/5NMxiOGL39M?t=19m15s)
+[![](http://brohrer.github.io/images/bayesian_84.png "我們所相信的事前機率")](https://youtu.be/5NMxiOGL39M?t=19m15s)
 
 所以在阿怖的例子裡，我確實有一些相關資訊。我知道上次我們來看獸醫的時候，阿怖的體重是 14.2 磅。而且我最近並沒有感覺阿怖變得特別重或輕，儘管我的手臂不如體重計靈敏。因此，我相信阿怖的體重應該在 14.2 磅附近，有可能變輕或變重一兩磅。為了呈現這個信念，我建構了一個平均為 14.2 磅、標準差為 0.5 磅的正態分佈。
 
-[![](http://brohrer.github.io/images/Bayesian_nonuniform_prior.gif "Bayesian nonuniform prior")](https://youtu.be/5NMxiOGL39M?t=20m29s)
+[![](http://brohrer.github.io/images/Bayesian_nonuniform_prior.gif "非均勻分布的事前機率")](https://youtu.be/5NMxiOGL39M?t=20m29s)
 
 有了這個事前機率後，我們可以重複以上事後機率的計算步驟。為了計算事後機率，我們先計算阿怖體重為一個特定值（例如 17 磅）的機率，再將「（根據事前機率，）阿怖的體重確實是 17 磅的機率」和「在阿怖體重是 17 磅的情況下，得到這些測量值的條件機率」相乘。接著我們可以利用這個方法測試各種可能的體重，這時事前機率所扮演的角色，是壓低或放大某些體重發生的機率。在我們的例子裡，事前機率會為 13 到 15 磅的估計值賦予更多權重，並削弱這個範圍外的權重。這正是採用正態分佈和均勻分布之間的差異。在均勻分布的事前機率下，即使是 17 磅的估計值都還有不錯的發生機率；但在正態分佈的事前機率下，它的發生機率已經處於分佈的尾端了。乘上事前機率會使 17 磅發生的機率變得非常低。
 
-[![](http://brohrer.github.io/images/bayesian_93.png)](https://youtu.be/5NMxiOGL39M?t=21m55s)
+[![](http://brohrer.github.io/images/bayesian_93.png "貝氏和非貝氏估計結果")](https://youtu.be/5NMxiOGL39M?t=21m55s)
 
 在計算完每個體重的發生機率以後，我們就有了一個新的事後機率分佈。這個分佈曲線的最高點被稱為**最大後驗機率**（maximum a posteriori estimate，MAP），在這個例子裡為 14.1 磅。這和我們之前利用均勻事前機率所算出的最高點（15.2 磅）差很多。新的高峰也更陡峭，這代表我們可以對這個估計值抱持更高的信心。現在我們可以看出阿怖的體重並沒有什麼變化，她的食物量也不需要增減。
 
