@@ -82,73 +82,71 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 [![](http://brohrer.github.io/images/bayesian_30.png)](https://youtu.be/5NMxiOGL39M?t=6m48s)
 
-
-
-根據聯合機率的計算方法，我們可以將前面兩個條件機率寫成「男性且長髮」$$  P\(man with long hair\) $$ 和「長髮且男性」$$ P\(long hair and man\) $$ 的計算式。由於聯合機率的順序是可以互換的，兩者完全相同。
+根據聯合機率的計算方法，我們可以將前面兩個條件機率寫成「男性且長髮」$$  P(man \s with \s long \s hair) $$ 和「長髮且男性」$$ P(long \s hair \s and \s man) $$ 的計算式。由於聯合機率的順序是可以互換的，兩者完全相同。
 
 [![](http://brohrer.github.io/images/bayesian_32.png)](https://youtu.be/5NMxiOGL39M?t=7m31s)
 
-With a little bit of algebra, we can solve for the thing we care about, P\(man \| long hair\).
+利用一點代數計算，我們就能解決前面的問題，即求出 $$  P(man | long \s hair) $$。
 
 [![](http://brohrer.github.io/images/bayesian_33.png)](https://youtu.be/5NMxiOGL39M?t=7m47s)
 
-Expressed in terms of A and B, instead of “man” and “long hair” we get Bayes’ Theorem.
+將「長髮」和「男性」以 A 和 B 代換，我們就得到了貝氏定理。
 
 [![](http://brohrer.github.io/images/bayesian_35.png)](https://youtu.be/5NMxiOGL39M?t=8m6s)
 
-Finally we are ready to go back and solve our movie ticket dilemma. We have Bayes’ Theorem applied to our problem.
+最後我們終於可以解決前面的電影票問題了。這裡我們可以應用貝氏定理。
 
 [![](http://brohrer.github.io/images/bayesian_36.png)](https://youtu.be/5NMxiOGL39M?t=8m13s)
 
-First we need to expand our marginal probability, P\(long hair\).
+首先，我們需要求出長髮觀眾的邊際機率，$$ P(long \s hair) $$。
 
 [![](http://brohrer.github.io/images/bayesian_37.png)](https://youtu.be/5NMxiOGL39M?t=8m28s)
 
-Then we can plug in our numbers and calculate the probability that someone is a man, given that they have long hair. For moviegoers in the men’s restroom line, P\(man \| long hair\) is .8. This confirms our intuition that the ticket dropper is probably a man. Bayes’ Theorem has captured our intuition about the situation. Most importantly, it has incorporated our pre-existing knowledge that there are far more men than women in the men’s restroom line. Using this prior knowledge, it updated our beliefs about the situation.
+接下來，我們可以代入前面的數字，並算出長髮觀眾為男性的機率。在男性洗手間的隊伍裡，該機率 $$ P(man | long \s hair) $$ 為 0.8。這印證了我們先前認為長髮觀眾應該為男性的直覺。也就是說，貝氏定理印證了我們在該情況下的直覺。更重要的是它融合了我們對男性隊伍中，男性人數遠大於女性的既有資訊。利用這項資訊，貝氏定理更新了我們在該狀況下的信念（belief）。
 
-#### Probability distributions {#distribution}
+## 機率分佈
 
-Examples like the theater dilemma are good for explaining where Bayesian inference comes from and showing the mechanics in action. However, in data science applications it most often used to interpret data. By pulling in prior knowledge about what we are measuring, we can draw stronger conclusions with small data sets. I’ll show how this works in detail, but first please bear with me for one more side track. We need to get clear about what we mean by “probability distributions.”
+雖然電影院這類的例子，已經足以說明貝葉斯推斷的重要性和運作原理，但在資料科學的應用中，貝葉斯推斷最重要的功用是用來解釋資料。在擁有少量資料的情況下，我們可以藉著融入問題的背景知識以做出更強的結論。這點我會再詳細說明，但請先容許我再多介紹一個概念——我們需要先弄清楚**機率分佈**（probability distributions）到底是什麼。
 
-You can think of probability as a pot of coffee that has exactly enough left to fill one cup. If there’s only one cup to fill there’s no problem, but if you have more than one you have to decide how to distribute the coffee between the cups. You can split it however you like, as long as you pour out all the coffee into one cup or the other. At the movie theater, one mug might represent women and the other, men.
+讀者可以先將機率想成一壺剛好可以倒滿一個杯子的咖啡。如果我們只有一個杯子，那就沒什麼需要討論的問題了；但如果我們有很多杯子，我們就需要決定要給每個杯子倒多少咖啡。讀者可以任意決定咖啡的量，只要將咖啡倒完就好。在剛才的電影院問題裡，我們可以將男性和女性比喻為杯子。
 
 [![](http://brohrer.github.io/images/bayesian_44.png)](https://youtu.be/5NMxiOGL39M?t=9m43s)
 
-Or we could use four mugs to represent the distribution of all combinations of gender and hair length. In both cases, the total amount of coffee adds up to one cup.
+我們也可以用四個杯子比喻兩個性別和兩種頭髮長度的組合。不管比喻為何，全部咖啡加總都應該是一個杯子的量。
 
 [![](http://brohrer.github.io/images/bayesian_45.png)](https://youtu.be/5NMxiOGL39M?t=10m18s)
 
-Usually, we set these mugs side by side and look at the amount of coffee in each as a histogram. It can be helpful to think of coffee as our belief, and its distribution shows how strongly we believe something to be the case.
+一般來說，我們會將這些杯子排成一排，這時咖啡的量可以看作是一張直方圖（histogram）。我們可以將咖啡想成我們的信念（belief），並將咖啡在不同杯子裡的分佈，想成對不同的結果的信念強烈程度。
 
 [![](http://brohrer.github.io/images/bayesian_50.png)](https://youtu.be/5NMxiOGL39M?t=10m53s)
 
-If I flip a coin and hide the result from you, then your belief will be evenly split between heads and tails.
+如果我擲一枚硬幣，而且不讓讀者看到結果，讀者對硬幣正反面的信念應該是一半一半。
 
 [![](http://brohrer.github.io/images/bayesian_51.png)](https://youtu.be/5NMxiOGL39M?t=11m5s)
 
-If I roll a die and hide the result from you, then your belief about the number on top will be evenly split between each of the six sides.
+如果我丟一個骰子，而且不讓讀者看到結果，讀者對骰子正面數字的信念應該會平均分佈於六個數字。
 
 [![](http://brohrer.github.io/images/bayesian_52.png)](https://youtu.be/5NMxiOGL39M?t=11m25s)
 
-If I buy a powerball ticket, your belief that it is a winner will probably be very close to zero. The coin flip, the die roll, the powerball outcome - these are each an example of measuring and collecting data.
+如果我買了一張彩券，讀者對贏得彩券的信念應該會趨近於零。以上三個例子：擲硬幣、丟骰子、和買彩券，都是資料測量和收集的例子。
 
 [![](http://brohrer.github.io/images/bayesian_53.png)](https://youtu.be/5NMxiOGL39M?t=11m28s)
 
-Not surprisingly, you can also hold beliefs about other collected data. Consider the height of adults in the US. If I tell you I have met and measured someone, then your beliefs about their height might look like the picture above. This shows a belief that this person is probably between 150 and 200 cm, and most likely between 180 and 190 cm.
+不意外地，讀者也可以對其它形式的資料抱持著一定的信念。以美國成人的身高為例，如果我說我剛量完某人的身高，讀者的信念可能會和上面的圖片類似。這代表讀者相信這個人的身高應該介於 150 到 200 公分，而且最有可能介於 180 和 190 公分。
 
 [![](http://brohrer.github.io/images/bayesian_54.png)](https://youtu.be/5NMxiOGL39M?t=12m11s)
 
-Distributions can be broken up into finer and finer bins. You can think of it as spreading less coffee across more cups to get a finer-grained set of beliefs.
+我們還可以將分佈中的群類（bin）分得更細。讀者可以把這想成將咖啡分到更多杯子中，每個杯子分的咖啡更少，信念的分佈也更細緻。
 
 [![](http://brohrer.github.io/images/bayesian_58.png)](https://youtu.be/5NMxiOGL39M?t=12m20s)
 
-Eventually the number of imaginary cups you need gets so large that the analogy breaks down. At that point the distribution is continuous. The math to work with it changes a bit, but the underlying idea is still useful. It is shows how your belief is allocated.
+等杯子數量多到一個程度以後，我們就不太能用杯子來比喻了。在這個情況下，機率的分布變得連續，需要不同的計算方法，但是背後的概念還是很管用：機率分佈反映了信念的分佈。
 
-Thanks for your patience. Now with probability distributions described, we can use Bayes’ Theorem to interpret data. To illustrate this, we’ll weigh my dog.
+感謝讀者的耐心。在介紹完了機率分佈以後，我們可以利用貝葉斯推斷來解讀資料了。為了說明整個流程，我們來量一下我的狗狗的體重。
 
 [![](http://brohrer.github.io/images/bayesian_62.png)](https://youtu.be/5NMxiOGL39M?t=13m3s)
 
-#### Bayesian inference at the veterinarian
+## 獸醫院裡的貝葉斯推斷
 
 
 
