@@ -5,7 +5,8 @@
                 "image-captions", 
                 "sitemap",
                 "disqus",
-                "katex"],
+                "katex",
+                "language-picker"],
                 
     "pluginsConfig": {
         "ga": {
