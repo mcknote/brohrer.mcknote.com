@@ -28,6 +28,7 @@
     },
     
     "pdf": {
+        "paperSize": "a4",
         "fontFamily": "Noto Sans"
     }
 }
