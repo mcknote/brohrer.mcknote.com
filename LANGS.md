@@ -1,4 +1,4 @@
 # Languages
 
-* [繁體](zh-Hant/)
-* [简体](zh-Hans/)
+* [繁體中文](zh-Hant/)
+* [简体中文](zh-Hans/)
