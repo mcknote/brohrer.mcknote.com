@@ -82,11 +82,11 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 [![](http://brohrer.github.io/images/bayesian_30.png)](https://youtu.be/5NMxiOGL39M?t=6m48s)
 
-根據聯合機率的計算方法，我們可以將前面兩個條件機率寫成「男性且長髮」$$  P(man \s with \s long \s hair) $$ 和「長髮且男性」$$ P(long \s hair \s and \s man) $$ 的計算式。由於聯合機率的順序是可以互換的，兩者完全相同。
+根據聯合機率的計算方法，我們可以將前面兩個條件機率寫成「男性且長髮」$$  P(man \space with \space long \space hair) $$ 和「長髮且男性」$$ P(long \space hair \space and \space man) $$ 的計算式。由於聯合機率的順序是可以互換的，兩者完全相同。
 
 [![](http://brohrer.github.io/images/bayesian_32.png)](https://youtu.be/5NMxiOGL39M?t=7m31s)
 
-利用一點代數計算，我們就能解決前面的問題，即求出 $$  P(man | long \s hair) $$。
+利用一點代數計算，我們就能解決前面的問題，即求出 $$  P(man | long \space hair) $$。
 
 [![](http://brohrer.github.io/images/bayesian_33.png)](https://youtu.be/5NMxiOGL39M?t=7m47s)
 
@@ -98,11 +98,11 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 [![](http://brohrer.github.io/images/bayesian_36.png)](https://youtu.be/5NMxiOGL39M?t=8m13s)
 
-首先，我們需要求出長髮觀眾的邊際機率，$$ P(long \s hair) $$。
+首先，我們需要求出長髮觀眾的邊際機率，$$ P(long \space hair) $$。
 
 [![](http://brohrer.github.io/images/bayesian_37.png)](https://youtu.be/5NMxiOGL39M?t=8m28s)
 
-接下來，我們可以代入前面的數字，並算出長髮觀眾為男性的機率。在男性洗手間的隊伍裡，該機率 $$ P(man | long \s hair) $$ 為 0.8。這印證了我們先前認為長髮觀眾應該為男性的直覺。也就是說，貝氏定理印證了我們在該情況下的直覺。更重要的是它融合了我們對男性隊伍中，男性人數遠大於女性的既有資訊。利用這項資訊，貝氏定理更新了我們在該狀況下的信念（belief）。
+接下來，我們可以代入前面的數字，並算出長髮觀眾為男性的機率。在男性洗手間的隊伍裡，該機率 $$ P(man | long \space hair) $$ 為 0.8。這印證了我們先前認為長髮觀眾應該為男性的直覺。也就是說，貝氏定理印證了我們在該情況下的直覺。更重要的是它融合了我們對男性隊伍中，男性人數遠大於女性的既有資訊。利用這項資訊，貝氏定理更新了我們在該狀況下的信念（belief）。
 
 ## 機率分佈
 
