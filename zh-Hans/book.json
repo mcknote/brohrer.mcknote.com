@@ -5,7 +5,6 @@
                 "image-captions", 
                 "sitemap",
                 "disqus",
-                "fanjian",
                 "katex"],
                 
     "pluginsConfig": {
