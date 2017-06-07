@@ -1,68 +1,68 @@
-# 線性迴歸的運作原理
+# 线性回归的运作原理
 
-原文連結：[**How linear regression works**](https://brohrer.github.io/how_linear_regression_works.html)
+原文链接：[**How linear regression works**](https://brohrer.github.io/how_linear_regression_works.html)
 
 Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 {%youtube%}fE0bnkNX77A{%endyoutube%}
 
 
-**線性迴歸**（linear regression）是在資料點中找出規律、畫出一條直線的專業說法，以下我將透過選購鑽石的例子說明其運作原理。
+**线性回归**（linear regression）是在数据点中找出规律、画出一条直线的专业说法，以下我将透过选购钻石的例子说明其运作原理。
 
-故事是這樣的：我的奶奶曾經留給我一只戒指。這個戒指上有個 1.35 克拉大小的鑲台（setting），可惜上面沒有安任何鑽石。某天，我萌生了修復這只戒指的念頭，所以我找了一間珠寶行詢價，以了解我需要準備多少錢。
+故事是这样的：我的奶奶曾经留给我一只戒指。这个戒指上有个 1.35 克拉大小的镶台（setting），可惜上面没有安任何钻石。某天，我萌生了修复这只戒指的念头，所以我找了一间珠宝行询价，以了解我需要准备多少钱。
 
-到了珠寶行以後，我發現店裡既沒有 1.35 克拉的鑽石，也沒有價格。但我沒有因此打退堂鼓。我拿起了紙跟筆，把店裡所有其他鑽石的尺寸跟價格都抄了下來。
+到了珠宝行以后，我发现店里既没有 1.35 克拉的钻石，也没有价格。但我没有因此打退堂鼓。我拿起了纸跟笔，把店里所有其他钻石的尺寸跟价格都抄了下来。
 
-[![](https://brohrer.github.io/images/linear_regression/linear_regression_1.png "左邊是鑽石的克拉數，右邊是價格")](https://youtu.be/fE0bnkNX77A)
+[![](https://brohrer.github.io/images/linear_regression/linear_regression_1.png "左边是钻石的克拉数，右边是价格")](https://youtu.be/fE0bnkNX77A)
 
-我發現絕大部分的鑽石都在 2 克拉以下，所以我畫了一條橫軸以紀錄鑽石的重量。
+我发现绝大部分的钻石都在 2 克拉以下，所以我画了一条横轴以纪录钻石的重量。
 
-[![](https://brohrer.github.io/images/linear_regression/linear_regression_2.png "紀錄鑽石克拉數的橫軸")](https://youtu.be/fE0bnkNX77A?t=1m10s)
+[![](https://brohrer.github.io/images/linear_regression/linear_regression_2.png "纪录钻石克拉数的横轴")](https://youtu.be/fE0bnkNX77A?t=1m10s)
 
-接下來我畫了一條用來記錄價格的縱軸。
+接下来我画了一条用来记录价格的纵轴。
 
-[![](https://brohrer.github.io/images/linear_regression/linear_regression_3.png "加上紀錄價格的縱軸")](https://youtu.be/fE0bnkNX77A?t=1m24s)
+[![](https://brohrer.github.io/images/linear_regression/linear_regression_3.png "加上纪录价格的纵轴")](https://youtu.be/fE0bnkNX77A?t=1m24s)
 
-於是上圖就有了座標系的兩軸。在一座像曼哈頓有著網格道路系統（gridded streets）的城市裡，讀者可以循著南北向、東西向道路找出任何交叉路口；同理，在一個座標系裡，讀者可以利用橫軸和縱軸上的位置鎖定任何點。所以我們可以先根據鑽石的重量，從紀錄克拉數的橫軸往上畫一條直線，再根據鑽石的價格，從紀錄價格的縱軸往右畫另一條直線。兩條直線的交點，就是第一個鑽石的資料。
+于是上图就有了座标系的两轴。在一座像曼哈顿有着网格道路系统（gridded streets）的城市里，读者可以循着南北向、东西向道路找出任何交叉路口；同理，在一个座标系里，读者可以利用横轴和纵轴上的位置锁定任何点。所以我们可以先根据钻石的重量，从纪录克拉数的横轴往上画一条直线，再根据钻石的价格，从纪录价格的纵轴往右画另一条直线。两条直线的交点，就是第一个钻石的数据。
 
-[![](https://brohrer.github.io/images/linear_regression/linear_regression_4.png "利用橫軸跟縱軸鎖定資料點")](https://youtu.be/fE0bnkNX77A?t=1m39s)
+[![](https://brohrer.github.io/images/linear_regression/linear_regression_4.png "利用横轴跟纵轴锁定数据点")](https://youtu.be/fE0bnkNX77A?t=1m39s)
 
-用同樣的方法，我們可以把所有鑽石畫在這個座標系上。
+用同样的方法，我们可以把所有钻石画在这个座标系上。
 
-[![](https://brohrer.github.io/images/linear_regression/linear_regression_5.png "把所有鑽石畫在這個座標系上")](https://youtu.be/fE0bnkNX77A?t=2m08s)
+[![](https://brohrer.github.io/images/linear_regression/linear_regression_5.png "把所有钻石画在这个座标系上")](https://youtu.be/fE0bnkNX77A?t=2m08s)
 
-於是一開始的表格變成了一張散點圖。到目前為止，我沒有增加或捨棄任何資訊，我只是換了另一種表達方式，也就是散點圖。從圖片裡我們可以看出一個明顯的形狀，好像有條很寬的直線往右上方延伸。所以我的下一步是在這個範圍內將這條直線畫出來。當這條直線穿過資料時，在它的上下兩側會分佈著差不多數量的資料點。
+于是一开始的表格变成了一张散点图。到目前为止，我没有增加或舍弃任何信息，我只是换了另一种表达方式，也就是散点图。从图片里我们可以看出一个明显的形状，好像有条很宽的直线往右上方延伸。所以我的下一步是在这个范围内将这条直线画出来。当这条直线穿过数据时，在它的上下两侧会分布着差不多数量的数据点。
 
-[![](https://brohrer.github.io/images/linear_regression/linear_regression_6.png "將貫穿資料點的直線畫出來")](https://youtu.be/fE0bnkNX77A?t=3m25s)
+[![](https://brohrer.github.io/images/linear_regression/linear_regression_6.png "将贯穿数据点的直线画出来")](https://youtu.be/fE0bnkNX77A?t=3m25s)
 
-將這條直線畫出來是很關鍵的一步。雖然這條線在我們看來很明顯，但這是因為我們早就具備了媲美超級電腦、擅長辨認特徵的神經運算能力。在畫這條線的時候，我們將原本的資料提煉成了更簡單的形式，就像將真實的影像化約為簡單的漫畫（線條）。雖然在這一步，我確實捨棄了一些資訊，但我也能利用這個簡化模型回答前面的問題。找出符合資料規律的直線，就叫線性迴歸（[譯註一](#譯註)）。
+将这条直线画出来是很关键的一步。虽然这条线在我们看来很明显，但这是因为我们早就具备了媲美超级电脑、擅长辨认特征的神经运算能力。在画这条线的时候，我们将原本的数据提炼成了更简单的形式，就像将真实的影像化约为简单的漫画（线条）。虽然在这一步，我确实舍弃了一些信息，但我也能利用这个简化模型回答前面的问题。找出符合数据规律的直线，就叫线性回归（[译注一](#译注)）。
 
-有了線性模型以後，我終於可以回答前面的問題：「1.35 克拉的鑽石多少錢？」要回答這個問題，我只需要用看的，先從橫軸上的 1.35 克拉對到模型上，再從模型對到縱軸上，就能知道價格大約是 8,000 元。問題解決！
+有了线性模型以后，我终于可以回答前面的问题：「1.35 克拉的钻石多少钱？」要回答这个问题，我只需要用看的，先从横轴上的 1.35 克拉对到模型上，再从模型对到纵轴上，就能知道价格大约是 8,000 元。问题解决！
 
-[![](https://brohrer.github.io/images/linear_regression/linear_regression_7.png "輕鬆看出 1.35 克拉的鑽石賣 8,000 元")](https://youtu.be/fE0bnkNX77A?t=5m24s)
+[![](https://brohrer.github.io/images/linear_regression/linear_regression_7.png "轻松看出 1.35 克拉的钻石卖 8,000 元")](https://youtu.be/fE0bnkNX77A?t=5m24s)
 
-為了讓這個估計值更符合現實情形，我注意到大部分的觀測值並不直接落在模型的線上，這代表我要買的 1.35 克拉鑽石大概也不會剛好是 8,000 元。所以一個很明顯的問題是「實際價格會多接近 8,000 元？」為了瞭解這點，我在直線的兩側畫了涵蓋大部分（差不多 95%）觀測值的範圍。
+为了让这个估计值更符合现实情形，我注意到大部分的观测值并不直接落在模型的在线，这代表我要买的 1.35 克拉钻石大概也不会刚好是 8,000 元。所以一个很明显的问题是「实际价格会多接近 8,000 元？」为了了解这点，我在直线的两侧画了涵盖大部分（差不多 95%）观测值的范围。
 
-[![](https://brohrer.github.io/images/linear_regression/linear_regression_8.png "包含大約 95% 觀測值的價格範圍")](https://youtu.be/fE0bnkNX77A?t=6m00s)
+[![](https://brohrer.github.io/images/linear_regression/linear_regression_8.png "包含大约 95% 观测值的价格范围")](https://youtu.be/fE0bnkNX77A?t=6m00s)
 
-如此一來，我可以說我有（大約 95% 的）信心認為未來任何鑽石的價格和重量都會落在這個範圍內。為了瞭解這和我要找的鑽石有什麼關係，我又沿著 1.35 克拉的垂直線，從價格範圍的上下兩端多看了兩條水平線。
+如此一来，我可以说我有（大约 95% 的）信心认为未来任何钻石的价格和重量都会落在这个范围内。为了了解这和我要找的钻石有什么关系，我又沿着 1.35 克拉的垂直线，从价格范围的上下两端多看了两条水平线。
 
-[![](https://brohrer.github.io/images/linear_regression/linear_regression_9.png "1.35 克拉鑽石的價格範圍")](https://youtu.be/fE0bnkNX77A?t=6m44s)
+[![](https://brohrer.github.io/images/linear_regression/linear_regression_9.png "1.35 克拉钻石的价格范围")](https://youtu.be/fE0bnkNX77A?t=6m44s)
 
-現在我滿有自信地說：「我要找的鑽石，價格不會低於 5,800，但也不會超出 10,200。」了解了這點以後，我就可以開始規劃要花多久，定期從薪水中存入一筆「奶奶的鑽戒修復基金」。
+现在我满有自信地说：「我要找的钻石，价格不会低于 5,800，但也不会超出 10,200。」了解了这点以后，我就可以开始规划要花多久，定期从薪水中存入一笔「奶奶的钻戒修复基金」。
 
-藉著這個例子，我希望說明線性迴歸至少在觀念上是個很簡單的方法。任何人都可以用一支筆、一張餐巾紙和雙眼完成線性迴歸分析，而不一定要使用電腦或數學知識。不過實務上具備數學知識還是很有用的。
+借着这个例子，我希望说明线性回归至少在观念上是个很简单的方法。任何人都可以用一支笔、一张餐巾纸和双眼完成线性回归分析，而不一定要使用电脑或数学知识。不过实务上具备数学知识还是很有用的。
 
-在鑽石的例子裡，如果我搜集更多資訊，例如顏色、淨度、切割和內含物數量，此時資料的維度會從原本的兩個增加為六個，也就更難化為圖形。這時數學知識就能幫助我們在六個維度中「畫出」一條直線（[譯註二](#譯註)）。
+在钻石的例子里，如果我搜集更多信息，例如颜色、净度、切割和内含物数量，此时数据的维度会从原本的两个增加为六个，也就更难化为图形。这时数学知识就能帮助我们在六个维度中「画出」一条直线（[译注二](#译注)）。
 
-另一方面，如果上面的資料不只有 17 筆，而是 1,700 甚至 1,700 萬筆，就算是最厲害的藝術家也很難從中畫出直線，這時電腦就派上用場了。
+另一方面，如果上面的数据不只有 17 笔，而是 1,700 甚至 1,700 万笔，就算是最厉害的艺术家也很难从中画出直线，这时电脑就派上用场了。
 
-Brandon，於 2016 年 12 月 20 日
+Brandon，于 2016 年 12 月 20 日
 
-## 譯註
+## 译注
 
-1. 「找出符合資料規律的直線，就叫線性迴歸」的原文為 *Finding the curve that best fits your data is called regression, and when that curve is a straight line, it's called linear regression.* 雖然我以前學的說法是「只要因變量為自變量的**線性組合**，就可以稱作線性迴歸」，這代表就算線條不是直的，也可能是線性迴歸；但如果將包括多項式的迴歸細分作 [polynomial regression](https://en.wikipedia.org/wiki/Polynomial_regression)，將作者說法算作 [simple linear regression](https://en.wikipedia.org/wiki/Simple_linear_regression) 也沒錯。
+1. 「找出符合数据规律的直线，就叫线性回归」的原文为 *Finding the curve that best fits your data is called regression, and when that curve is a straight line, it's called linear regression.* 虽然我以前学的说法是「只要因变量为自变量的**线性组合**，就可以称作线性回归」，这代表就算线条不是直的，也可能是线性回归；但如果将包括多项式的回归细分作 [polynomial regression](https://en.wikipedia.org/wiki/Polynomial_regression)，将作者说法算作 [simple linear regression](https://en.wikipedia.org/wiki/Simple_linear_regression) 也没错。
 
-2. 這邊的數學知識應該以**線性代數**（linear algebra）為主，所使用的工具為矩陣（matrix）運算。
+2. 这边的数学知识应该以**线性代数**（linear algebra）为主，所使用的工具为矩阵（matrix）运算。
 
 
