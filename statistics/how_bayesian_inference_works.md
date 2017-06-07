@@ -148,35 +148,35 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 ## 獸醫院裡的貝葉斯推斷
 
-My dog is named Reign of Terror. When we go to the vet, she squirms on the scale. That makes it hard to get an accurate reading. Getting an accurate weight is important, because if her weight has gone up, we have to reduce her food intake. She loves her food more than life itself, so the stakes are high.
+我的狗狗名叫阿怖（Reign of Terror）。當我帶她去看獸醫時，她會在體重計上扭來扭去，這讓量體重變成一件很困難的事。但是了解精確的體重很重要，因為如果她變重了，我們就得減少阿怖的食物量。由於阿怖把食物看得比自己的命還重，量好體重真的很重要。
 
-On our last visit, we got three measurements before she became unmanageable: 13.9 lb, 17.5 lb and 14.1 lb. There is a standard statistical interpretation for this. We can calculate the mean, standard deviation and standard error for this set of numbers and create a distribution for Reign’s actual weight.
+我們上次去看獸醫的時候，在阿怖變得無理取鬧之前獸醫量到了三個體重：13.9 磅、17.5 磅和 14.1 磅（翻註：一磅約等於 0.45 公斤）。我們可以按一套標準的統計方法，將這些數據化為機率分佈。我們可以先計算這組數據的平均值、標準差（standard deviation）和標準誤差（standard error），再建立一套阿怖的體重分佈。
 
 [![](http://brohrer.github.io/images/bayesian_64.png)](https://youtu.be/5NMxiOGL39M?t=14m07s)
 
-This distribution shows what we believe about her weight using this approach. It is normally distributed with a mean of 15.2 pounds and standard error of 1.2 pounds. The actual measurements are shown as white lines. Unfortunately this curve is unsatisfyingly wide. While at the peak is at 15.2 pounds, the probability distribution shows that it could easily be as low as 13 pounds or as high as 17 pounds. It's much too wide a range to make any kind of confident decision. When confronted with results like this, it is common to return and gather more data, but in some cases this is not feasible or is too expensive. In our case, Reign’s patience had been used up. We’re stuck with the measurements we already have.
+根據這個方法所得出的分佈，顯示了我們對阿怖體重的信念。阿怖的體重呈**常態分佈**（normal distributed），有著 15.2 磅的平均值，以及 1.2 磅的標準誤差。圖上的白線是我們實際測量到的三個數值。不過很不湊巧地，這個分佈曲線有點太寬了。雖然最大值位於 15.2 磅，但這個機率分佈顯示阿怖的體重還是很有可能低於 13 磅或超出 17 磅。在這麼寬的範圍裡，我們很難做出任何確切的決定。通常我們遇到這種情況時，會選擇回去收集更多資料，但有時這麼做不太可行或成本很高。在我們的例子裡，阿怖已經失去了耐心，所以我們只能利用這三組數值。
 
-This is where Bayes’ Theorem comes in. It is useful in making the most out of small data sets. Before we apply it, it's useful to revisit the equation and look at the various terms.
+這時貝氏定理就派上用場了。貝氏定理很適合用來充分利用少量資料。在實際應用之前，我們可以先來回顧一下貝氏定理的算式和每個部分。
 
-[![](http://brohrer.github.io/images/Bayes_Theorem.gif "Bayes Theorem")](https://youtu.be/5NMxiOGL39M?t=15m21s)
+[![](http://brohrer.github.io/images/Bayes_Theorem.gif "貝氏定理")](https://youtu.be/5NMxiOGL39M?t=15m21s)
 
-We substitute “w” \(weight\) and “m” \(measurements\) for “A” and “B” to make it clear how we’re going to use it. The four terms each represent a different part of the process.
+我們先將算式中的 A 和 B 換成體重（w，weight）和測量結果（m，measurement），以便說明如何使用貝氏定理。圖片中的四個部分分別代表不同的處理步驟。
 
-The prior, P\(w\), shows our prior beliefs. In this case, it shows what we believe about Reign’s weight before we even put her on the scale.
+首先，**事前機率**（prior probability）$$ P(w) $$ 代表我們的事前信念。在這個例子裡，事前機率就是我們在將阿怖放上體重計前，對她體重分佈的信念。
 
-The likelihood, P\(m \| w\), shows the probability that our measurements would occur for a particular weight. It’s also called the likelihood of the data.
+算式中的**概似機率**（likelihood）$$ P(m | w) $$ 代表在某個既定體重下，我們得到這些測量結果的機率。這也被稱作資料的概似機率（the likelihood of the data）。
 
-The posterior, P\(w \| m\), shows the probability of Reign being a given weight, given the measurements we made. This is what we are most interested in.
+**事後機率**（posterior probability）則代表在某測量值出現的情況下，阿佈實際體重為 $$w$$ 的機率。這也是我們最關心的部分。
 
-Probability of data, P\(m\), shows the probability that any given data point will be measured. For now we’ll assume this is a constant, that is, that the scale is unbiased.
+最後，**資料機率**（probability of data）$$ P(m) $$ 代表我們得到某測量值的機率。在這個例子裡，我們就假設這是一個常數，即體重計本身沒有誤差。
 
-It's not a terrible idea to start by being perfectly agnostic and making no assumptions about the result. In this case, we assume that Reign’s weight is equally likely to be 13 pounds or 15 pounds or 1 pound or 1,000,000 pounds and let the data speak. To do this, we assume a uniform prior, meaning that its probability distribution is a constant for all values. This lets us reduce Bayes’ Theorem to P\(w \| m\) = P\(m \| w\).
+我們可以先放心拋開所有假設，當作自己完全不知道任何狀況。也就是說在這個例子裡，我們可以假設阿怖的體重為 13 磅、15 磅、一磅甚至一百萬磅的機率完全相等，讓資料說話。為了做到這點，我們假設事前機率為**均勻分佈**（uniform distribution），即任何體重發生的機率都是一個固定的常數。這可以幫助我們將貝氏定理簡化為 $$ P(w | m) = P(m | w) $$。
 
-[![](http://brohrer.github.io/images/Bayesian_uniform_prior.gif "Bayesian uniform prior")](https://youtu.be/5NMxiOGL39M?t=16m49s)
+[![](http://brohrer.github.io/images/Bayesian_uniform_prior.gif "均勻分布的事前機率")](https://youtu.be/5NMxiOGL39M?t=16m49s)
 
-At this point we can use every possible value of Reign’s weight and calculate the likelihood of getting our three measurements. For instance, our measurements would be extremely unlikely if Reign’s weight was one thousand pounds. However they would be quite likely if her weight was actually 14 pounds or 16 pounds. We can go through and, using every hypothetical value of her weight, calculate the likelihood of us getting the measurements that we got. This is P\(m \| w\). Thanks to our uniform prior, this is also P\(w \| m\), the posterior distribution.
+現在我們用阿怖所有可能的體重來計算得到這三組測量值的概似機率。例如，如果阿怖的體重是一千磅，那我們得到這三組測量值的機率應該是微乎其微。但如果阿怖的體重介於 14 到 16 磅之間，這三組測量值出現的機率就很高。我們可以利用不同的體重，重複計算得到特定測量值的機率，即 $$ P(m | w) $$。由於我們假設事前機率為均勻分布，這也是事後機率 $$ P(w | m) $$ 的估計值。
 
-It's not a matter of chance that this looks a lot like the answer we got by taking the mean, standard deviation and standard error. In fact the two are exactly the same. Using a uniform prior gives the traditional statistical estimate of the result. The location of the peak of this curve, the mean, at 15.2 pounds is also called the maximum likelihood estimate \(MLE\) of the weight.
+這麼做所得到的答案，會和前面利用平均值、標準差和標準誤差所算出的答案非常相似。實際上，兩個答案確實完全一模一樣，因為利用均勻分佈的事前機率，就會得到傳統統計方法下的估計值。機率分佈曲線中的最高點，即平均值 15.2 磅，也被稱為阿怖體重的最大似然估計值（maximum likelihood estimate，MLE）。
 
 Although we used Bayes’ Theorem, we’re still no closer to a useful estimate. To get this, we will need to make our prior non-uniform. A prior distribution represents our beliefs about something before we take any measurements. A uniform prior shows that we believe every possible outcome is equally likely. This is rarely the case. We often know something about the quantity we are measuring. Ages are always greater than zero. Temperatures are always greater than -276 Celsius. Adult heights are rarely greater than 8 feet. And sometimes we have additional domain knowledge that some values are more likely to occur in others.
 
