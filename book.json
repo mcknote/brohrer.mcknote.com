@@ -20,7 +20,7 @@
           "caption": "圖說：_CAPTION_"
         },
         "sitemap-general": {
-            "prefix": "https://brohrer.mcknote.com/zh-Hant/"
+            "prefix": "https://brohrer.mcknote.com/"
         },
         "language-picker": {
             "grid-columns": 2
