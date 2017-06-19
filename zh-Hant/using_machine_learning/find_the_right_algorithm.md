@@ -22,7 +22,7 @@
 
 一旦有了合適的資料和準確的問題以後，讀者就可以放心開始分析了。演算法主要分為幾大類別。根據讀者提的問題，我們可以從這些類別中挑選適當的分析方法。請利用以下〈哪種演算法可以回答我的問題〉中的表格選擇適合特定問題的演算法。如果找不到，讀者或許得發揮創意，試著換個方法提問。
 
-想了解更多關於這個步驟的讀者，請參考〈[哪種演算法可以回答我的問題](https://blogs.technet.microsoft.com/machinelearning/2015/09/01/which-algorithm-family-can-answer-my-question/)〉（未翻譯）和〈[五種可以用機器學習回答的問題](../using_machine_learning/five_questions_data_science_answers.md)〉。
+想了解更多關於這個步驟的讀者，請參考〈[哪種演算法可以回答我的問題](https://blogs.technet.microsoft.com/machinelearning/2015/09/01/which-algorithm-family-can-answer-my-question/)〉（英文）和〈[五種可以用機器學習回答的問題](../using_machine_learning/five_questions_data_science_answers.md)〉。
 
 ## 三之一、選擇一個演算法（快速版）
 
