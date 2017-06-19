@@ -10,6 +10,7 @@
   * [反向傳播 Backpropagation](how_machine_learning_works/how_backpropagation_work.md)
 * [使用機器學習](using_machine_learning/README.md)
   * [機器學習可以回答的問題有哪些](using_machine_learning/five_questions_data_science_answers.md)
+  * [如何找出合適的機器學習演算法](using_machine_learning/find_the_right_algorithm.md)
 * [利用資料](using_data/README.md)
   * [如何獲得高品質的資料](using_data/make_data_science_work_for_you.md)
 * [統計學](statistics/README.md)
