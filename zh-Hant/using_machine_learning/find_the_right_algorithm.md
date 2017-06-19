@@ -24,7 +24,9 @@
 
 想了解更多關於這個步驟的讀者，請參考〈[哪種演算法可以回答我的問題](https://blogs.technet.microsoft.com/machinelearning/2015/09/01/which-algorithm-family-can-answer-my-question/)〉（未翻譯）和〈[五種可以用機器學習回答的問題](../using_machine_learning/five_questions_data_science_answers.md)〉。
 
-## 三之一、選擇合適的演算法（快速版）
+## 三之一、選擇一個演算法（快速版）
+
+一旦選好了演算法種類，最後一步就是選用特定的演算法以分析資料。如果讀者只是想找個不錯的演算法，但還不特別要求找出最佳方法，可以先參考這張精美的演算法秘笈，裡面包含了 Microsoft Azure Machine Learning 服務上的一些演算法。
 
 
 
