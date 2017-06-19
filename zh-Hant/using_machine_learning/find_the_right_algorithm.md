@@ -26,7 +26,17 @@
 
 ## 三之一、選擇一個演算法（快速版）
 
-一旦選好了演算法種類，最後一步就是選用特定的演算法以分析資料。如果讀者只是想找個不錯的演算法，但還不特別要求找出最佳方法，可以先參考這張精美的演算法秘笈，裡面包含了 [Microsoft Azure Machine Learning](https://studio.azureml.net/) 服務上的一些演算法。
+一旦選好了演算法種類，最後一步就是選用特定的演算法以分析資料。如果讀者只是想找個不錯的演算法，但還不特別要求找出最佳方法，可以先參考這張精美的[演算法秘笈](https://azure.microsoft.com/en-us/documentation/articles/machine-learning-algorithm-cheat-sheet/)，裡面包含了 [Microsoft Azure Machine Learning](https://studio.azureml.net/) 服務上的一些演算法。
 
+![](https://brohrer.github.io/images/cheat_sheet.png "Azure 演算法秘笈")
 
+使用以上秘笈，就像跑去附近的折扣商店買鞋子一樣，讀者可以快速找到便宜、大小合適的鞋子，然後直接上路。但讀者或許會想多做一點功課，藉由閱讀評論、比較重量和材質、並多試試幾個款式，以找出真正適合自己的鞋子。由於每種演算法對資料的要求和分析性能相差頗大，讀者可以深入了解如何選擇適合的演算法，以滿足更特定的需求。
+
+當然，為了選出最適合自己的鞋子，我們會先多試幾雙。為了找出最合適的演算法，我們也可以多試幾種方法。如果讀者有足夠的時間和熱忱，找出最佳演算法的不二法門，就是將所有方法都試過一遍。
+
+Brandon，於 2016 年 2 月 4 日。
+
+## 譯註
+
+1. 在翻譯這段時，我一時能想到幾種比較容易解釋的模型包括線性迴歸（linear regression）和決策樹（decision tree）；比較好處理資料缺失問題的演算法則包括決策樹（decision tree）、隨機森林（random forest）和樸素貝葉斯分類器（naive Bayes classifiers），取決於缺失的情況。也歡迎讀者補充和交流其他演算法的特性。
 
