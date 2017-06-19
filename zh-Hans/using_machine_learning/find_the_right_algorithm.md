@@ -40,7 +40,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 Brandon，于 2016 年 2 月 4 日。
 
-如果这篇文章对读者有帮助，我也推荐阅读[我的博客](https://brohrer.github.io/blog.html)。虽然我在微软工作，但这些只是我的个人意见。这篇文章最先发表于[微软的 TechNet Machine Learning Blog](https://blogs.technet.microsoft.com/machinelearning/2015/09/22/how-to-find-an-algorithm-that-fit)。文内图片来自 [foeoc kannilc](https://www.flickr.com/photos/foeock/7892970836)、[TOONbasist](http://toonbasist.deviantart.com/art/converse-shoes-196298018)、[Ealdgyth](https://commons.wikimedia.org/wiki/File:Paddockboots.jpg) 和 [todrick](https://commons.wikimedia.org/wiki/File:Five_Ten_Anasazi_Verde.jpg)。
+如果这篇文章对读者有帮助，我也推荐阅读[我的博客](https://brohrer.github.io/blog.html)。虽然我在微软工作，但这些只是我的个人意见。这篇文章最先发表于[微软的 TechNet Machine Learning Blog](https://blogs.technet.microsoft.com/machinelearning/2015/09/22/how-to-find-an-algorithm-that-fit)。文章开头的图片来自 [foeoc kannilc](https://www.flickr.com/photos/foeock/7892970836)、[TOONbasist](http://toonbasist.deviantart.com/art/converse-shoes-196298018)、[Ealdgyth](https://commons.wikimedia.org/wiki/File:Paddockboots.jpg) 和 [todrick](https://commons.wikimedia.org/wiki/File:Five_Ten_Anasazi_Verde.jpg)。
 
 ## 译注
 
