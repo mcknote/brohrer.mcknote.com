@@ -2,6 +2,8 @@
 
 原文：[**Find an Algorithm that Fits**](https://brohrer.github.io/find_the_right_algorithm.html)
 
+Translated from Brandon Rohrer's Blog by Jimmy Lin
+
 ![](https://brohrer.github.io/images/shoes.jpg)
 
 挑選機器學習的演算法（machine learning algorithm）就和挑鞋一樣，我們不會只考慮性能，否則我們都應該穿著要價上千元的輕量慢跑鞋；我們會根據使用情況挑選適合的款式：有些鞋子適合用來站一整天，有些鞋子則適合用來爬山。鞋子的價格通常很重要；當然，鞋子的外型可能比什麼都還重要。

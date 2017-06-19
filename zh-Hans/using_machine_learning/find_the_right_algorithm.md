@@ -2,6 +2,8 @@
 
 原文：[**Find an Algorithm that Fits**](https://brohrer.github.io/find_the_right_algorithm.html)
 
+Translated from Brandon Rohrer's Blog by Jimmy Lin
+
 ![](https://brohrer.github.io/images/shoes.jpg)
 
 挑选机器学习的算法（machine learning algorithm）就和挑鞋一样，我们不会只考虑性能，否则我们都应该穿着要价上千元的轻量慢跑鞋；我们会根据使用情况挑选适合的款式：有些鞋子适合用来站一整天，有些鞋子则适合用来爬山。鞋子的价格通常很重要；当然，鞋子的外型可能比什么都还重要。
