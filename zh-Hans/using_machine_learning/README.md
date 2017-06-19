@@ -8,7 +8,7 @@
 | :--- | :--- | :--- |
 | What questions can machine learning answer | 机器学习可以回答的问题有哪些 | 90% |
 | How to choose a machine learning algorithm |  | 0% |
-| How to find the right machine learning algorithm |  | 0% |
+| How to find the right machine learning algorithm | 如何找出合适的机器学习算法 | 90% |
 | What machine learning can't do |  | 0% |
 
 ## 翻译进度说明
