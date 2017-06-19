@@ -38,6 +38,8 @@
 
 Brandon，於 2016 年 2 月 4 日。
 
+如果這篇文章對讀者有幫助，我也推薦閱讀[我的部落格](https://brohrer.github.io/blog.html)。雖然我在微軟工作，但這些只是我的個人意見。這篇文章最先發表於[微軟的 TechNet Machine Learning Blog](https://blogs.technet.microsoft.com/machinelearning/2015/09/22/how-to-find-an-algorithm-that-fit)。文內圖片來自 [foeoc kannilc](https://www.flickr.com/photos/foeock/7892970836)、[TOONbasist](http://toonbasist.deviantart.com/art/converse-shoes-196298018)、[Ealdgyth](https://commons.wikimedia.org/wiki/File:Paddockboots.jpg) 和 [todrick](https://commons.wikimedia.org/wiki/File:Five_Ten_Anasazi_Verde.jpg)。
+
 ## 譯註
 
 1. 在翻譯這段時，我一時能想到幾種比較容易解釋的模型包括線性迴歸（linear regression）和決策樹（decision tree）；比較好處理資料缺失問題的演算法則包括決策樹（decision tree）、隨機森林（random forest）和樸素貝葉斯分類器（naive Bayes classifiers），取決於缺失的情況。也歡迎讀者補充和交流其他演算法的特性。

@@ -38,6 +38,8 @@
 
 Brandon，于 2016 年 2 月 4 日。
 
+如果这篇文章对读者有帮助，我也推荐阅读[我的博客](https://brohrer.github.io/blog.html)。虽然我在微软工作，但这些只是我的个人意见。这篇文章最先发表于[微软的 TechNet Machine Learning Blog](https://blogs.technet.microsoft.com/machinelearning/2015/09/22/how-to-find-an-algorithm-that-fit)。文内图片来自 [foeoc kannilc](https://www.flickr.com/photos/foeock/7892970836)、[TOONbasist](http://toonbasist.deviantart.com/art/converse-shoes-196298018)、[Ealdgyth](https://commons.wikimedia.org/wiki/File:Paddockboots.jpg) 和 [todrick](https://commons.wikimedia.org/wiki/File:Five_Ten_Anasazi_Verde.jpg)。
+
 ## 译注
 
 1. 在翻译这段时，我一时能想到几种比较容易解释的模型包括线性回归（linear regression）和决策树（decision tree）；比较好处理数据缺失问题的算法则包括决策树（decision tree）、随机森林（random forest）和朴素贝叶斯分类器（naive Bayes classifiers），取决于缺失的情况。也欢迎读者补充和交流其他算法的特性。
