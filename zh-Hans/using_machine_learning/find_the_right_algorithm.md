@@ -22,7 +22,7 @@
 
 一旦有了合适的数据和准确的问题以后，读者就可以放心开始分析了。算法主要分为几大类别。根据读者提的问题，我们可以从这些类别中挑选适当的分析方法。请利用以下〈哪种算法可以回答我的问题〉中的表格选择适合特定问题的算法。如果找不到，读者或许得发挥创意，试着换个方法提问。
 
-想了解更多关于这个步骤的读者，请参考〈[哪种算法可以回答我的问题](https://blogs.technet.microsoft.com/machinelearning/2015/09/01/which-algorithm-family-can-answer-my-question/)〉（未翻译）和〈[五种可以用机器学习回答的问题](../using_machine_learning/five_questions_data_science_answers.md)〉。
+想了解更多关于这个步骤的读者，请参考〈[哪种算法可以回答我的问题](https://blogs.technet.microsoft.com/machinelearning/2015/09/01/which-algorithm-family-can-answer-my-question/)〉（英文）和〈[五种可以用机器学习回答的问题](../using_machine_learning/five_questions_data_science_answers.md)〉。
 
 ## 三之一、选择一个算法（快速版）
 
