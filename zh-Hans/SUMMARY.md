@@ -5,15 +5,10 @@
 * [机器学习如何运作](how_machine_learning_works/README.md)
 
   * [线性回归 Linear Regression](how_machine_learning_works/how_linear_regression_works.md)
-
   * [深度学习 Deep Learning](how_machine_learning_works/deep_learning_demystified.md)
-
   * [神经网络 Neural Networks](how_machine_learning_works/how_neural_networks_work.md)
-
   * [反向传播 Backpropagation](how_machine_learning_works/how_backpropagation_work.md)
-
   * [卷积神经网络 Convolutional Neural Networks](how_machine_learning_works/how_convolutional_neural_networks_work.md)
-
   * [递归神经网络和长短期记忆模型 RNN & LSTM](how_machine_learning_works/how_rnns_lstm_work.md)
 
 * [使用机器学习](using_machine_learning/README.md)
