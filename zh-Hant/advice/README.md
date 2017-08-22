@@ -12,9 +12,9 @@
 | How to make a great remote data science team |  | 0% |
 | How to choose your tools |  | 0% |
 | How to solve a problem |  | 0% |
-| How to become a data scientist |  | 0% |
-| How to become a data scientist |  | 0% |
-| How to become a data scientist |  | 0% |
+| Oversimplify |  | 0% |
+| Commit. |  | 0% |
+| Imposter syndrome |  | 0% |
 
 ## 翻譯進度說明
 
