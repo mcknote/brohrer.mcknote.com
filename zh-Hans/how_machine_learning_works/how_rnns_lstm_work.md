@@ -13,7 +13,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 [![](https://elham-khanche.github.io/blog/assets/img/RNN/Slide1.png "递归神经网络和长短期记忆模型的运作原理")](https://youtu.be/WCUNPb-5EYI?t=2)
 
-这几年，机器学习（machine learning）相关的应用获得了许多关注，其中有几大领域特别热门：其中一个是图片辨识，像是在网络上搜索猫咪的图片，或是将任何问题转为类似形式；另一个则是**串行到串行翻译**（sequence to sequence translation），包括将语音转为文本或翻译不同语言。前者大多是利用[**卷积神经网络**](../how_machine_learning_works/how_convolutional_neural_networks_work.html)（convolutional neural networks，CNN）所完成，后者则多利用**递归神经网络**（recurrent neural networks，RNN），尤其是**长短期记忆模型**（long short-term memory，LSTM）。
+这几年，机器学习（machine learning）相关的应用获得了许多关注，其中有几大领域特别热门：其中一个是图片辨识，像是在网络上搜索猫咪的图片，或是将任何问题转为类似形式；另一个则是串行到串行翻译（sequence to sequence translation），包括将语音转为文本或翻译不同语言。前者大多是利用[**卷积神经网络**](../how_machine_learning_works/how_convolutional_neural_networks_work.html)（convolutional neural networks，CNN）所完成，后者则多利用**递归神经网络**（recurrent neural networks，RNN），尤其是**长短期记忆模型**（long short-term memory，LSTM）。
 
 ## 晚餐要吃什么
 
