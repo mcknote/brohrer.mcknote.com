@@ -11,6 +11,7 @@
 | How backpropagation works | 反向传播 Backpropagation | Video |
 | How deep learning works | 深度学习 Deep Learning | Video |
 | How convolutional neural networks work | 卷积神经网络 Convolutional Neural Networks | 95% |
+| How recurrent neural networks and long short-term memory work | 递归神经网络和长短期记忆模型 RNN & LSTM | 90% |
 
 ## 翻译进度说明
 
