@@ -17,4 +17,4 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 希望你們會喜歡！
 
-Bradon，於 2017 年 3 月 2 日
+Brandon，於 2017 年 3 月 2 日
