@@ -15,4 +15,4 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 [KDnuggets](http://www.kdnuggets.com/) 在 2016 年 7 月 20 日[轉推了這場演講](https://twitter.com/kdnuggets/status/755875002310856704/photo/1)，這也成為該週（20 到 26 日）[最多分享、轉推、點閱，以及第二多互動的推文](http://www.kdnuggets.com/2016/07/top-tweets-jul20-26.html)。
 
-Bradon，於 2016 年 5 月 22 日
+Brandon，於 2016 年 5 月 22 日
