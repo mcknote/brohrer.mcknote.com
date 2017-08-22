@@ -19,7 +19,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 為了理解 LSTM 的運作原理，我們可以思考一下「晚餐要吃什麼」這個問題。我們就先假設讀者住在公寓，很幸運地有個愛煮晚餐的室友。每天晚上他都會準備壽司、鬆餅或披薩，而你希望能預測某個晚上你會吃什麼，並能根據預測規劃其他晚餐。為了預測晚餐，你建了一個神經網路模型。這個模型的輸入資料包括星期幾、第幾個月、以及你的室友是否開會開到很晚等等會影響晚餐的因素。
 
-[![](https://elham-khanche.github.io/blog/assets/img/RNN/Slide2.png "晚餐吃什麼？")](https://youtu.be/WCUNPb-5EYI?t=76)
+[![](https://elham-khanche.github.io/blog/assets/img/RNN/Slide2.png "晚餐要吃什麼？")](https://youtu.be/WCUNPb-5EYI?t=76)
 
 講到這裡，如果讀者對神經網路還不熟悉，可以花一點時閱讀〈[神經網路的運作原理](../how_machine_learning_works/how_neural_networks_work.html)〉。
 
