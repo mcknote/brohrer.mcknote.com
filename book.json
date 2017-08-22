@@ -4,7 +4,6 @@
                 "youtubex", 
                 "image-captions", 
                 "sitemap-general",
-                "disqus",
                 "katex",
                 "language-picker"],
                 
@@ -13,9 +12,6 @@
             "token": "UA-75181285-2"
         },
         "favicon": "images/favicon.ico",
-        "disqus": {
-            "shortName": "mckbrohrer"
-        },
         "image-captions": {
           "caption": "圖說：_CAPTION_"
         },
