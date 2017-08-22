@@ -13,7 +13,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 [![](https://elham-khanche.github.io/blog/assets/img/RNN/Slide1.png "遞歸神經網路和長短期記憶模型的運作原理")](https://youtu.be/WCUNPb-5EYI?t=2)
 
-這幾年，機器學習（machine learning）相關的應用獲得了許多關注，其中有幾大領域特別熱門：其中一個是圖片辨識，像是在網路上搜尋貓咪的圖片，或是將任何問題轉為類似形式；另一個則是**序列到序列翻譯**（sequence to sequence translation），包括將語音轉為文字或翻譯不同語言。前者大多是利用[**卷積神經網路**](../how_machine_learning_works/how_convolutional_neural_networks_work.html)（convolutional neural networks，CNN）所完成，後者則多利用**遞歸神經網路**（recurrent neural networks，RNN），尤其是**長短期記憶模型**（long short-term memory，LSTM）。
+這幾年，機器學習（machine learning）相關的應用獲得了許多關注，其中有幾大領域特別熱門：其中一個是圖片辨識，像是在網路上搜尋貓咪的圖片，或是將任何問題轉為類似形式；另一個則是序列到序列翻譯（sequence to sequence translation），包括將語音轉為文字或翻譯不同語言。前者大多是利用[**卷積神經網路**](../how_machine_learning_works/how_convolutional_neural_networks_work.html)（convolutional neural networks，CNN）所完成，後者則多利用**遞歸神經網路**（recurrent neural networks，RNN），尤其是**長短期記憶模型**（long short-term memory，LSTM）。
 
 ## 晚餐要吃什麼
 
