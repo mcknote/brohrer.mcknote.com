@@ -1,4 +1,4 @@
-#遞歸神經網路和長短期記憶模型的運作原理
+#遞歸神經網路（RNN）和長短期記憶模型（LSTM）的運作原理
 
 原文：[**How Recurrent Neural Networks and Long Short-Term Memory Work**](https://brohrer.github.io/how_rnns_lstm_work.html)
 
