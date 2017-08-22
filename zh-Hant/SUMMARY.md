@@ -5,14 +5,10 @@
 * [機器學習如何運作](how_machine_learning_works/README.md)
 
   * [線性迴歸 Linear Regression](how_machine_learning_works/how_linear_regression_works.md)
-
   * [深度學習 Deep Learning](how_machine_learning_works/deep_learning_demystified.md)
-
   * [神經網路 Neural Networks](how_machine_learning_works/how_neural_networks_work.md)
-
   * [反向傳播 Backpropagation](how_machine_learning_works/how_backpropagation_work.md)
-  * [卷積神經網路 Convolutional Neural Networks](/how_machine_learning_works/how_convolutional_neural_networks_work.md)
-
+  * [卷積神經網路 Convolutional Neural Networks](how_machine_learning_works/how_convolutional_neural_networks_work.md)
   * [遞歸神經網路和長短期記憶模型 RNN & LSTM](how_machine_learning_works/how_rnns_lstm_work.md)
 
 * [使用機器學習](using_machine_learning/README.md)
