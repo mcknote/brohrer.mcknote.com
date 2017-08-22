@@ -99,11 +99,11 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 [![](https://elham-khanche.github.io/blog/assets/img/RNN/Slide19.png "擠壓函數（雙曲正切函數）")](https://youtu.be/WCUNPb-5EYI?t=546)
 
-擠壓函數的功用是將模型的投票結果限制在特定範圍之間。比方說，如果有個投票結果得到 0.5 的值，我們可以在擠壓函數上畫一條 x = 0.5 的垂直線，並得到水平對應的 y 值，也就是擠壓過後的數值。
+擠壓函數的功用，是將模型的投票結果限制在特定範圍之間。比方說，如果有個投票結果得到 0.5 的值，我們可以在擠壓函數上畫一條 x = 0.5 的垂直線，並得到水平對應的 y 值，也就是擠壓過後的數值。
 
 [![](https://elham-khanche.github.io/blog/assets/img/RNN/Slide22.png "擠壓函數上的數值對應（一）")](https://youtu.be/WCUNPb-5EYI?t=569)
 
-對於小的數值而言，原始數值和擠壓過構的數值通常很相近，但隨著數值增大，擠壓過後的數值會越來越接近 1；同理，隨著數值愈趨負無窮大，擠壓過後的數值也會越來越接近 -1。不論如何，擠壓過後的數值都會介於 1 和 -1 之間。
+對於小的數值而言，原始數值和擠壓過構的數值通常很相近，但隨著數值增大，擠壓過後的數值會越來越接近 1。隨著數值愈趨負無窮大，擠壓過後的數值也會越來越接近 -1。不論如何，擠壓過後的數值都會介於 1 和 -1 之間。
 
 [![](https://elham-khanche.github.io/blog/assets/img/RNN/Slide25.png "擠壓函數上的數值對應（二）")](https://youtu.be/WCUNPb-5EYI?t=574)
 
