@@ -9,7 +9,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 相關連結：
 
 * [Google 投影片](https://docs.google.com/presentation/d/1hqYB3LRwg_-ntptHxH18W1ax9kBwkaZ1Pa_s3L7R-2Y/edit?usp=sharing)
-* 本文基於 [Elham Khanchebemehr](https://www.linkedin.com/in/elham-khanchebemehr-b679547b/) 的[英文逐字稿](https://elham-khanche.github.io/blog/RNNs_and_LSTM/)翻譯而成，非常感謝
+* 本文是基於 [Elham Khanchebemehr](https://www.linkedin.com/in/elham-khanchebemehr-b679547b/) 的[英文逐字稿](https://elham-khanche.github.io/blog/RNNs_and_LSTM/)翻譯而成，非常感謝
 
 [![](https://elham-khanche.github.io/blog/assets/img/RNN/Slide1.png "遞歸神經網路和長短期記憶模型的運作原理")](https://youtu.be/WCUNPb-5EYI?t=2)
 
