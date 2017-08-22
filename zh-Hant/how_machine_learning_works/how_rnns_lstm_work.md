@@ -15,7 +15,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 這幾年，機器學習（machine learning）相關的應用獲得了許多關注，其中有幾大領域特別熱門。其中一個是圖片辨識，像是在網路上搜尋貓咪的圖片，或是將任何問題轉為類似形式；另一個是序列到序列翻譯（sequence to sequence translation），包括將語音轉為文字或翻譯不同語言。前者大多是利用卷積神經網路（convolutional neural networks，CNN）所完成，後者則是利用遞歸神經網路（ recurrent neural networks，RNN），尤其是長短期記憶模型（long short-term memory，LSTM）。
 
-## 晚餐吃什麼
+## 晚餐要吃什麼
 
 為了理解 LSTM 的運作原理，我們可以思考一下「晚餐要吃什麼」這個問題。我們就先假設讀者住在公寓，很幸運地有個愛煮晚餐的室友。每天晚上他都會準備壽司、鬆餅或披薩，而你希望能預測某個晚上你會吃什麼，並能根據預測規劃其他晚餐。為了預測晚餐，你建了一個神經網路模型。這個模型的輸入資料包括星期幾、第幾個月、以及你的室友是否開會開到很晚等等會影響晚餐的因素。
 
