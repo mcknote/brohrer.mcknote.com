@@ -21,10 +21,5 @@
         "language-picker": {
             "grid-columns": 2
         }
-    },
-    
-    "pdf": {
-        "paperSize": "a4",
-        "fontFamily": "Noto Sans"
     }
 }
