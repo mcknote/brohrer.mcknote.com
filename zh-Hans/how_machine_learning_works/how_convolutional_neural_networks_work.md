@@ -143,7 +143,7 @@ CNNs 会比较两张图片里的各个局部，这些局部被称为**特征**�
 
 ## 延伸学习
 
-如果读者想深入了解圈叉辨识的细节，可以参考 [Dr. Alexander Hanuschkin](http://www.optophysiology.uni-freiburg.de/labmembers/hanuschkin)在 Nvidia GPU 上利用 [MATLAB 和 Caffe 完成的 CNN 实作](http://www.optophysiology.uni-freiburg.de/Research/research_DL/CNNsWithMatlabAndCaffe)。如果想学习更多关于深度学习的知识，欢迎参考我的〈[解密深度学习](../how_machine_learning_works/deep_learning_demystified.md)〉文章。我也非常推荐 Justin Johnson 和 Andrej Karpathy 的 [Stanford CS 231 课堂笔记](http://cs231n.github.io/convolutional-networks/)。本文深受这份笔记，以及 [Christopher Olah](http://colah.github.io/archive.html) 的启发。Christopher 是一位擅长解释神经网络的作家。
+如果读者想深入了解圈叉辨识的细节，可以参考 [Dr. Alexander Hanuschkin](http://www.optophysiology.uni-freiburg.de/labmembers/hanuschkin)在 Nvidia GPU 上利用 [MATLAB 和 Caffe 完成的 CNN 实作](http://www.optophysiology.uni-freiburg.de/Research/research_DL/CNNsWithMatlabAndCaffe)。如果想学习更多关于深度学习的知识，欢迎参考我的〈[解密深度学习](../how_machine_learning_works/deep_learning_demystified.md)〉文章。我也非常推荐 Justin Johnson 和 Andrej Karpathy 的 [Stanford CS231n 课堂笔记](http://cs231n.github.io/convolutional-networks/)。本文深受这份笔记，以及 [Christopher Olah](http://colah.github.io/archive.html) 的启发。Christopher 是一位擅长解释神经网络的作家。
 
 如果有读者想边做边学，以下是一些热门的深度学习工具。欢迎尝试并和我们分享使用经验！
 
