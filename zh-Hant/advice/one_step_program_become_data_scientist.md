@@ -20,7 +20,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 動手創造正是我成為一名資料科學家的方法。在研究所課程、專業研究項目和興趣使然下，我過去創造了大大小小的專案。我最喜歡的專案是我曾花費許多時間和心力為機器人設計一套[泛用人工智慧系統](https://github.com/brohrer/becca/)（general purpose artifical intelligence，專案名稱為 Becca）。雖然最後 Becca 的表現並沒有非常符合我的預期，但在打造 Becca 的過去十五年裡，我學習了 Python、創造了我自己的深度學習和強化學習演算法、寫了一個物理模擬器、輸出了自己的影片、外加數百件現在看起來很像清單的事物。
 
-創造事物是我人生中最享受的事物之一。我希望讀著們也能體驗其中樂趣。如果讀著們不介意和我分享你的專案，我也很想知道你們都在打造些什麼！你們可以在 LinkedIn、Twitter 上，或透過 Email 和我交流。
+創造事物是我人生中最享受的事物之一。我希望讀著們也能體驗其中樂趣。如果讀著們不介意和我分享專案，我也很想知道你們都在打造些什麼！你們可以在 LinkedIn、Twitter 上，或透過 Email 和我交流。
 
 Brandon，於 2016 年 1 月 21 日
 

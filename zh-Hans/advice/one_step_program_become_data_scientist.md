@@ -20,7 +20,7 @@ Translated from Brandon Rohrer's Blog by Jimmy Lin
 
 动手创造正是我成为一名资料科学家的方法。在研究所课程、专业研究项目和兴趣使然下，我过去创造了大大小小的专案。我最喜欢的专案是我曾花费许多时间和心力为机器人设计一套[泛用人工智慧系统](https://github.com/brohrer/becca/)（general purpose artifical intelligence，专案名称为 Becca）。虽然最后 Becca 的表现并没有非常符合我的预期，但在打造 Becca 的过去十五年里，我学习了 Python、创造了我自己的深度学习和强化学习演算法、写了一个物理模拟器、输出了自己的影片、外加数百件现在看起来很像清单的事物。
 
-创造事物是我人生中最享受的事物之一。我希望读着们也能体验其中乐趣。如果读着们不介意和我分享你的专案，我也很想知道你们都在打造些什么！你们可以在 LinkedIn、Twitter 上，或透过 Email 和我交流。
+创造事物是我人生中最享受的事物之一。我希望读着们也能体验其中乐趣。如果读着们不介意和我分享专案，我也很想知道你们都在打造些什么！你们可以在 LinkedIn、Twitter 上，或透过 Email 和我交流。
 
 Brandon，于 2016 年 1 月 21 日
 
