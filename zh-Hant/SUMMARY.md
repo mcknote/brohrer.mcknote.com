@@ -17,4 +17,5 @@
 * [統計學](statistics/README.md)
   * [貝葉斯推斷和各類機率 Bayesian Inference](statistics/how_bayesian_inference_works.md)
 * [一些建議](advice/README.md)
+  * [如何成為資料科學家](advice/one_step_program_become_data_scientist.md)
 

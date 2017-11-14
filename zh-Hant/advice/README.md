@@ -6,7 +6,7 @@
 
 | 英文標題 | 中文標題 | 進度 |
 | :--- | :--- | :--- |
-| How to become a data scientist |  | 0% |
+| How to become a data scientist | 如何成為資料科學家 | 95% |
 | How to get a data science job |  | 0% |
 | How to build a data science team |  | 0% |
 | How to make a great remote data science team |  | 0% |
