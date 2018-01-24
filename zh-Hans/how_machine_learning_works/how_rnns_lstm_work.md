@@ -240,7 +240,7 @@ LSTM 模型对许多特别实用的应用来说很有帮助。例如，如果我
 ## 相关资源
 
 - Chris Olah 的[教学文](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
-- Andrej Karpathy 的[博客](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)、[RNN 原代码](https://www.youtube.com/watch?v=iX5V1WpxxkY) 和 [Stanford CS231n 课程](https://www.youtube.com/watch?v=iX5V1WpxxkY)
+- Andrej Karpathy 的[博客](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)、[RNN 原代码](https://gist.github.com/karpathy/d4dee566867f8291f086) 和 [Stanford CS231n 课程](https://www.youtube.com/watch?v=iX5V1WpxxkY)
 - Deeplearning4J 的 [LSTM 教学文](https://deeplearning4j.org/lstm)中包含了一些很有帮助的讨论和一长串资源
 - 〈[神经网络的运作原理](../how_machine_learning_works/how_neural_networks_work.html)〉（影片）
 
